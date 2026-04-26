@@ -11,9 +11,9 @@
       "url": "https://www.nepalstock.com.np",
       "description": "Official Nepal Stock Exchange site. JSON endpoints exist but are not documented as a public API; SSL chain incomplete (use verify_ssl=False if scraping).",
       "status": "official",
-      "maintenance": "active",
+      "maintenance": "unknown",
       "api": "none",
-      "note": "No documented public API; paid feeds NPR 10k–60k/month."
+      "note": "No documented public API; paid feeds NPR 10k–60k/month. [Automated] Link appears to be broken or unreachable."
     },
     {
       "name": "basic-bgnr/NepseUnofficialApi",
@@ -32,7 +32,10 @@
       "maintenance": "active",
       "api": "rest",
       "starred": true,
-      "tags": ["websocket", "mcp"]
+      "tags": [
+        "websocket",
+        "mcp"
+      ]
     },
     {
       "name": "polymorphisma/nepse_scraper",

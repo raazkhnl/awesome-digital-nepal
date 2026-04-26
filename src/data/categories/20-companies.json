@@ -87,9 +87,9 @@
       "url": "https://www.f1soft.com",
       "description": "Parent of eSewa, Foneloan, FonePay. Largest Nepali fintech group. ⚠️ No prominent official GitHub org found.",
       "status": "official",
-      "maintenance": "active",
+      "maintenance": "unknown",
       "api": "none",
-      "note": "All eSewa SDKs are community-built — significant ecosystem gap."
+      "note": "All eSewa SDKs are community-built — significant ecosystem gap. [Automated] Link appears to be broken or unreachable."
     },
     {
       "name": "Genese Solution",
@@ -112,16 +112,18 @@
       "url": "https://www.treeleaf.ai",
       "description": "AI-focused Nepali product company.",
       "status": "official",
-      "maintenance": "active",
-      "api": "none"
+      "maintenance": "unknown",
+      "api": "none",
+      "note": "[Automated] Link appears to be broken or unreachable."
     },
     {
       "name": "Paaila Technology",
       "url": "https://www.paailatechnology.com",
       "description": "Nepal's first robotics-AI startup. Built Pari humanoid robot.",
       "status": "official",
-      "maintenance": "active",
-      "api": "none"
+      "maintenance": "unknown",
+      "api": "none",
+      "note": "[Automated] Link appears to be broken or unreachable."
     },
     {
       "name": "Yatri Motorcycles",
@@ -136,8 +138,9 @@
       "url": "https://insight.workshop.com.np",
       "description": "Software product agency.",
       "status": "official",
-      "maintenance": "active",
-      "api": "none"
+      "maintenance": "unknown",
+      "api": "none",
+      "note": "[Automated] Link appears to be broken or unreachable."
     }
   ]
 }

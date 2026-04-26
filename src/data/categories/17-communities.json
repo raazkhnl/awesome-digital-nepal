@@ -11,9 +11,10 @@
       "url": "https://fossnepal.org",
       "description": "National FOSS body. Hosts UbuCon Asia 2025 in Kathmandu. github.com/foss-np.",
       "status": "community",
-      "maintenance": "active",
+      "maintenance": "unknown",
       "api": "none",
-      "starred": true
+      "starred": true,
+      "note": "[Automated] Link appears to be broken or unreachable."
     },
     {
       "name": "Open Knowledge Nepal",
@@ -65,8 +66,9 @@
       "url": "https://gdg.community.dev/gdg-pokhara/",
       "description": "GDG chapter in Pokhara.",
       "status": "community",
-      "maintenance": "active",
-      "api": "none"
+      "maintenance": "unknown",
+      "api": "none",
+      "note": "[Automated] Link appears to be broken or unreachable."
     },
     {
       "name": "Women Leaders in Technology",
@@ -108,8 +110,9 @@
       "url": "https://mozillanepal.org",
       "description": "Local Mozilla community (largely inactive in 2024–25).",
       "status": "community",
-      "maintenance": "stale",
-      "api": "none"
+      "maintenance": "unknown",
+      "api": "none",
+      "note": "[Automated] Link appears to be broken or unreachable."
     },
     {
       "name": "Microsoft Learn Student Ambassadors Nepal",
@@ -156,8 +159,20 @@
       "url": "https://nepvents.com",
       "description": "Aggregator of Nepali tech events.",
       "status": "community",
+      "maintenance": "unknown",
+      "api": "none",
+      "note": "[Automated] Link appears to be broken or unreachable."
+    },
+    {
+      "name": "OpenSourceNepal",
+      "url": "https://github.com/OpenSourceNepal",
+      "description": "A community fostering open-source culture in Nepal, developing localized tools and libraries.",
+      "status": "community",
       "maintenance": "active",
-      "api": "none"
+      "tags": [
+        "open-source",
+        "community"
+      ]
     }
   ]
 }

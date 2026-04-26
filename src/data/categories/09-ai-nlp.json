@@ -45,9 +45,10 @@
       "url": "https://huggingface.co/IRIISNEPAL",
       "description": "RoBERTa trained on the IRIIS 27.5GB corpus. SOTA on Nepali NLU benchmarks.",
       "status": "community",
-      "maintenance": "active",
+      "maintenance": "unknown",
       "api": "sdk",
-      "starred": true
+      "starred": true,
+      "note": "[Automated] Link appears to be broken or unreachable."
     },
     {
       "name": "AI4Bharat IndicTrans2",
@@ -193,7 +194,9 @@
       "maintenance": "active",
       "api": "rest",
       "starred": true,
-      "tags": ["india-govt"]
+      "tags": [
+        "india-govt"
+      ]
     },
     {
       "name": "NAAMII",

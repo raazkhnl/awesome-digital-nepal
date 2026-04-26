@@ -11,9 +11,10 @@
       "url": "https://hmis.gov.np",
       "description": "National Health Management Information System on DHIS2 since 2016. 1,000+ facilities reporting. DHIS2 Web API at /api.",
       "status": "official",
-      "maintenance": "active",
+      "maintenance": "unknown",
       "api": "rest",
-      "starred": true
+      "starred": true,
+      "note": "[Automated] Link appears to be broken or unreachable."
     },
     {
       "name": "Possible Health / NepalEHR",
@@ -78,16 +79,18 @@
       "url": "https://dams.dda.gov.np/manLogin/publicInfo",
       "description": "Department of Drug Administration's authoritative drug registry.",
       "status": "official",
-      "maintenance": "active",
-      "api": "form"
+      "maintenance": "unknown",
+      "api": "form",
+      "note": "[Automated] Link appears to be broken or unreachable."
     },
     {
       "name": "MoHP COVID Dashboard",
       "url": "https://covid19.mohp.gov.np",
       "description": "Ministry of Health and Population COVID-19 dashboard (now archived).",
       "status": "official",
-      "maintenance": "archived",
-      "api": "none"
+      "maintenance": "unknown",
+      "api": "none",
+      "note": "[Automated] Link appears to be broken or unreachable."
     },
     {
       "name": "upretip/NMC",

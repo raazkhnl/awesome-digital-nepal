@@ -14,7 +14,10 @@
       "maintenance": "active",
       "api": "rest",
       "starred": true,
-      "tags": ["geocoding", "routing"]
+      "tags": [
+        "geocoding",
+        "routing"
+      ]
     },
     {
       "name": "Baato Docs",
@@ -32,7 +35,10 @@
       "maintenance": "active",
       "api": "rest",
       "starred": true,
-      "tags": ["hyperlocal", "street-view"]
+      "tags": [
+        "hyperlocal",
+        "street-view"
+      ]
     },
     {
       "name": "Galli Maps Docs",
@@ -63,8 +69,9 @@
       "url": "https://nationalgeoportal.gov.np",
       "description": "Survey Department NSDI. Admin boundaries Levels 0–3 free; Level 4 ward boundaries restricted.",
       "status": "official",
-      "maintenance": "active",
-      "api": "none"
+      "maintenance": "unknown",
+      "api": "none",
+      "note": "[Automated] Link appears to be broken or unreachable."
     },
     {
       "name": "mesaugat/geoJSON-Nepal",
@@ -97,8 +104,9 @@
       "url": "https://github.com/openknowledgenp/localboundries",
       "description": "TopoJSON + GeoJSON for 753 local levels plus parks/reserves.",
       "status": "community",
-      "maintenance": "active",
-      "api": "none"
+      "maintenance": "unknown",
+      "api": "none",
+      "note": "[Automated] Link appears to be broken or unreachable."
     },
     {
       "name": "bimalstha23/Nepal-Address-API",

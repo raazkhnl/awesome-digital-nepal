@@ -46,8 +46,9 @@
       "url": "https://www.madanpuraskar.org/np/index.php?option=com_content&view=article&id=84",
       "description": "Java-based converter from MPP — Preeti and other ASCII Nepali fonts to Unicode.",
       "status": "community",
-      "maintenance": "stale",
-      "api": "sdk"
+      "maintenance": "unknown",
+      "api": "sdk",
+      "note": "[Automated] Link appears to be broken or unreachable."
     },
     {
       "name": "Pramukh Font Converter",

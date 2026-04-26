@@ -38,8 +38,9 @@
       "url": "https://sikaichautari.gov.np",
       "description": "Government e-learning platform launched 2020 by CEHRD.",
       "status": "official",
-      "maintenance": "active",
-      "api": "none"
+      "maintenance": "unknown",
+      "api": "none",
+      "note": "[Automated] Link appears to be broken or unreachable."
     },
     {
       "name": "Kullabs",
@@ -110,16 +111,18 @@
       "url": "https://entrance.ioe.edu.np",
       "description": "Institute of Engineering — entrance, exams, admissions.",
       "status": "official",
-      "maintenance": "active",
-      "api": "none"
+      "maintenance": "unknown",
+      "api": "none",
+      "note": "[Automated] Link appears to be broken or unreachable."
     },
     {
       "name": "NEB Result",
       "url": "https://result.neb.gov.np",
       "description": "National Examination Board class 11/12 results portal.",
       "status": "official",
-      "maintenance": "active",
-      "api": "form"
+      "maintenance": "unknown",
+      "api": "form",
+      "note": "[Automated] Link appears to be broken or unreachable."
     },
     {
       "name": "SEE Result",
@@ -137,7 +140,10 @@
       "maintenance": "active",
       "api": "none",
       "starred": true,
-      "tags": ["nepal-founded", "global"]
+      "tags": [
+        "nepal-founded",
+        "global"
+      ]
     }
   ]
 }

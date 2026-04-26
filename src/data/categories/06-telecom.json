@@ -14,7 +14,10 @@
       "maintenance": "active",
       "api": "rest",
       "starred": true,
-      "tags": ["sms", "viber"]
+      "tags": [
+        "sms",
+        "viber"
+      ]
     },
     {
       "name": "Sparrow SMS API Docs (GitHub)",
@@ -77,8 +80,9 @@
       "url": "https://www.ncell.axiata.com",
       "description": "Private telecom operator. No public developer portal.",
       "status": "official",
-      "maintenance": "active",
-      "api": "none"
+      "maintenance": "unknown",
+      "api": "none",
+      "note": "[Automated] Link appears to be broken or unreachable."
     },
     {
       "name": "paraslamsong/nepali-phone-number-validator",

@@ -11,9 +11,10 @@
       "url": "https://smartkrishi.org",
       "description": "First Nepal-focused agri smartphone app (2015). 100K+ downloads. FAO-recognized.",
       "status": "community",
-      "maintenance": "active",
+      "maintenance": "unknown",
       "api": "none",
-      "starred": true
+      "starred": true,
+      "note": "[Automated] Link appears to be broken or unreachable."
     },
     {
       "name": "GeoKrishi (Pathway Technologies)",
@@ -37,8 +38,9 @@
       "url": "https://www.doanepal.gov.np",
       "description": "Ministry of Agriculture and Livestock Development.",
       "status": "official",
-      "maintenance": "active",
-      "api": "none"
+      "maintenance": "unknown",
+      "api": "none",
+      "note": "[Automated] Link appears to be broken or unreachable."
     },
     {
       "name": "Nepal Tourism Board",
@@ -127,8 +129,9 @@
       "url": "https://caanepal.gov.np",
       "description": "Aviation regulator.",
       "status": "official",
-      "maintenance": "active",
-      "api": "none"
+      "maintenance": "unknown",
+      "api": "none",
+      "note": "[Automated] Link appears to be broken or unreachable."
     },
     {
       "name": "Yatri Hub App",

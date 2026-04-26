@@ -20,9 +20,10 @@
       "url": "https://nepalmap.org",
       "description": "Civic-data dashboard by Code for Nepal.",
       "status": "community",
-      "maintenance": "active",
+      "maintenance": "unknown",
       "api": "none",
-      "starred": true
+      "starred": true,
+      "note": "[Automated] Link appears to be broken or unreachable."
     },
     {
       "name": "YoungInnovations",
@@ -113,6 +114,18 @@
       "status": "official",
       "maintenance": "active",
       "api": "none"
+    },
+    {
+      "name": "NDHRMS",
+      "url": "https://github.com/raazkhnl/ndhrms",
+      "description": "National Digital HRMS — A digital human resource management system open-source project.",
+      "status": "community",
+      "maintenance": "active",
+      "tags": [
+        "hrms",
+        "management",
+        "HR"
+      ]
     }
   ]
 }

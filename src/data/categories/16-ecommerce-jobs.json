@@ -69,8 +69,9 @@
       "url": "https://jobaxle.com",
       "description": "IT and engineering-focused job board.",
       "status": "official",
-      "maintenance": "active",
-      "api": "none"
+      "maintenance": "unknown",
+      "api": "none",
+      "note": "[Automated] Link appears to be broken or unreachable."
     },
     {
       "name": "Kumari Job",

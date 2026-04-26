@@ -102,6 +102,17 @@
       "status": "community",
       "maintenance": "active",
       "api": "none"
+    },
+    {
+      "name": "Tech Communities Nepal",
+      "url": "https://github.com/rabirajkhadka/tech-communities",
+      "description": "A community-maintained list of active tech communities, IT clubs, and developer circles across Nepal.",
+      "status": "community",
+      "maintenance": "active",
+      "tags": [
+        "lists",
+        "directory"
+      ]
     }
   ]
 }

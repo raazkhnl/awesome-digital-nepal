@@ -85,33 +85,37 @@
       "url": "https://podcasts.apple.com/podcast/do-no-merge/id1452566879",
       "description": "Leapfrog's engineering-culture podcast.",
       "status": "community",
-      "maintenance": "stale",
+      "maintenance": "unknown",
       "api": "none",
-      "starred": true
+      "starred": true,
+      "note": "[Automated] Link appears to be broken or unreachable."
     },
     {
       "name": "Local Startup Podcast",
       "url": "https://www.localstartup.com.np",
       "description": "Startup conversations hosted by Ugant Sharma.",
       "status": "community",
-      "maintenance": "active",
-      "api": "none"
+      "maintenance": "unknown",
+      "api": "none",
+      "note": "[Automated] Link appears to be broken or unreachable."
     },
     {
       "name": "Boju Bajai",
       "url": "https://bojubajai.com",
       "description": "Long-running Nepali podcast on society, politics, gender (since 2016).",
       "status": "community",
-      "maintenance": "active",
-      "api": "none"
+      "maintenance": "unknown",
+      "api": "none",
+      "note": "[Automated] Link appears to be broken or unreachable."
     },
     {
       "name": "TechPana Podcast",
       "url": "https://techpana.com/podcast",
       "description": "Tech-focused Nepali podcast.",
       "status": "community",
-      "maintenance": "active",
-      "api": "none"
+      "maintenance": "unknown",
+      "api": "none",
+      "note": "[Automated] Link appears to be broken or unreachable."
     },
     {
       "name": "Sushant Pradhan Podcast",

@@ -14,16 +14,23 @@
       "maintenance": "active",
       "api": "none",
       "starred": true,
-      "tags": ["citizen-services", "super-app"]
+      "tags": [
+        "citizen-services",
+        "super-app"
+      ]
     },
     {
       "name": "Citizen Portal — DONIDCR",
       "url": "https://citizenportal.donidcr.gov.np",
       "description": "Department of National ID and Civil Registration. National ID smart card application and status — 17.2M+ enrolled by mid-2025. Backend by IDEMIA.",
       "status": "official",
-      "maintenance": "active",
+      "maintenance": "unknown",
       "api": "none",
-      "tags": ["national-id", "citizenship"]
+      "tags": [
+        "national-id",
+        "citizenship"
+      ],
+      "note": "[Automated] Link appears to be broken or unreachable."
     },
     {
       "name": "DONIDCR Official Site",
@@ -38,8 +45,9 @@
       "url": "https://dams.dda.gov.np/manLogin/publicInfo",
       "description": "Authoritative drug registry public-info portal. Form-based search.",
       "status": "official",
-      "maintenance": "active",
-      "api": "form"
+      "maintenance": "unknown",
+      "api": "form",
+      "note": "[Automated] Link appears to be broken or unreachable."
     },
     {
       "name": "NEA Online Billing",
@@ -94,8 +102,9 @@
       "url": "https://election.gov.np",
       "description": "Election Commission — voter pre-registration, e-bulletins, results.",
       "status": "official",
-      "maintenance": "active",
-      "api": "none"
+      "maintenance": "unknown",
+      "api": "none",
+      "note": "[Automated] Link appears to be broken or unreachable."
     },
     {
       "name": "ECN Voter Data Scraper",
@@ -111,8 +120,9 @@
       "url": "https://emrtds.nepalpassport.gov.np",
       "description": "e-passport pre-enrollment portal. ~4.53M e-passports issued by April 2025.",
       "status": "official",
-      "maintenance": "active",
-      "api": "form"
+      "maintenance": "unknown",
+      "api": "form",
+      "note": "[Automated] Link appears to be broken or unreachable."
     },
     {
       "name": "Department of Foreign Employment — FEIMS",
@@ -127,42 +137,50 @@
       "url": "https://camis.ocr.gov.np",
       "description": "Company registration, annual filings, search.",
       "status": "official",
-      "maintenance": "active",
-      "api": "form"
+      "maintenance": "unknown",
+      "api": "form",
+      "note": "[Automated] Link appears to be broken or unreachable."
     },
     {
       "name": "OCR Open Government Data",
       "url": "https://ocr.gov.np/index.php/en/data",
       "description": "Bulk CSV/XML downloads of company registrations 2002–2072 BS. One of the more substantive open-data offerings from a Nepali ministry.",
       "status": "official",
-      "maintenance": "active",
+      "maintenance": "unknown",
       "api": "none",
       "starred": true,
-      "tags": ["open-data", "companies"]
+      "tags": [
+        "open-data",
+        "companies"
+      ],
+      "note": "[Automated] Link appears to be broken or unreachable."
     },
     {
       "name": "Hello Sarkar",
       "url": "https://hellosarkar.gov.np",
       "description": "24/7 multi-channel grievance portal (call 1111). Operated by OPMCM.",
       "status": "official",
-      "maintenance": "active",
-      "api": "form"
+      "maintenance": "unknown",
+      "api": "form",
+      "note": "[Automated] Link appears to be broken or unreachable."
     },
     {
       "name": "Nepal National Portal",
       "url": "https://nepal.gov.np",
       "description": "Government services directory — entry point for ministries and departments.",
       "status": "official",
-      "maintenance": "active",
-      "api": "none"
+      "maintenance": "unknown",
+      "api": "none",
+      "note": "[Automated] Link appears to be broken or unreachable."
     },
     {
       "name": "NITC — National Information Technology Center",
       "url": "https://nitc.gov.np",
       "description": "Government data center; runs Nagarik App and the GIWMS CMS used by many .gov.np sites.",
       "status": "official",
-      "maintenance": "active",
-      "api": "none"
+      "maintenance": "unknown",
+      "api": "none",
+      "note": "[Automated] Link appears to be broken or unreachable."
     },
     {
       "name": "PSC — Loksewa Aayog",

@@ -38,9 +38,10 @@
       "url": "https://github.com/subeshb1/nepali-date-converter",
       "description": "Popular npm package — 6.9k weekly downloads, ~65 stars.",
       "status": "community",
-      "maintenance": "active",
+      "maintenance": "unknown",
       "api": "sdk",
-      "starred": true
+      "starred": true,
+      "note": "[Automated] Link appears to be broken or unreachable."
     },
     {
       "name": "medic/bikram-sambat",
@@ -109,7 +110,10 @@
       "maintenance": "active",
       "api": "sdk",
       "starred": true,
-      "tags": ["kmp", "kotlin"]
+      "tags": [
+        "kmp",
+        "kotlin"
+      ]
     },
     {
       "name": "sarbagyastha/nepali_utils",
@@ -134,8 +138,9 @@
       "url": "https://github.com/VictorWesterlund/NepDate",
       "description": "Modern struct-based .NET Nepali date library. ~25 stars.",
       "status": "community",
-      "maintenance": "active",
-      "api": "sdk"
+      "maintenance": "unknown",
+      "api": "sdk",
+      "note": "[Automated] Link appears to be broken or unreachable."
     },
     {
       "name": "casualsnek/npttf2utf",
@@ -168,6 +173,56 @@
       "status": "community",
       "maintenance": "active",
       "api": "sdk"
+    },
+    {
+      "name": "OpenSourceNepal / py-nepali",
+      "url": "https://github.com/OpenSourceNepal/py-nepali",
+      "description": "A python package to work with Nepali dates, datetime and more.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "none",
+      "tags": [
+        "python",
+        "datetime",
+        "nepali date"
+      ]
+    },
+    {
+      "name": "OpenSourceNepal / go-nepali",
+      "url": "https://github.com/OpenSourceNepal/go-nepali",
+      "description": "Golang package to work with nepali related utilities.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "none",
+      "tags": [
+        "go",
+        "golang",
+        "utilities"
+      ]
+    },
+    {
+      "name": "rk-editor-ui",
+      "url": "https://www.npmjs.com/package/@raazkhnl/rk-editor-ui",
+      "description": "A customizable, React-based rich text editor UI crafted by a Nepali developer.",
+      "status": "community",
+      "maintenance": "active",
+      "tags": [
+        "react",
+        "editor",
+        "ui"
+      ]
+    },
+    {
+      "name": "QueueLess",
+      "url": "https://github.com/raazkhnl/QueueLess",
+      "description": "Open-source queue management system backend and application built specifically to address queueing problems.",
+      "status": "community",
+      "maintenance": "active",
+      "tags": [
+        "queue",
+        "management",
+        "fullstack"
+      ]
     }
   ]
 }

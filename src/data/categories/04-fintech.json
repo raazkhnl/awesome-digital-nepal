@@ -14,7 +14,10 @@
       "maintenance": "active",
       "api": "sdk",
       "starred": true,
-      "tags": ["wallet", "sandbox"]
+      "tags": [
+        "wallet",
+        "sandbox"
+      ]
     },
     {
       "name": "Khalti Developer Docs",
@@ -24,7 +27,10 @@
       "maintenance": "active",
       "api": "sdk",
       "starred": true,
-      "tags": ["wallet", "aggregator"]
+      "tags": [
+        "wallet",
+        "aggregator"
+      ]
     },
     {
       "name": "Khalti GitHub",
@@ -89,8 +95,9 @@
       "url": "https://npay.com.np",
       "description": "SCT's payment-gateway aggregator product.",
       "status": "official",
-      "maintenance": "active",
-      "api": "sdk"
+      "maintenance": "unknown",
+      "api": "sdk",
+      "note": "[Automated] Link appears to be broken or unreachable."
     },
     {
       "name": "voidarchive/nepal-payment-go",
@@ -100,7 +107,10 @@
       "maintenance": "active",
       "api": "sdk",
       "starred": true,
-      "tags": ["go", "multi-provider"]
+      "tags": [
+        "go",
+        "multi-provider"
+      ]
     },
     {
       "name": "manibibek/payment-gateways-in-nepal",
@@ -132,8 +142,9 @@
       "url": "https://ckyc.cdsc.com.np",
       "description": "Capital-market centralized KYC operated by CDSC.",
       "status": "official",
-      "maintenance": "active",
-      "api": "form"
+      "maintenance": "unknown",
+      "api": "form",
+      "note": "[Automated] Link appears to be broken or unreachable."
     },
     {
       "name": "Office of Controller of Certification (OCC)",

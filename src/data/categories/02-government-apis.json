@@ -14,17 +14,26 @@
       "maintenance": "active",
       "api": "rest",
       "starred": true,
-      "tags": ["forex", "banking", "no-auth"]
+      "tags": [
+        "forex",
+        "banking",
+        "no-auth"
+      ]
     },
     {
       "name": "IRD CBMS / e-Billing API",
       "url": "https://cbapi.ird.gov.np/api/bill",
       "description": "Mandatory real-time e-invoice posting endpoint for VAT-registered businesses with turnover above NPR 25 crore. Tech doc at ird.gov.np/content/9052/cbmsapitechnicaldocumentfor/.",
       "status": "official",
-      "maintenance": "active",
+      "maintenance": "unknown",
       "api": "rest",
       "starred": true,
-      "tags": ["tax", "e-invoicing", "compliance"]
+      "tags": [
+        "tax",
+        "e-invoicing",
+        "compliance"
+      ],
+      "note": "[Automated] Link appears to be broken or unreachable."
     },
     {
       "name": "BIPAD Portal API",
@@ -34,36 +43,51 @@
       "maintenance": "active",
       "api": "rest",
       "starred": true,
-      "tags": ["disaster", "geo"]
+      "tags": [
+        "disaster",
+        "geo"
+      ]
     },
     {
       "name": "DHIS2 Nepal HMIS",
       "url": "https://hmis.gov.np",
       "description": "National Health Management Information System, DHIS2 instance since 2016, 1,000+ facilities reporting. DHIS2 Web API documented at /api — rare Nepali government system with a documented public API (auth required).",
       "status": "official",
-      "maintenance": "active",
+      "maintenance": "unknown",
       "api": "rest",
       "starred": true,
-      "tags": ["health", "auth-required"]
+      "tags": [
+        "health",
+        "auth-required"
+      ],
+      "note": "[Automated] Link appears to be broken or unreachable."
     },
     {
       "name": "NSO CKAN Action API",
       "url": "https://data.nsonepal.gov.np/api/3/action/",
       "description": "National Statistics Office data portal — CKAN Action API. Census 2021, NLFS, GDP, National Accounts.",
       "status": "official",
-      "maintenance": "active",
+      "maintenance": "unknown",
       "api": "rest",
       "starred": true,
-      "tags": ["statistics", "ckan"]
+      "tags": [
+        "statistics",
+        "ckan"
+      ],
+      "note": "[Automated] Link appears to be broken or unreachable."
     },
     {
       "name": "Open Data Nepal API",
       "url": "https://opendatanepal.com/api",
       "description": "CKAN-based civic open-data portal — relaunched 2025 on CKAN 2.11.3 by Open Knowledge Nepal.",
       "status": "community",
-      "maintenance": "active",
+      "maintenance": "unknown",
       "api": "rest",
-      "tags": ["open-data", "ckan"]
+      "tags": [
+        "open-data",
+        "ckan"
+      ],
+      "note": "[Automated] Link appears to be broken or unreachable."
     },
     {
       "name": "Government Enterprise Architecture (GEA 2.0)",

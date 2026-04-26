@@ -27,8 +27,9 @@
       "url": "https://www.mfd.gov.np",
       "description": "Mountain Forecast Division of DHM.",
       "status": "official",
-      "maintenance": "active",
-      "api": "none"
+      "maintenance": "unknown",
+      "api": "none",
+      "note": "[Automated] Link appears to be broken or unreachable."
     },
     {
       "name": "AQICN Nepal",
@@ -60,8 +61,9 @@
       "url": "https://seismonepal.gov.np",
       "description": "National Earthquake Monitoring and Research Center. Updated quake list.",
       "status": "official",
-      "maintenance": "active",
-      "api": "none"
+      "maintenance": "unknown",
+      "api": "none",
+      "note": "[Automated] Link appears to be broken or unreachable."
     },
     {
       "name": "USGS Earthquake Feed",
@@ -102,8 +104,9 @@
       "url": "http://eq2015.npc.gov.np",
       "description": "760k buildings, 3.6M residents — historic open dataset.",
       "status": "official",
-      "maintenance": "archived",
-      "api": "none"
+      "maintenance": "unknown",
+      "api": "none",
+      "note": "[Automated] Link appears to be broken or unreachable."
     },
     {
       "name": "DrivenData — Richter's Predictor",

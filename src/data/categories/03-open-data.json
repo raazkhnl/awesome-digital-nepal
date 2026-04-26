@@ -29,17 +29,19 @@
       "url": "https://data.humdata.org/group/npl",
       "description": "323+ humanitarian datasets from 62 orgs: COD-AB admin boundaries (Oct 2024), DHS, Meta High-Resolution Population Density, settlements, road network. CKAN API + HAPI.",
       "status": "community",
-      "maintenance": "active",
+      "maintenance": "unknown",
       "api": "rest",
-      "starred": true
+      "starred": true,
+      "note": "[Automated] Link appears to be broken or unreachable."
     },
     {
       "name": "Census Nepal 2021",
       "url": "https://censusnepal.cbs.gov.np/results",
       "description": "Official 2021 census results portal.",
       "status": "official",
-      "maintenance": "active",
-      "api": "none"
+      "maintenance": "unknown",
+      "api": "none",
+      "note": "[Automated] Link appears to be broken or unreachable."
     },
     {
       "name": "Nepal in Data",
@@ -62,16 +64,18 @@
       "url": "http://geoportal.icimod.org",
       "description": "Geospatial data viewer for the HKH region.",
       "status": "official",
-      "maintenance": "active",
-      "api": "none"
+      "maintenance": "unknown",
+      "api": "none",
+      "note": "[Automated] Link appears to be broken or unreachable."
     },
     {
       "name": "SERVIR-HKH",
       "url": "https://servir.icimod.org",
       "description": "NASA-USAID + ICIMOD remote-sensing platform for the HKH region.",
       "status": "official",
-      "maintenance": "active",
-      "api": "none"
+      "maintenance": "unknown",
+      "api": "none",
+      "note": "[Automated] Link appears to be broken or unreachable."
     },
     {
       "name": "DesInventar Nepal",
