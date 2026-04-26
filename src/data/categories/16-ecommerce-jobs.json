@@ -104,6 +104,17 @@
       "status": "unofficial",
       "maintenance": "stale",
       "api": "scraper"
+    },
+    {
+      "name": "Foodmandu",
+      "url": "https://foodmandu.com/",
+      "description": "The premier and earliest digital food delivery service in the Kathmandu valley.",
+      "status": "official",
+      "maintenance": "active",
+      "tags": [
+        "food delivery",
+        "e-commerce"
+      ]
     }
   ]
 }

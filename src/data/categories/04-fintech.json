@@ -169,6 +169,17 @@
       "status": "official",
       "maintenance": "active",
       "api": "none"
+    },
+    {
+      "name": "ConnectIPS",
+      "url": "https://connectips.com/",
+      "description": "A prominent electronic payment system for fund transfers and bill payments operated by NCHL.",
+      "status": "official",
+      "maintenance": "active",
+      "tags": [
+        "banking",
+        "payment gateway"
+      ]
     }
   ]
 }

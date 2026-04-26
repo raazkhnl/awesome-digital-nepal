@@ -141,6 +141,18 @@
       "maintenance": "unknown",
       "api": "none",
       "note": "[Automated] Link appears to be broken or unreachable."
+    },
+    {
+      "name": "Hamro Patro",
+      "url": "https://www.hamropatro.com/",
+      "description": "One of the most used apps in Nepal; Nepali calendar, news aggregator, and daily utility.",
+      "status": "official",
+      "maintenance": "active",
+      "tags": [
+        "calendar",
+        "news",
+        "utility"
+      ]
     }
   ]
 }
