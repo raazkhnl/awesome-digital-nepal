@@ -231,6 +231,8 @@ This atlas would not exist without:
 - Curators behind **mesaugat/tech-companies-in-nepal**, **amitness/ml-\***, **manibibek/payment-gateways-in-nepal**, **IOST-ASCOL/nepali-datasets**, **pemagrg1/Nepali-Datasets**, and **ghimiresunil/Curated-List-of-Nepali-NLP-Resources** — for the prior art that this list builds on.
 - Every developer who's posted a Nepali date converter, Preeti-to-Unicode tool, or NEPSE scraper to a public repo. You made this possible.
 
+  Thank You!
+
 ---
 
 <p align="center">
