@@ -1,0 +1,481 @@
+{
+  "$schema": "../schema.json",
+  "id": "25-nepal-ecosystem-misc",
+  "title": "Nepal Ecosystem & Misc",
+  "description": "Miscellaneous digital services, aggregators, and unassigned organizations supporting Digital Nepal.",
+  "items": [
+    {
+      "name": "ConnectIPS (NCHL)",
+      "url": "https://www.connectips.com",
+      "description": "Bank - to - bank transfer and government revenue collection API platform.",
+      "status": "active",
+      "maintenance": "unknown",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "Open Data Nepal",
+      "url": "https://opendatanepal.com",
+      "description": "CKAN open data portal with 382+ datasets, API access for governance, health, education, and research.",
+      "status": "active",
+      "maintenance": "unknown",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "Nepal in Data",
+      "url": "https://nepalindata.com",
+      "description": "Curated data visualizations and economic indicators for research and education.",
+      "status": "active",
+      "maintenance": "unknown",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "Tribhuwan International Airport Flight Data",
+      "url": "http://tiairport.com.np/flight_details",
+      "description": "Real - time flight arrival/departure lists.",
+      "status": "active",
+      "maintenance": "unknown",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "OLE Nepal E",
+      "url": "https://www.olenepal.org",
+      "description": "https://www.olenepal.org - Open learning digital educational content and tools for schools.",
+      "status": "active",
+      "maintenance": "unknown",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "OLE Nepal E",
+      "url": "https://pustakalaya.org",
+      "description": "https://pustakalaya.org - Digital library platform with Nepali educational resources.",
+      "status": "active",
+      "maintenance": "unknown",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "NEA Customer Service Portal",
+      "url": "https://nea.org.np",
+      "description": "Nepal Electricity Authority billing, smart metering, and customer services.",
+      "status": "active",
+      "maintenance": "unknown",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "Welcome Nepal Website & Mobile App 2.0",
+      "url": "https://www.welcomenepal.com",
+      "description": "Tourism promotion, electronic visas, and AR/VR tour tools.",
+      "status": "active",
+      "maintenance": "unknown",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "Nepal Army Official Site",
+      "url": "https://www.nepalarmy.mil.np",
+      "description": "Defense - related information and recruitment portals.",
+      "status": "active",
+      "maintenance": "unknown",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "Kumari Job Portal",
+      "url": "https://kumarijob.com",
+      "description": "Job listing and recruitment platform.",
+      "status": "active",
+      "maintenance": "unknown",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "Mero Job",
+      "url": "https://merojob.com",
+      "description": "Online job portal for Nepal.",
+      "status": "active",
+      "maintenance": "unknown",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "Daraz Nepal",
+      "url": "https://www.daraz.com.np",
+      "description": "Leading e - commerce marketplace platform.",
+      "status": "active",
+      "maintenance": "unknown",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "Sastodeal",
+      "url": "https://sastodeal.com",
+      "description": "Multi - vendor e - commerce and online shopping platform.",
+      "status": "active",
+      "maintenance": "unknown",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "HamroBazar",
+      "url": "https://hamrobazaar.com",
+      "description": "Classifieds and multi - vendor marketplace.",
+      "status": "active",
+      "maintenance": "unknown",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "Thulo.com",
+      "url": "https://thulo.com",
+      "description": "Multi - vendor online marketplace.",
+      "status": "active",
+      "maintenance": "unknown",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "Nepal Army Recruitment Portal",
+      "url": "https://www.nepalarmy.mil.np/recruitment",
+      "description": "Online application and exam systems.",
+      "status": "active",
+      "maintenance": "unknown",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "Pratipakchya Government Work Tracker",
+      "url": "https://pratipakchya.com",
+      "description": "Official tracker for 100 - day government plans, project progress, budgets, and transparency monitoring.",
+      "status": "active",
+      "maintenance": "unknown",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "govnp.com",
+      "url": "https://www.govnp.com",
+      "description": "Centralized directory of all Nepal government websites.",
+      "status": "active",
+      "maintenance": "unknown",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "knownepal.vercel.app/government",
+      "url": "https://knownepal.vercel.app/government",
+      "description": "https://knownepal.vercel.app/government - websites - Comprehensive aggregator of Nepal government websites.",
+      "status": "active",
+      "maintenance": "unknown",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "muannepal.org.np/municipality",
+      "url": "https://muannepal.org.np/municipality",
+      "description": "https://muannepal.org.np/municipality - profiles - Municipality profiles and official links directory.",
+      "status": "active",
+      "maintenance": "unknown",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "f1soft.com",
+      "url": "https://f1soft.com",
+      "description": "F1Soft fintech solutions powering major Nepali payment systems.",
+      "status": "active",
+      "maintenance": "unknown",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "swifttech.com.np",
+      "url": "https://www.swifttech.com.np",
+      "description": "Swift Technology digital banking and fintech platforms.",
+      "status": "active",
+      "maintenance": "unknown",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "raralabs.com",
+      "url": "https://www.raralabs.com",
+      "description": "Rara Labs digitization and data governance tools.",
+      "status": "active",
+      "maintenance": "unknown",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "sourcecode.com.np",
+      "url": "https://www.sourcecode.com.np",
+      "description": "Source Code capital market technology solutions.",
+      "status": "active",
+      "maintenance": "unknown",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "sussol.net",
+      "url": "https://sussol.net",
+      "description": "Sustainable Solutions digital supply chain and finance tools.",
+      "status": "active",
+      "maintenance": "unknown",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "data.humdata.org (Nepal)",
+      "url": "https://data.humdata.org (Nepal page)",
+      "description": "HDX humanitarian datasets portal for Nepal.",
+      "status": "active",
+      "maintenance": "unknown",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "khalti.com",
+      "url": "https://khalti.com",
+      "description": "Khalti digital wallet developer SDK and merchant API.",
+      "status": "active",
+      "maintenance": "unknown",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "esewa.com.np",
+      "url": "https://esewa.com.np",
+      "description": "eSewa payment gateway with full developer documentation.",
+      "status": "active",
+      "maintenance": "unknown",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "govdirectory.org/nepal",
+      "url": "https://www.govdirectory.org/nepal",
+      "description": "Crowdsourced directory of Nepal ministries, provinces, districts, and assemblies.",
+      "status": "active",
+      "maintenance": "unknown",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "muannepal.org.np",
+      "url": "https://muannepal.org.np",
+      "description": "Municipality Association of Nepal profiles and links.",
+      "status": "active",
+      "maintenance": "unknown",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "nrb.org.np",
+      "url": "https://www.nrb.org.np",
+      "description": "Nepal Rastra Bank official monetary policy and data portal.",
+      "status": "active",
+      "maintenance": "unknown",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "swifttech.com.np",
+      "url": "https://swifttech.com.np",
+      "description": "Digital financial services platform.",
+      "status": "active",
+      "maintenance": "unknown",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "raralabs.com",
+      "url": "https://raralabs.com",
+      "description": "Automation and digitization software.",
+      "status": "active",
+      "maintenance": "unknown",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "sourcecode.com.np",
+      "url": "https://sourcecode.com.np",
+      "description": "Capital market technology solutions.",
+      "status": "active",
+      "maintenance": "unknown",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "olenepal.org",
+      "url": "https://olenepal.org",
+      "description": "Open learning digital education tools.",
+      "status": "active",
+      "maintenance": "unknown",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "data.humdata.org",
+      "url": "https://data.humdata.org (filter Nepal)",
+      "description": "Humanitarian data exchange for Nepal.",
+      "status": "active",
+      "maintenance": "unknown",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "daraz.com.np",
+      "url": "https://daraz.com.np",
+      "description": "Leading e - commerce marketplace.",
+      "status": "active",
+      "maintenance": "unknown",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "welcomenepal.com",
+      "url": "https://welcomenepal.com",
+      "description": "Tourism official promotion portal.",
+      "status": "active",
+      "maintenance": "unknown",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "connectips.com",
+      "url": "https://connectips.com",
+      "description": "Inter - bank payment API.",
+      "status": "active",
+      "maintenance": "unknown",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "nepalarmy.mil.np",
+      "url": "https://nepalarmy.mil.np",
+      "description": "Nepal Army.",
+      "status": "active",
+      "maintenance": "unknown",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "nrb.org.np",
+      "url": "https://nrb.org.np",
+      "description": "Central bank.",
+      "status": "active",
+      "maintenance": "unknown",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "nrb.org.np/psd",
+      "url": "https://nrb.org.np/psd",
+      "description": "Payment systems department.",
+      "status": "active",
+      "maintenance": "unknown",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "data.humdata.org",
+      "url": "https://data.humdata.org",
+      "description": "Humanitarian data.",
+      "status": "active",
+      "maintenance": "unknown",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    }
+  ]
+}

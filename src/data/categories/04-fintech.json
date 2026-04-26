@@ -1,4 +1,5 @@
 {
+  "$schema": "../schema.json",
   "id": "fintech-payments",
   "title": "Fintech & Payments",
   "tagline": "Payment gateways, wallets, banking, and fintech APIs",
@@ -179,6 +180,184 @@
       "tags": [
         "banking",
         "payment gateway"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "name": "eSewa Payment Gateway",
+      "url": "https://esewa.com.np (developer: https://developer.esewa.com.np)",
+      "description": "Digital wallet and payment gateway with REST API, SDKs for bills, recharges, and merchant integrations.",
+      "status": "active",
+      "maintenance": "unknown",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "Khalti Payment Gateway",
+      "url": "https://khalti.com (docs: https://docs.khalti.com)",
+      "description": "Wallet platform with Web/Flutter/Android SDKs, merchant API for multi - source payments and refunds.",
+      "status": "active",
+      "maintenance": "unknown",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "IME Pay",
+      "url": "https://www.imepay.com.np",
+      "description": "Remittance - focused digital wallet with API integrations for payments and transfers.",
+      "status": "active",
+      "maintenance": "unknown",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "Fonepay QR Network",
+      "url": "https://fonepay.com (via NCHL)",
+      "description": "Interoperable QR payment and bank network with merchant APIs.",
+      "status": "active",
+      "maintenance": "unknown",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "ApiNepal Unified Payment Gateway",
+      "url": "https://apinepal.com",
+      "description": "Single REST API/JS SDK aggregating eSewa, Khalti, IME Pay, Fonepay, and others.",
+      "status": "active",
+      "maintenance": "unknown",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "NEPALPAY QR (NCHL)",
+      "url": "https://nchl.com.np",
+      "description": "National QR scheme with merchant acquiring, dynamic QR, billing, and POS APIs.",
+      "status": "active",
+      "maintenance": "unknown",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "Nepal Rastra Bank Forex API",
+      "url": "https://www.nrb.org.np/exportForexJSON.php",
+      "description": "Official foreign exchange rate JSON API.",
+      "status": "active",
+      "maintenance": "unknown",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "PrabhuPay",
+      "url": "https://prabhupay.com",
+      "description": "Digital wallet and payment gateway with merchant integrations.",
+      "status": "active",
+      "maintenance": "unknown",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "Moru Wallet",
+      "url": "https://moru.com.np",
+      "description": "Mobile wallet and fintech payment services.",
+      "status": "active",
+      "maintenance": "unknown",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "nPay",
+      "url": "https://npay.com.np",
+      "description": "Digital payment and wallet platform.",
+      "status": "active",
+      "maintenance": "unknown",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "CellPay",
+      "url": "https://cellpay.com.np",
+      "description": "Licensed payment service provider with bank links and wallet.",
+      "status": "active",
+      "maintenance": "unknown",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "CG Pay",
+      "url": "https://cgpay.com.np",
+      "description": "Digital payment services from CG Group.",
+      "status": "active",
+      "maintenance": "unknown",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "QPay",
+      "url": "https://qpay.com.np",
+      "description": "QR - based and digital payment gateway.",
+      "status": "active",
+      "maintenance": "unknown",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "Nepal Rastra Bank Payment Systems",
+      "url": "https://www.nrb.org.np/psd",
+      "description": "Licensed PSO/PSP list and regulatory portal for fintech.",
+      "status": "active",
+      "maintenance": "unknown",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "fonepay.com",
+      "url": "https://fonepay.com",
+      "description": "Fonepay interoperable QR payment network.",
+      "status": "active",
+      "maintenance": "unknown",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "imepay.com.np",
+      "url": "https://imepay.com.np",
+      "description": "IME Pay remittance API.",
+      "status": "active",
+      "maintenance": "unknown",
+      "tags": [
+        "verified",
+        "digital-nepal"
       ]
     }
   ]

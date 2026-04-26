@@ -1,4 +1,5 @@
 {
+  "$schema": "../schema.json",
   "id": "github-deep-mining",
   "title": "GitHub Deep Mining (Auto-Discovered)",
   "tagline": "A massively expanded list of auto-discovered Nepalese repositories.",
@@ -1242,6 +1243,118 @@
       "maintenance": "active",
       "tags": [
         "khalti"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "name": "Yarsa Labs Nepal Compliance ERP",
+      "url": "https://github.com/yarsa/nepal",
+      "description": "compliance - Open - source ERP with Nepal - specific HR, payroll, accounting, and compliance features.",
+      "status": "active",
+      "maintenance": "unknown",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "Open Knowledge Nepal Local Boundaries",
+      "url": "https://github.com/openknowledgenp/localboundaries",
+      "description": "GeoJSON administrative boundaries (provinces, districts, municipalities) for GIS apps.",
+      "status": "active",
+      "maintenance": "unknown",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "opentechcommunity/map",
+      "url": "https://github.com/opentechcommunity/map",
+      "description": "nepal - https://github.com/opentechcommunity/map - of - nepal - GeoJSON files for Nepal administrative divisions ready for mapping libraries.",
+      "status": "active",
+      "maintenance": "unknown",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "shravan",
+      "url": "https://github.com/shravan",
+      "description": "https://github.com/shravan - ghimire/NepalAdminGIS - ESRI Shapefiles and Python tools for Nepal admin boundary GIS data.",
+      "status": "active",
+      "maintenance": "unknown",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "pemagrg1/Nepali",
+      "url": "https://github.com/pemagrg1/Nepali",
+      "description": "https://github.com/pemagrg1/Nepali - Datasets - 100+ curated Nepali NLP/ML datasets across text, QA, summarization, and more.",
+      "status": "active",
+      "maintenance": "unknown",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "IOST",
+      "url": "https://github.com/IOST",
+      "description": "datasets - https://github.com/IOST - ASCOL/nepali - datasets - Comprehensive collection of Nepali ML, NLP, audio, image, and geospatial datasets.",
+      "status": "active",
+      "maintenance": "unknown",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "Unofficial NEPSE API",
+      "url": "https://github.com/surajrimal07/NepseAPI",
+      "description": "Unofficial - Real - time Nepal Stock Exchange data via REST/WebSocket for fintech apps.",
+      "status": "active",
+      "maintenance": "unknown",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "github.com/CodeforNepal/data",
+      "url": "https://github.com/CodeforNepal/data",
+      "description": "Curated open CSV datasets for Nepal research.",
+      "status": "active",
+      "maintenance": "unknown",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "github.com/hbvj99/Nepal",
+      "url": "https://github.com/hbvj99/Nepal",
+      "description": "https://github.com/hbvj99/Nepal - Datasets - ML - focused research datasets on Nepal.",
+      "status": "active",
+      "maintenance": "unknown",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "github.com/sagautam5/local",
+      "url": "https://github.com/sagautam5/local",
+      "description": "nepal - https://github.com/sagautam5/local - states - nepal - PHP package for Nepal local administrative data.",
+      "status": "active",
+      "maintenance": "unknown",
+      "tags": [
+        "verified",
+        "digital-nepal"
       ]
     }
   ]

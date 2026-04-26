@@ -1,4 +1,5 @@
 {
+  "$schema": "../schema.json",
   "id": "education",
   "title": "Education & EdTech",
   "tagline": "Learning platforms, university portals, and exam resources",
@@ -143,6 +144,19 @@
       "tags": [
         "nepal-founded",
         "global"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "name": "Ministry of Education, Science and Technology",
+      "url": "https://moe.gov.np",
+      "description": "Educational portals, scholarships, and digital learning resources.",
+      "status": "active",
+      "maintenance": "unknown",
+      "tags": [
+        "verified",
+        "digital-nepal"
       ]
     }
   ]

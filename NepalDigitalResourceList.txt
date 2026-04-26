@@ -1,0 +1,1000 @@
+Nepal Government National Portal — https://nepal.gov.np — Central official portal for all government services, policies, e-services, and citizen information.
+Nagarik App — https://nagarikapp.gov.np — Unified citizen mobile/web app for accessing IDs, certificates, licenses, PAN, and multiple government services in one place.
+DONIDCR Citizen Portal — https://citizenportal.donidcr.gov.np — National ID application, status tracking, civil registration, and digital identity services.
+Department of Immigration Online Services — https://nepaliport.immigration.gov.np — Online visa applications, extensions, trekking permits, and visa transfer services.
+Inland Revenue Department Taxpayer Portal / ITS — https://ird.gov.np/taxpayer-portal — Tax registration, online filing, payments, and unified tax management system.
+SuTRA (Sub-National Treasury Regulatory Application) — https://fcgo.gov.np (integrated access) — Budgeting, accounting, revenue collection for 753 local governments and provinces.
+GIOMS (Government Integrated Office Management System) — Internal via DoIT portals — Paperless file management, approvals, workflows, and e-governance across ministries.
+Nepal National Single Window (NNSW) — https://nnsw.gov.np — Trade facilitation portal for import/export document submission and clearance.
+Online Driving License System (DoTM) — https://dotm.gov.np — New/renewal driving licenses, test booking, and vehicle-related services.
+Office of the Company Registrar (OCR) — https://ocr.gov.np — Company registration, compliance tracking, and corporate data access.
+Passport Service Portal — https://nepalpassport.gov.np — Passport applications, tracking, and issuance services.
+Public Procurement Monitoring Office (PPMO) / Bolpatra — https://bolpatra.gov.np — E-bidding, tenders, procurement monitoring, and government purchasing platform.
+Social Security Fund (SSF) Portal — https://ssf.gov.np — Contributions, claims processing, and social security management.
+Nepal Police Online Services — https://nepalpolice.gov.np — Police clearance certificates, complaints, reports, and citizen services.
+Nepal Law Commission — https://lawcommission.gov.np — Legal database of acts, regulations, and policy documents.
+Customs System — https://customs.gov.np — Customs clearance, tariffs, trade documents, and import/export tracking.
+eSewa Payment Gateway — https://esewa.com.np (developer: https://developer.esewa.com.np) — Digital wallet and payment gateway with REST API, SDKs for bills, recharges, and merchant integrations.
+Khalti Payment Gateway — https://khalti.com (docs: https://docs.khalti.com) — Wallet platform with Web/Flutter/Android SDKs, merchant API for multi-source payments and refunds.
+IME Pay — https://www.imepay.com.np — Remittance-focused digital wallet with API integrations for payments and transfers.
+Fonepay QR Network — https://fonepay.com (via NCHL) — Interoperable QR payment and bank network with merchant APIs.
+ConnectIPS (NCHL) — https://www.connectips.com — Bank-to-bank transfer and government revenue collection API platform.
+ApiNepal Unified Payment Gateway — https://apinepal.com — Single REST API/JS SDK aggregating eSewa, Khalti, IME Pay, Fonepay, and others.
+NEPALPAY QR (NCHL) — https://nchl.com.np — National QR scheme with merchant acquiring, dynamic QR, billing, and POS APIs.
+Open Data Nepal — https://opendatanepal.com — CKAN open data portal with 382+ datasets, API access for governance, health, education, and research.
+NSO Data Portal — https://data.nsonepal.gov.np — National Statistics Office visualization, analysis, and downloadable datasets portal.
+Nepal in Data — https://nepalindata.com — Curated data visualizations and economic indicators for research and education.
+Yarsa Labs Nepal Compliance ERP — https://github.com/yarsa/nepal-compliance — Open-source ERP with Nepal-specific HR, payroll, accounting, and compliance features.
+Open Knowledge Nepal Local Boundaries — https://github.com/openknowledgenp/localboundaries — GeoJSON administrative boundaries (provinces, districts, municipalities) for GIS apps.
+opentechcommunity/map-of-nepal — https://github.com/opentechcommunity/map-of-nepal — GeoJSON files for Nepal administrative divisions ready for mapping libraries.
+shravan-ghimire/NepalAdminGIS — https://github.com/shravan-ghimire/NepalAdminGIS — ESRI Shapefiles and Python tools for Nepal admin boundary GIS data.
+pemagrg1/Nepali-Datasets — https://github.com/pemagrg1/Nepali-Datasets — 100+ curated Nepali NLP/ML datasets across text, QA, summarization, and more.
+IOST-ASCOL/nepali-datasets — https://github.com/IOST-ASCOL/nepali-datasets — Comprehensive collection of Nepali ML, NLP, audio, image, and geospatial datasets.
+Unofficial NEPSE API — https://github.com/surajrimal07/NepseAPI-Unofficial — Real-time Nepal Stock Exchange data via REST/WebSocket for fintech apps.
+Nepal Rastra Bank Forex API — https://www.nrb.org.np/exportForexJSON.php — Official foreign exchange rate JSON API.
+Hydrology and Meteorology Department River Data — http://www.hydrology.gov.np — Real-time river level and hydrological data portal.
+Kalimati Market Daily Price Information — http://kalimatimarket.gov.np/daily-price-information — Vegetable/fruit price data for agriculture research.
+Tribhuwan International Airport Flight Data — http://tiairport.com.np/flight_details — Real-time flight arrival/departure lists.
+OLE Nepal E-Paath — https://www.olenepal.org — Open learning digital educational content and tools for schools.
+OLE Nepal E-Pustakalaya — https://pustakalaya.org — Digital library platform with Nepali educational resources.
+GeoKrishi App — (via Ministry of Agriculture portals) — Location-specific farming information, weather, and crop advisory mobile app.
+eHaat Bazaar — (DNF agriculture initiative) — Online agricultural marketplace platform.
+NARC Krishi App — (via Nepal Agricultural Research Council) — Smart irrigation, livestock, and farming tools.
+Electronic Health Records 2.0 — (via Ministry of Health) — National digital healthcare records and telemedicine platform.
+HMIS/DHIS2 Nepal — https://hmis.gov.np — Health Management Information System for national health data.
+Smart Classrooms / EMIS 2.0 — (via Ministry of Education) — Education Management Information System and online learning platforms.
+NEA Customer Service Portal — https://nea.org.np — Nepal Electricity Authority billing, smart metering, and customer services.
+NEA Official Mobile App 2.0 — (via NEA portals) — Electricity bill payments, outage tracking, and field automation.
+Welcome Nepal Website & Mobile App 2.0 — https://www.welcomenepal.com — Tourism promotion, electronic visas, and AR/VR tour tools.
+Nepal National ID System — https://donidcr.gov.np — Biometric national identity and civil registration database.
+Public Service Commission Portal — https://psc.gov.np — Lok Sewa exam results, applications, and recruitment services.
+Financial Comptroller General Office (FCGO) — https://fcgo.gov.np — Treasury, accounting, and government financial management portal.
+Election Commission of Nepal — https://election.gov.np — Voter ID, election results, and digital voting data.
+Ministry of Home Affairs (MOHA) — https://moha.gov.np — ePass, immigration, and internal security services.
+Ministry of Education, Science and Technology — https://moe.gov.np — Educational portals, scholarships, and digital learning resources.
+Department of Tourism — https://www.tourism.gov.np — Tourism licensing, permits, and visitor information systems.
+Nepal Army Official Site — https://www.nepalarmy.mil.np — Defense-related information and recruitment portals.
+Armed Police Force — https://www.apf.gov.np — Security force services and citizen reporting tools.
+Alternative Energy Promotion Centre — https://www.aepc.gov.np — Renewable energy project tracking and data portals.
+District Treasury Controller Offices — Various district-specific .gov.np (e.g., dtcoktm.gov.np) — Local treasury and financial services.
+Nepal Telecommunications Authority — https://nta.gov.np — Telecom licensing, speed test, and regulatory portals (including MDMS for IMEI registration).
+Bolpatra E-Procurement — https://bolpatra.gov.np/egp — National electronic government procurement system.
+Land Revenue Information Management System (LRIMS) — Via Malpot portals — Digital land records and property registration.
+Citizen Investment Trust Portal — Integrated in Nagarik App — Investment and pension management services.
++2 / Higher Education Details Portal — Via education ministry sites — Exam results and student information systems.
+Hello Sarkar Grievance Portal — Via nepal.gov.np — Citizen grievance redressal and feedback system.
+Police Clearance Report System — Via nepalpolice.gov.np — Online character certificate and clearance services.
+Vehicle Tax Payment Portal — Via dotm.gov.np — Online vehicle registration and tax payments.
+PrabhuPay — https://prabhupay.com — Digital wallet and payment gateway with merchant integrations.
+Moru Wallet — https://moru.com.np — Mobile wallet and fintech payment services.
+nPay — https://npay.com.np — Digital payment and wallet platform.
+CellPay — https://cellpay.com.np — Licensed payment service provider with bank links and wallet.
+CG Pay — https://cgpay.com.np — Digital payment services from CG Group.
+QPay — https://qpay.com.np — QR-based and digital payment gateway.
+HBL Payment Gateway — Via HBL Nepal — Bank-linked payment processing for merchants.
+Nabil Electronic Payment Gateway — Via Nabil Bank — Secure online payment solutions.
+NIC Asia Cybersource Gateway — Via NIC Asia Bank — Advanced payment gateway services.
+Nepal Rastra Bank Payment Systems — https://www.nrb.org.np/psd — Licensed PSO/PSP list and regulatory portal for fintech.
+Census Nepal Portal — https://censusnepal.cbs.gov.np — Official population and demographic census data repository.
+Local Government Portals (753+ municipalities) — Various e.g., kathmandu.gov.np, local .gov.np sites — Municipal services, revenue collection via SuTRA/LLRP app.
+Ministry of Finance — https://mof.gov.np — Budget, economic data, and fiscal policy portals.
+National Planning Commission — https://npc.gov.np — Development planning and data visualization tools.
+Department of Consular Services — https://nepalconsular.gov.np — Passport and consular services for citizens abroad.
+Department of Foreign Employment — https://dofe.gov.np — Labor migration, foreign employment licensing, and data portal.
+PlantwisePlus Tools — (via agriculture ministry) — Plant health and pest management digital advisory.
+FarmBetter App — Agritech mobile platform for farming support.
+Hamro Swasthya — Healthtech app for citizen health services.
+Kumari Job Portal — https://kumarijob.com — Job listing and recruitment platform.
+Mero Job — https://merojob.com — Online job portal for Nepal.
+Daraz Nepal — https://www.daraz.com.np — Leading e-commerce marketplace platform.
+Sastodeal — https://sastodeal.com — Multi-vendor e-commerce and online shopping platform.
+HamroBazar — https://hamrobazaar.com — Classifieds and multi-vendor marketplace.
+Thulo.com — https://thulo.com — Multi-vendor online marketplace.
+Nepal Army Recruitment Portal — https://www.nepalarmy.mil.np/recruitment — Online application and exam systems.
+COVID-19 Health Dashboard (archived) — https://covid19.mohp.gov.np — Historical health crisis data and tracking portal.
+Training Portal (various ministries) — https://training.gov.np — Government employee and public training management systems.
+SLC/SEE Result Portal — https://slcresult.soce.gov.np — National examination results publication system.
+MOEN Online — http://www.moenonline.moen.gov.np — Ministry of Energy online services.
+Nepal Tourism Board Digital Assets — Via tourism.gov.np — AR/VR tours and multilingual helpline integrations.
+Smart Irrigation Systems (DNF) — Pilot portals under agriculture ministry — Sensor-based farming data platforms.
+Electronic Visa System — https://immigration.gov.np — Online visa processing for tourists and visitors.
+Department of Survey — https://dos.gov.np — National mapping, land surveying, geoportal, and boundary data services for GIS and research.  
+Department of Hydrology and Meteorology — https://dhm.gov.np — Real-time weather, river level, flood, and hydro-meteorological data portal for research and early warning.  
+Department of Customs — https://customs.gov.np — Customs clearance, tariff database, trade documents, and import/export tracking system.  
+Health Emergency Operation Center (HEOC) — http://heoc.mohp.gov.np/ — Health disaster coordination, emergency data, ambulance services, and PHEOC provincial portals.  
+Pratipakchya Government Work Tracker — https://pratipakchya.com — Official tracker for 100-day government plans, project progress, budgets, and transparency monitoring.  
+Supreme Court of Nepal — http://www.supremecourt.gov.np — Judiciary case information, judgments, and legal database portal.  
+Parliament of Nepal — http://www.parliament.gov.np — Legislative documents, bills, proceedings, and parliamentary services portal.  
+Ministry of Foreign Affairs — http://www.mofa.gov.np — Diplomatic services, passport, consular, and citizen-abroad support portal.  
+Department of National ID and Civil Registration (DONIDCR) — https://donidcr.gov.np — Core civil registration, vital events, and national ID database management.  
+Nepal Electricity Authority (NEA) Customer Portal — https://nea.org.np — Electricity billing, payments, outage tracking, and smart metering services.  
+Alternative Energy Promotion Centre — https://www.aepc.gov.np — Renewable energy projects, data, and subsidy tracking portal.  
+Public Service Commission (Lok Sewa) — https://psc.gov.np — Exam results, applications, and recruitment services portal.  
+Election Commission of Nepal — https://election.gov.np — Voter registration, election results, and digital voting data portal.  
+Ministry of Home Affairs (MOHA) — https://moha.gov.np — ePass, immigration, disaster, and internal security digital services.  
+Ministry of Education, Science and Technology — https://moe.gov.np — Educational portals, scholarships, EMIS, and digital learning resources.  
+Department of Tourism — https://www.tourism.gov.np — Tourism licensing, permits, visitor data, and promotion services.  
+Nepal Army Official Portal — https://www.nepalarmy.mil.np — Defense information, recruitment, and service portals.  
+Armed Police Force — https://www.apf.gov.np — Security services, recruitment, and citizen reporting tools.  
+Financial Comptroller General Office (FCGO) — https://fcgo.gov.np — Treasury, accounting, and government financial management portal.  
+Nepal Rastra Bank Forex API — https://www.nrb.org.np/exportForexJSON.php — Official daily foreign exchange rate JSON API for developers.  
+Kalimati Market Daily Price Information — http://kalimatimarket.gov.np/daily-price-information — Real-time vegetable/fruit price data for agriculture research.  
+Tribhuwan International Airport Flight Data — http://tiairport.com.np/flight_details — Real-time flight arrival and departure information portal.  
+Bolpatra E-Procurement System — https://bolpatra.gov.np/egp — National electronic government procurement and tender platform.  
+Land Revenue Information Management System (LRIMS) — Via district malpot portals — Digital land records, property registration, and ownership services.  
+Hello Sarkar Grievance Portal — Integrated via nepal.gov.np — Centralized citizen complaint and grievance redressal system.  
+Vehicle Tax and Blue Book Renewal Portal — Via dotm.gov.np — Online vehicle registration, tax payment, and licensing services.  
+Census Nepal Portal — https://censusnepal.cbs.gov.np — Official population, demographic, and economic census data repository.  
+National Planning Commission — https://npc.gov.np — Development planning, SDG data, and policy visualization tools.  
+Department of Foreign Employment — https://dofe.gov.np — Labor migration, foreign employment licensing, and data portal.  
+Department of Consular Services — https://nepalconsular.gov.np — Passport and consular services for Nepali citizens abroad.  
+acourt.gov.np — http://www.acourt.gov.np — Supreme Court and appellate judiciary services portal.  
+adbl.gov.np — http://www.adbl.gov.np — Agricultural Development Bank digital banking and loan services.  
+aepc.gov.np — http://www.aepc.gov.np — Alternative Energy Promotion Centre project tracking and data.  
+moha.gov.np — http://www.moha.gov.np — Ministry of Home Affairs core e-governance services.  
+training.gov.np — http://training.gov.np — Government employee and public training management system.  
+slcresult.soce.gov.np — http://slcresult.soce.gov.np — National SEE/SLC examination results publication portal.  
+neoc.gov.np — http://www.neoc.gov.np — Nepal Emergency Operation Center disaster coordination portal.  
+drrportal.gov.np — http://drrportal.gov.np — Disaster risk reduction and management information portal.  
+moenonline.moen.gov.np — http://www.moenonline.moen.gov.np — Ministry of Energy online services and project tracking.  
+ngiip.gov.np — National Geographic Information Infrastructure geospatial data portal.  
+lgcdp.gov.np — Local Governance and Community Development Programme digital platform.  
+dhm.gov.np/tender — Department of Hydrology and Meteorology tender and procurement portal.  
+heoc.mohp.gov.np — Health Emergency Operation Center data and response coordination.  
+dos.gov.np — Department of Survey national geoportal and mapping services.  
+customs.gov.np — Department of Customs trade and clearance management system.  
+psc.gov.np — Public Service Commission recruitment and exam services.  
+nea.org.np — Nepal Electricity Authority customer and smart grid services.  
+tourism.gov.np — Department of Tourism licensing and promotion portal.  
+seismonepal.gov.np — Department of Seismology earthquake monitoring and data portal.  
+film.gov.np — Film Development Board industry support and information portal.  
+kathmandu.gov.np — Kathmandu Metropolitan City municipal services and revenue portal.  
+moe.gov.np — Ministry of Education digital learning and scholarship portals.  
+moald.gov.np — Ministry of Agriculture and Livestock Development services.  
+moctca.gov.np — Ministry of Culture, Tourism and Civil Aviation digital platforms.  
+nrb.org.np/psd — Nepal Rastra Bank payment systems and licensed PSO/PSP directory.  
+censusnepal.cbs.gov.np — Central Bureau of Statistics census and national data portal.  
+f1soft.com — F1Soft International fintech solutions powering eSewa and banking platforms.  
+swifttech.com.np — Swift Technology digital financial services and mobile banking solutions.  
+raralabs.com — Rara Labs automation, digitization, and data governance software.  
+sourcecode.com.np — Source Code Pvt. Ltd. capital market and financial technology solutions.  
+sussol.net — Sustainable Solutions mSupply and MoneyWorks digital tools.  
+kumarijob.com — Kumari Job online recruitment and job listing platform.  
+merojob.com — Mero Job leading employment portal for Nepal.  
+olenepal.org — OLE Nepal E-Paath and E-Pustakalaya digital education content platforms.  
+pustakalaya.org — OLE Nepal digital library for Nepali educational resources.  
+nepalindata.com — Curated Nepal data visualizations and indicators for research.  
+data.humdata.org (Nepal page) — HDX humanitarian and crisis datasets for Nepal.  
+github.com/pemagrg1/Nepali-Datasets — 100+ verified Nepali NLP and ML datasets repository.  
+github.com/IOST-ASCOL/nepali-datasets — Comprehensive Nepali ML, NLP, audio, image, and geospatial datasets.  
+github.com/openknowledgenp/localboundaries — GeoJSON administrative boundaries for Nepal GIS applications.  
+github.com/opentechcommunity/map-of-nepal — GeoJSON provinces, districts, and municipalities for mapping libraries.  
+github.com/shravan-ghimire/NepalAdminGIS — ESRI Shapefiles and Python tools for Nepal admin boundary data.  
+github.com/surajrimal07/NepseAPI-Unofficial — Unofficial real-time Nepal Stock Exchange REST/WebSocket API.  
+github.com/yarsa/nepal-compliance — Yarsa Labs open-source Nepal-specific ERP, HR, and payroll system.  
+github.com/CodeforNepal/data — Curated CSV open datasets for Nepal research and development.  
+github.com/hbvj99/Nepal-Datasets — Additional ML and research datasets focused on Nepal.  
+github.com/sagautam5/local-states-nepal — PHP package for Nepal local administrative divisions data.  
+apinepal.com — ApiNepal unified payment gateway aggregating multiple wallets and QR networks.  
+prabhupay.com — PrabhuPay digital wallet and merchant payment platform.  
+moru.com.np — Moru Wallet mobile payment and fintech services.  
+npay.com.np — nPay digital wallet and payment solutions.  
+cellpay.com.np — CellPay licensed payment service provider with bank integrations.  
+cgpay.com.np — CG Pay digital payment services from CG Group.  
+qpay.com.np — QPay QR-based mobile payment gateway.  
+daraz.com.np — Daraz Nepal leading e-commerce marketplace platform.  
+sastodeal.com — Sastodeal multi-vendor online shopping and e-commerce platform.  
+hamrobazaar.com — HamroBazar classifieds and multi-vendor marketplace.  
+thulo.com — Thulo.com multi-vendor e-commerce marketplace.  
+welcomenepal.com — Welcome Nepal tourism promotion website and mobile app 2.0.  
+nnsw.gov.np — Nepal National Single Window trade facilitation and LPCO portal.  
+ocr.gov.np — Office of the Company Registrar incorporation and compliance portal.  
+nepalpassport.gov.np — Passport application, tracking, and issuance services.  
+ssf.gov.np — Social Security Fund contributions, claims, and management portal.  
+lawcommission.gov.np — Nepal Law Commission acts, regulations, and legal database.  
+nepalpolice.gov.np — Nepal Police clearance certificates, complaints, and online services.  
+dotm.gov.np — Department of Transport Management driving license and vehicle services.  
+ppmo.gov.np — Public Procurement Monitoring Office e-bidding and tender system.  
+fcgo.gov.np — Financial Comptroller General Office treasury and accounting portal.  
+citizenportal.donidcr.gov.np — DONIDCR citizen-facing NID and civil registration portal.  
+nagarikapp.gov.np — Nagarik App unified mobile platform for 30+ government services.  
+nepaliport.immigration.gov.np — Department of Immigration online visa and permit services.  
+ird.gov.np/taxpayer-portal — Inland Revenue Department unified tax filing and payment portal.  
+fcg o.gov.np — SuTRA local government budgeting and revenue management system.  
+giw mscdnone.gov.np — Government Integrated Office Management System (GIOMS) access point.  
+open datanepal.com — Open Data Nepal CKAN portal with 382+ public datasets and API.  
+data.nsonepal.gov.np — National Statistics Office data visualization and download portal.  
+khalti.com — Khalti digital wallet with developer SDKs and merchant API.  
+esewa.com.np — eSewa payment gateway with full REST API and SDK documentation.  
+imepay.com.np — IME Pay remittance and wallet API integrations.  
+fonepay.com — Fonepay interoperable QR and bank payment network.  
+connectips.com — ConnectIPS bank-to-bank and government revenue API platform.  
+nchl.com.np — NEPALPAY QR national merchant acquiring and billing APIs.  
+knownepal.vercel.app/government-websites — Comprehensive government websites aggregator portal.  
+nta.gov.np — Nepal Telecommunications Authority licensing, MDMS, and regulatory portal.  
+moen.gov.np — Ministry of Energy, Water Resources and Irrigation online services.  
+ahd.gov.np — Department of Animal Health livestock and veterinary digital services.  
+amargadhimun.gov.np — Amargadhi Municipality local government service portal.  
+anantalingeshwormun.gov.np — Anantalingeshwor Municipality citizen services portal.  
+dhogorkha.gov.np — Dhading/Gorkha district local government portals (example).  
+erao.moha.gov.np — Election-related administrative offices portal.  
+daodhading.moha.gov.np — District Administration Office Dhading services.  
+daokathmandu.moha.gov.np — District Administration Office Kathmandu services.  
+daosyangja.moha.gov.np — District Administration Office Syangja services.  
+daogorkha.moha.gov.np — District Administration Office Gorkha services.  
+daokaski.moha.gov.np — District Administration Office Kaski services.  
+daorukum.moha.gov.np — District Administration Office Rukum services.  
+daoilam.moha.gov.np — District Administration Office Ilam services.  
+daochitwan.moha.gov.np — District Administration Office Chitwan services.  
+adblremit.gov.np — Agricultural Development Bank remittance services portal.  
+nrb.org.np — Nepal Rastra Bank official monetary policy and data portal. 
+moenonline.moen.gov.np — http://www.moenonline.moen.gov.np — Ministry of Energy, Water Resources and Irrigation online portal for services, projects, and data tracking.  
+training.gov.np — http://training.gov.np — Government training portal for employee and public capacity building programs.  
+slcresult.soce.gov.np — http://slcresult.soce.gov.np — National SEE/SLC examination results publication and verification portal.  
+drrportal.gov.np — http://drrportal.gov.np — Disaster Risk Reduction and management information system portal.  
+daodhading.moha.gov.np — http://daodhading.moha.gov.np — District Administration Office Dhading citizen services and administrative portal.  
+daokathmandu.moha.gov.np — http://daokathmandu.moha.gov.np — District Administration Office Kathmandu services portal.  
+daosyangja.moha.gov.np — http://daosyangja.moha.gov.np — District Administration Office Syangja citizen services portal.  
+daogorkha.moha.gov.np — http://daogorkha.moha.gov.np — District Administration Office Gorkha administrative portal.  
+daokaski.moha.gov.np — http://daokaski.moha.gov.np — District Administration Office Kaski services portal.  
+daorukum.moha.gov.np — http://daorukum.moha.gov.np — District Administration Office Rukum citizen services portal.  
+daoilam.moha.gov.np — http://daoilam.moha.gov.np — District Administration Office Ilam administrative portal.  
+daochitwan.moha.gov.np — http://daochitwan.moha.gov.np — District Administration Office Chitwan services portal.  
+erao.moha.gov.np — http://erao.moha.gov.np — Earthquake Reconstruction Authority Office portal under MOHA.  
+neoc.gov.np — http://www.neoc.gov.np — Nepal Emergency Operation Center disaster coordination portal.  
+mfd.gov.np — http://www.mfd.gov.np — Ministry of Federal Affairs and Local Development portal.  
+relief.customs.gov.np — http://relief.customs.gov.np — Customs relief and emergency clearance portal.  
+renewal.customs.gov.np — http://renewal.customs.gov.np — Customs renewal and permit management portal.  
+nnfsp.gov.np — http://www.nnfsp.gov.np — National Natural Farming Support Program portal.  
+wbrs.gov.np — http://www.wbrs.gov.np — Water Resources and Irrigation Department services portal.  
+kmcebps.gov.np — http://www.kmcebps.gov.np — Kathmandu Model College Entrance Based Placement System portal.  
+pollution.gov.np — http://pollution.gov.np — Pollution control and environmental monitoring portal.  
+ugc.nitc.gov.np — http://ugc.nitc.gov.np — University Grants Commission portal under NITC.  
+nic.gov.np — http://www.nic.gov.np — National Information Commission transparency and RTI portal.  
+online.nepalimmigration.gov.np — http://online.nepalimmigration.gov.np — Online Nepal Immigration visa and permit services portal.  
+imis.shs.gov.np — http://imis.shs.gov.np — School Health Section IMIS health data portal.  
+mechi.nitc.gov.np — http://mechi.nitc.gov.np — Mechi zone portal under National Information Technology Center.  
+nepalconsular.gov.np — http://nepalconsular.gov.np — Nepal Consular Services portal for citizens abroad.  
+attorneygeneral.gov.np — http://www.attorneygeneral.gov.np — Office of the Attorney General legal services portal.  
+epsnepal.gov.np — http://epsnepal.gov.np — Employees Provident Fund Nepal portal.  
+nra.gov.np — http://www.nra.gov.np — National Reconstruction Authority post-disaster recovery portal.  
+doe.gov.np — http://www.doe.gov.np — Department of Electricity services portal.  
+pis.gov.np — http://www.pis.gov.np — Public Information System portal.  
+shs.gov.np — http://www.shs.gov.np — School Health Section health programs portal.  
+nec.gov.np — http://www.nec.gov.np — National Examination Board exam management portal.  
+sism.doe.gov.np — http://sism.doe.gov.np — SISM system under Department of Electricity.  
+verify.soce.gov.np — http://verify.soce.gov.np — Examination verification portal under SOCE.  
+chd.gov.np — http://www.chd.gov.np — Civil Helicopter Department aviation services portal.  
+phcrd.gov.np — http://www.phcrd.gov.np — Public Health Concern and Research Division portal.  
+bagmati.gov.np — http://bagmati.gov.np — Bagmati Province government portal.  
+iwrmp.gov.np — http://www.iwrmp.gov.np — Integrated Water Resources Management Project portal.  
+psconline.psc.gov.np — http://psconline.psc.gov.np — Public Service Commission online application and results portal.  
+nidmc.gov.np — http://www.nidmc.gov.np — National Inland Waterways and Drainage Master Plan portal.  
+portal.mof.gov.np — http://portal.mof.gov.np — Ministry of Finance citizen and monitoring portal.  
+monitoring.mof.gov.np — http://monitoring.mof.gov.np — Ministry of Finance project monitoring portal.  
+training.lmbis.gov.np — http://training.lmbis.gov.np — Local Governance training management portal.  
+dams.dda.gov.np — http://dams.dda.gov.np — Department of Disaster Affairs dams and infrastructure portal.  
+municipality.gov.np — http://municipality.gov.np — Centralized municipality services portal.  
+jhalaripipaladimun.gov.np — http://www.jhalaripipaladimun.gov.np — Jhalaripipaladi Municipality citizen services portal.  
+budhanilkanthamun.gov.np — http://www.budhanilkanthamun.gov.np — Budhanilkantha Municipality local government portal.  
+hetaudamun.gov.np — http://hetaudamun.gov.np — Hetauda Municipality services and revenue portal.  
+patanmun.gov.np — http://patanmun.gov.np — Patan Municipality citizen services portal.  
+patharishanishcharemun.gov.np — http://www.patharishanishcharemun.gov.np — Patharishanishchare Municipality local services portal.  
+shivarajmun.gov.np — http://www.shivarajmun.gov.np — Shivaraj Municipality administrative portal.  
+lekhnathmun.gov.np — http://lekhnathmun.gov.np — Lekhnath Municipality services portal.  
+khairhanimun.gov.np — http://www.khairhanimun.gov.np — Khairhani Municipality citizen portal.  
+attariyamun.gov.np — http://www.attariyamun.gov.np — Attariya Municipality local government portal.  
+suryabinayakmun.gov.np — http://www.suryabinayakmun.gov.np — Suryabinayak Municipality services portal.  
+duhabibhaluwamun.gov.np — http://www.duhabibhaluwamun.gov.np — Duhabi Bhaluwa Municipality administrative portal.  
+dodharachadanimun.gov.np — http://www.dodharachadanimun.gov.np — Dodhara Chandani Municipality citizen services portal.  
+dhanushadhammun.gov.np — http://www.dhanushadhammun.gov.np — Dhanushadham Municipality local portal.  
+daxinkalimun.gov.np — http://www.daxinkalimun.gov.np — Daxinkali Municipality services portal.  
+chainpurmun.gov.np — http://www.chainpurmun.gov.np — Chainpur Municipality administrative portal.  
+benimun.gov.np — http://www.benimun.gov.np — Beni Municipality citizen services portal.  
+belbarimun.gov.np — http://www.belbarimun.gov.np — Belbari Municipality local government portal.  
+bardibasmun.gov.np — http://www.bardibasmun.gov.np — Bardibas Municipality services portal.  
+bardghatmun.gov.np — http://www.bardghatmun.gov.np — Bardghat Municipality administrative portal.  
+bangangamun.gov.np — http://www.bangangamun.gov.np — Banganga Municipality citizen portal.  
+badimalikamun.gov.np — http://www.badimalikamun.gov.np — Badimalika Municipality local services portal.  
+dipayalsilgadhimun.gov.np — http://dipayalsilgadhimun.gov.np — Dipayal Silgadi Municipality portal.  
+bedkotmun.gov.np — http://bedkotmun.gov.np — Bedkot Municipality services portal.  
+baglungmun.gov.np — http://baglungmun.gov.np — Baglung Municipality citizen services portal.  
+lalitpurmun.gov.np — http://lalitpurmun.gov.np — Lalitpur Municipality local government portal.  
+epsnepal.gov.np — http://www.epsnepal.gov.np — Employees Provident Fund Nepal contribution and claim portal.  
+nra.gov.np — http://nra.gov.np — National Reconstruction Authority project tracking and recovery portal.  
+doe.gov.np — http://doe.gov.np — Department of Electricity regulatory and service portal.  
+soce.gov.np — http://soce.gov.np — School Education Centre examination and results portal.  
+dhm.gov.np — http://dhm.gov.np — Department of Hydrology and Meteorology data and early warning portal.  
+kmcebps.gov.np — http://kmcebps.gov.np — Kathmandu Model College entrance and placement system.  
+ugc.nitc.gov.np — http://ugc.nitc.gov.np — University Grants Commission higher education funding portal.  
+nic.gov.np — http://nic.gov.np — National Information Commission RTI and information access portal.  
+imis.shs.gov.np — http://imis.shs.gov.np — Integrated Management Information System for School Health.  
+attorneygeneral.gov.np — http://attorneygeneral.gov.np — Office of the Attorney General legal database and services.  
+pis.gov.np — http://pis.gov.np — Public Information System government transparency portal.  
+nec.gov.np — http://nec.gov.np — National Examination Board centralized exam portal.  
+phcrd.gov.np — http://phcrd.gov.np — Public Health Concern and Research Division health data portal.  
+iwrmp.gov.np — http://iwrmp.gov.np — Integrated Water Resources Management Project monitoring portal.  
+nidmc.gov.np — http://nidmc.gov.np — National Inland Waterways and Drainage Master Plan portal.  
+portal.mof.gov.np — http://portal.mof.gov.np — Ministry of Finance integrated service portal.  
+monitoring.mof.gov.np — http://monitoring.mof.gov.np — Ministry of Finance project and budget monitoring dashboard.  
+dams.dda.gov.np — http://dams.dda.gov.np — Disaster management dams and infrastructure tracking portal.  
+hetaudamun.gov.np — http://www.hetaudamun.gov.np — Hetauda Municipality full citizen service portal.  
+attariyamun.gov.np — http://www.attariyamun.gov.np — Attariya Municipality revenue and service portal.  
+suryabinayakmun.gov.np — http://www.suryabinayakmun.gov.np — Suryabinayak Municipality local governance portal.  
+duhabibhaluwamun.gov.np — http://www.duhabibhaluwamun.gov.np — Duhabi Bhaluwa Municipality administrative services.  
+dodharachadanimun.gov.np — http://www.dodharachadanimun.gov.np — Dodhara Chandani Municipality citizen portal.  
+dhanushadhammun.gov.np — http://www.dhanushadhammun.gov.np — Dhanushadham Municipality service delivery portal.  
+daxinkalimun.gov.np — http://www.daxinkalimun.gov.np — Daxinkali Municipality local government portal.  
+chainpurmun.gov.np — http://www.chainpurmun.gov.np — Chainpur Municipality development and services portal.  
+benimun.gov.np — http://www.benimun.gov.np — Beni Municipality citizen engagement portal.  
+belbarimun.gov.np — http://www.belbarimun.gov.np — Belbari Municipality administrative portal.  
+bardibasmun.gov.np — http://www.bardibasmun.gov.np — Bardibas Municipality revenue collection portal.  
+bardghatmun.gov.np — http://www.bardghatmun.gov.np — Bardghat Municipality service portal.  
+bangangamun.gov.np — http://www.bangangamun.gov.np — Banganga Municipality local governance portal.  
+badimalikamun.gov.np — http://www.badimalikamun.gov.np — Badimalika Municipality citizen services portal.  
+dipayalsilgadhimun.gov.np — http://dipayalsilgadhimun.gov.np — Dipayal Silgadi Municipality portal.  
+bedkotmun.gov.np — http://bedkotmun.gov.np — Bedkot Municipality development portal.  
+baglungmun.gov.np — http://baglungmun.gov.np — Baglung Municipality services portal.  
+lalitpurmun.gov.np — http://lalitpurmun.gov.np — Lalitpur Municipality integrated service portal.  
+nta.gov.np — https://nta.gov.np — Nepal Telecommunications Authority licensing and regulatory portal.  
+seismonepal.gov.np — http://www.seismonepal.gov.np — Department of Seismology earthquake monitoring and data portal.  
+film.gov.np — http://www.film.gov.np — Film Development Board industry support and filming location portal.  
+apf.gov.np — http://www.apf.gov.np — Armed Police Force recruitment and citizen reporting portal.  
+nepalarmy.mil.np — https://www.nepalarmy.mil.np — Nepal Army official information and recruitment portal.  
+moald.gov.np — https://moald.gov.np — Ministry of Agriculture and Livestock Development services portal.  
+moctca.gov.np — https://moctca.gov.np — Ministry of Culture, Tourism and Civil Aviation digital platforms.  
+censusnepal.cbs.gov.np — https://censusnepal.cbs.gov.np — Central Bureau of Statistics national census data repository.  
+adbl.gov.np — http://www.adbl.gov.np — Agricultural Development Bank digital banking and loan portal.  
+ahd.gov.np — http://www.ahd.gov.np — Department of Animal Health veterinary and livestock services.  
+amargadhimun.gov.np — http://www.amargadhimun.gov.np — Amargadhi Municipality full citizen services portal.  
+anantalingeshwormun.gov.np — http://www.anantalingeshwormun.gov.np — Anantalingeshwor Municipality local governance portal.  
+dhogorkha.gov.np — http://dhogorkha.gov.np — Dhading/Gorkha district local government portals.  
+erao.moha.gov.np — http://erao.moha.gov.np — Earthquake Reconstruction Authority Office portal.  
+daodhading.moha.gov.np — http://daodhading.moha.gov.np — District Administration Office Dhading (repeat for completeness in full ecosystem).  
+nrb.org.np/psd — https://www.nrb.org.np/psd — Nepal Rastra Bank payment systems and licensed providers directory.  
+govnp.com — https://www.govnp.com — Centralized directory of all Nepal government websites.  
+knownepal.vercel.app/government-websites — https://knownepal.vercel.app/government-websites — Comprehensive aggregator of Nepal government websites.  
+muannepal.org.np/municipality-profiles — https://muannepal.org.np/municipality-profiles — Municipality profiles and official links directory.  
+lgcdp.gov.np — http://lgcdp.gov.np — Local Governance and Community Development Programme digital platform.  
+ngiip.gov.np — http://ngiip.gov.np — National Geographic Information Infrastructure geospatial data portal.  
+neoc.gov.np — http://neoc.gov.np — Nepal Emergency Operation Center coordination portal.  
+dhm.gov.np — http://dhm.gov.np — Department of Hydrology and Meteorology real-time data portal.  
+customs.gov.np — http://www.customs.gov.np — Department of Customs trade clearance system.  
+psc.gov.np — http://www.psc.gov.np — Public Service Commission recruitment portal.  
+nea.org.np — https://nea.org.np — Nepal Electricity Authority customer and smart grid services.  
+tourism.gov.np — http://www.tourism.gov.np — Department of Tourism licensing and promotion portal.  
+seismonepal.gov.np — http://www.seismonepal.gov.np — Seismology department earthquake data portal.  
+film.gov.np — http://www.film.gov.np — Film Development Board digital resources portal.  
+kathmandu.gov.np — http://www.kathmandu.gov.np — Kathmandu Metropolitan City municipal services portal.  
+moe.gov.np — http://www.moe.gov.np — Ministry of Education digital learning and scholarship portals.  
+moald.gov.np — http://moald.gov.np — Ministry of Agriculture services and data portal.  
+moctca.gov.np — http://moctca.gov.np — Ministry of Culture, Tourism and Civil Aviation platforms.  
+nrb.org.np/psd — https://www.nrb.org.np/psd — Nepal Rastra Bank fintech and payment regulation portal.  
+censusnepal.cbs.gov.np — https://censusnepal.cbs.gov.np — Official census and national statistics repository.  
+f1soft.com — https://f1soft.com — F1Soft fintech solutions powering major Nepali payment systems.  
+swifttech.com.np — https://www.swifttech.com.np — Swift Technology digital banking and fintech platforms.  
+raralabs.com — https://www.raralabs.com — Rara Labs digitization and data governance tools.  
+sourcecode.com.np — https://www.sourcecode.com.np — Source Code capital market technology solutions.  
+sussol.net — https://sussol.net — Sustainable Solutions digital supply chain and finance tools.  
+kumarijob.com — https://kumarijob.com — Kumari Job recruitment and employment portal.  
+merojob.com — https://merojob.com — Mero Job leading online employment platform.  
+olenepal.org — https://www.olenepal.org — OLE Nepal digital education content and E-Paath platform.  
+pustakalaya.org — https://pustakalaya.org — OLE Nepal digital library for educational resources.  
+nepalindata.com — https://nepalindata.com — Curated Nepal data visualizations for research.  
+data.humdata.org (Nepal) — https://data.humdata.org (Nepal page) — HDX humanitarian datasets portal for Nepal.  
+github.com/pemagrg1/Nepali-Datasets — https://github.com/pemagrg1/Nepali-Datasets — Curated Nepali NLP and ML datasets repository.  
+github.com/IOST-ASCOL/nepali-datasets — https://github.com/IOST-ASCOL/nepali-datasets — Comprehensive Nepali datasets for ML, NLP, and geospatial research.  
+github.com/openknowledgenp/localboundaries — https://github.com/openknowledgenp/localboundaries — GeoJSON admin boundaries for GIS development.  
+github.com/opentechcommunity/map-of-nepal — https://github.com/opentechcommunity/map-of-nepal — Ready-to-use GeoJSON for Nepal mapping projects.  
+github.com/shravan-ghimire/NepalAdminGIS — https://github.com/shravan-ghimire/NepalAdminGIS — Shapefiles and Python tools for Nepal administrative GIS.  
+github.com/surajrimal07/NepseAPI-Unofficial — https://github.com/surajrimal07/NepseAPI-Unofficial — Real-time NEPSE stock data API for developers.  
+github.com/yarsa/nepal-compliance — https://github.com/yarsa/nepal-compliance — Open-source Nepal-specific ERP and payroll system.  
+github.com/CodeforNepal/data — https://github.com/CodeforNepal/data — Curated open CSV datasets for Nepal research.  
+github.com/hbvj99/Nepal-Datasets — https://github.com/hbvj99/Nepal-Datasets — ML-focused research datasets on Nepal.  
+github.com/sagautam5/local-states-nepal — https://github.com/sagautam5/local-states-nepal — PHP package for Nepal local administrative data.  
+apinepal.com — https://apinepal.com — Unified payment gateway API aggregating all major Nepali wallets.  
+prabhupay.com — https://prabhupay.com — PrabhuPay digital wallet and merchant services.  
+moru.com.np — https://moru.com.np — Moru Wallet fintech payment platform.  
+npay.com.np — https://npay.com.np — nPay digital wallet and QR solutions.  
+cellpay.com.np — https://cellpay.com.np — CellPay licensed payment service provider portal.  
+cgpay.com.np — https://cgpay.com.np — CG Pay digital payment gateway.  
+qpay.com.np — https://qpay.com.np — QPay QR and mobile payment platform.  
+daraz.com.np — https://www.daraz.com.np — Daraz Nepal e-commerce marketplace.  
+sastodeal.com — https://sastodeal.com — Sastodeal multi-vendor e-commerce platform.  
+hamrobazaar.com — https://hamrobazaar.com — HamroBazar classifieds marketplace.  
+thulo.com — https://thulo.com — Thulo.com multi-vendor shopping portal.  
+welcomenepal.com — https://www.welcomenepal.com — Welcome Nepal tourism promotion and mobile app portal.  
+nnsw.gov.np — https://nnsw.gov.np — Nepal National Single Window trade facilitation portal.  
+ocr.gov.np — https://ocr.gov.np — Office of the Company Registrar compliance portal.  
+nepalpassport.gov.np — https://nepalpassport.gov.np — Passport application and tracking system.  
+ssf.gov.np — https://ssf.gov.np — Social Security Fund contributions and claims portal.  
+lawcommission.gov.np — https://lawcommission.gov.np — Nepal Law Commission legal database portal.  
+nepalpolice.gov.np — https://nepalpolice.gov.np — Nepal Police online clearance and complaint services.  
+dotm.gov.np — https://dotm.gov.np — Department of Transport Management license and vehicle portal.  
+ppmo.gov.np — https://ppmo.gov.np — Public Procurement Monitoring Office e-bidding system.  
+fcgo.gov.np — https://fcgo.gov.np — Financial Comptroller General Office treasury portal.  
+citizenportal.donidcr.gov.np — https://citizenportal.donidcr.gov.np — DONIDCR national ID and civil registration citizen portal.  
+nagarikapp.gov.np — https://nagarikapp.gov.np — Nagarik App unified government services mobile platform.  
+nepaliport.immigration.gov.np — https://nepaliport.immigration.gov.np — Department of Immigration online visa services.  
+ird.gov.np/taxpayer-portal — https://ird.gov.np/taxpayer-portal — Inland Revenue Department unified tax portal.  
+fcg o.gov.np — https://fcgo.gov.np — SuTRA sub-national treasury and local revenue system.  
+opendatanepal.com — https://opendatanepal.com — Open Data Nepal CKAN public datasets and API portal.  
+data.nsonepal.gov.np — https://data.nsonepal.gov.np — National Statistics Office data visualization portal.  
+khalti.com — https://khalti.com — Khalti digital wallet developer SDK and merchant API.  
+esewa.com.np — https://esewa.com.np — eSewa payment gateway with full developer documentation.  
+imepay.com.np — https://www.imepay.com.np — IME Pay remittance wallet and API integrations.  
+fonepay.com — https://fonepay.com — Fonepay interoperable QR payment network.  
+connectips.com — https://www.connectips.com — ConnectIPS bank-to-bank and revenue API platform.  
+nchl.com.np — https://nchl.com.np — NEPALPAY QR national merchant acquiring system.  
+nta.gov.np/mdms — https://nta.gov.np — Nepal Telecom Authority IMEI registration and MDMS portal.  
+moen.gov.np — http://moen.gov.np — Ministry of Energy online services and tenders.  
+ahd.gov.np — http://ahd.gov.np — Department of Animal Health veterinary portal.  
+amargadhimun.gov.np — http://amargadhimun.gov.np — Amargadhi Municipality full e-services portal.  
+anantalingeshwormun.gov.np — http://anantalingeshwormun.gov.np — Anantalingeshwor Municipality citizen portal.  
+dhogorkha.gov.np — http://dhogorkha.gov.np — Dhogorkha district local government portal.  
+erao.moha.gov.np — http://erao.moha.gov.np — Earthquake Reconstruction Authority digital services.  
+daokathmandu.moha.gov.np — http://daokathmandu.moha.gov.np — Kathmandu District Administration Office portal.  
+daosyangja.moha.gov.np — http://daosyangja.moha.gov.np — Syangja District Administration Office portal.  
+daogorkha.moha.gov.np — http://daogorkha.moha.gov.np — Gorkha District Administration Office portal.  
+daokaski.moha.gov.np — http://daokaski.moha.gov.np — Kaski District Administration Office portal.  
+daorukum.moha.gov.np — http://daorukum.moha.gov.np — Rukum District Administration Office portal.  
+daoilam.moha.gov.np — http://daoilam.moha.gov.np — Ilam District Administration Office portal.  
+daochitwan.moha.gov.np — http://daochitwan.moha.gov.np — Chitwan District Administration Office portal.  
+kmcebps.gov.np — http://kmcebps.gov.np — Kathmandu Model College placement system.  
+pollution.gov.np — http://pollution.gov.np — National pollution monitoring and control portal.  
+ugc.nitc.gov.np — http://ugc.nitc.gov.np — University Grants Commission higher education portal.  
+nic.gov.np — http://nic.gov.np — National Information Commission RTI portal.  
+online.nepalimmigration.gov.np — http://online.nepalimmigration.gov.np — Immigration online visa and permit system.  
+imis.shs.gov.np — http://imis.shs.gov.np — School Health integrated management system.  
+mechi.nitc.gov.np — http://mechi.nitc.gov.np — Mechi zone NITC digital services.  
+nepalconsular.gov.np — http://nepalconsular.gov.np — Consular services for overseas Nepalis.  
+attorneygeneral.gov.np — http://attorneygeneral.gov.np — Attorney General Office legal resources.  
+epsnepal.gov.np — http://epsnepal.gov.np — Employees Provident Fund member portal.  
+nra.gov.np — http://nra.gov.np — National Reconstruction Authority recovery dashboard.  
+doe.gov.np — http://doe.gov.np — Department of Electricity project and service portal.  
+pis.gov.np — http://pis.gov.np — Public Information System transparency tool.  
+shs.gov.np — http://shs.gov.np — School Health Section programs portal.  
+nec.gov.np — http://nec.gov.np — National Examination Board results and verification.  
+sism.doe.gov.np — http://sism.doe.gov.np — Electricity department SISM management system.  
+verify.soce.gov.np — http://verify.soce.gov.np — SOCE certificate verification portal.  
+chd.gov.np — http://chd.gov.np — Civil Helicopter Department aviation portal.  
+phcrd.gov.np — http://phcrd.gov.np — Public Health Concern Research Division.  
+bagmati.gov.np — http://bagmati.gov.np — Bagmati Province official government portal.  
+iwrmp.gov.np — http://iwrmp.gov.np — Integrated Water Resources Management portal.  
+psconline.psc.gov.np — http://psconline.psc.gov.np — PSC online exam and recruitment system.  
+nidmc.gov.np — http://nidmc.gov.np — National Inland Waterways Drainage Master Plan.  
+portal.mof.gov.np — http://portal.mof.gov.np — Ministry of Finance unified portal.  
+monitoring.mof.gov.np — http://monitoring.mof.gov.np — MOF project monitoring dashboard.  
+training.lmbis.gov.np — http://training.lmbis.gov.np — Local bodies training management system.  
+dams.dda.gov.np — http://dams.dda.gov.np — Dams and disaster management portal.  
+municipality.gov.np — http://municipality.gov.np — National municipality directory and services.  
+jhalaripipaladimun.gov.np — http://jhalaripipaladimun.gov.np — Jhalaripipaladi Municipality portal.  
+budhanilkanthamun.gov.np — http://budhanilkanthamun.gov.np — Budhanilkantha Municipality e-services.  
+hetaudamun.gov.np — http://hetaudamun.gov.np — Hetauda Municipality full portal.  
+patanmun.gov.np — http://patanmun.gov.np — Patan Municipality citizen services.  
+patharishanishcharemun.gov.np — http://patharishanishcharemun.gov.np — Patharishanishchare Municipality portal.  
+shivarajmun.gov.np — http://shivarajmun.gov.np — Shivaraj Municipality services.  
+lekhnathmun.gov.np — http://lekhnathmun.gov.np — Lekhnath Municipality portal.  
+khairhanimun.gov.np — http://khairhanimun.gov.np — Khairhani Municipality e-governance.  
+attariyamun.gov.np — http://attariyamun.gov.np — Attariya Municipality portal.  
+suryabinayakmun.gov.np — http://suryabinayakmun.gov.np — Suryabinayak Municipality services.  
+duhabibhaluwamun.gov.np — http://duhabibhaluwamun.gov.np — Duhabi Bhaluwa Municipality.  
+dodharachadanimun.gov.np — http://dodharachadanimun.gov.np — Dodhara Chandani Municipality.  
+dhanushadhammun.gov.np — http://dhanushadhammun.gov.np — Dhanushadham Municipality.  
+daxinkalimun.gov.np — http://daxinkalimun.gov.np — Daxinkali Municipality.  
+chainpurmun.gov.np — http://chainpurmun.gov.np — Chainpur Municipality.  
+benimun.gov.np — http://benimun.gov.np — Beni Municipality.  
+belbarimun.gov.np — http://belbarimun.gov.np — Belbari Municipality.  
+bardibasmun.gov.np — http://bardibasmun.gov.np — Bardibas Municipality.  
+bardghatmun.gov.np — http://bardghatmun.gov.np — Bardghat Municipality.  
+bangangamun.gov.np — http://bangangamun.gov.np — Banganga Municipality.  
+badimalikamun.gov.np — http://badimalikamun.gov.np — Badimalika Municipality.  
+dipayalsilgadhimun.gov.np — http://dipayalsilgadhimun.gov.np — Dipayal Silgadi Municipality.  
+bedkotmun.gov.np — http://bedkotmun.gov.np — Bedkot Municipality.  
+baglungmun.gov.np — http://baglungmun.gov.np — Baglung Municipality.  
+lalitpurmun.gov.np — http://lalitpurmun.gov.np — Lalitpur Municipality portal.  
+trivenimunbajura.gov.np — https://trivenimunbajura.gov.np — Triveni Municipality Bajura local services.  
+shailyashikharmun.gov.np — https://shailyashikharmun.gov.np — Shailyashikhar Municipality portal.  
+purchaudimun.gov.np — https://purchaudimun.gov.np — Purchaudi Municipality services.  
+melaulimun.gov.np — https://melaulimun.gov.np — Melauli Municipality citizen portal.  
+sthaniya.gov.np — https://sthaniya.gov.np — Ministry of Federal Affairs and General Administration local levels portal (full directory of 753 local governments).  
+govdirectory.org/nepal — https://www.govdirectory.org/nepal — Crowdsourced directory of Nepal ministries, provinces, districts, and assemblies.  
+muannepal.org.np — https://muannepal.org.np — Municipality Association of Nepal profiles and links.  
+lgaf.gov.np — http://lgaf.gov.np — Local Governance and Federalism support digital tools.  
+dolidar.gov.np — http://dolidar.gov.np — Department of Local Infrastructure development portal.  
+mofaga.gov.np — http://mofaga.gov.np — Ministry of Federal Affairs and General Administration main portal.  
+nepal.gov.np — https://nepal.gov.np — Nepal Government national central portal for all e-services.  
+president.gov.np — https://president.gov.np — Office of the President official portal.  
+opmcm.gov.np — https://www.opmcm.gov.np — Office of the Prime Minister and Council of Ministers.  
+parliament.gov.np — http://www.parliament.gov.np — Parliament of Nepal legislative portal.  
+supremecourt.gov.np — http://www.supremecourt.gov.np — Supreme Court of Nepal case and judgment portal.  
+mofa.gov.np — http://www.mofa.gov.np — Ministry of Foreign Affairs diplomatic services.  
+dofe.gov.np — https://dofe.gov.np — Department of Foreign Employment labor migration portal.  
+donidcr.gov.np — https://donidcr.gov.np — Department of National ID and Civil Registration core database.  
+ssf.gov.np — https://ssf.gov.np — Social Security Fund management system.  
+election.gov.np — https://election.gov.np — Election Commission of Nepal voter and results portal.  
+moha.gov.np — https://moha.gov.np — Ministry of Home Affairs e-pass and security services.  
+moe.gov.np — https://moe.gov.np — Ministry of Education EMIS and scholarship portal.  
+tourism.gov.np — https://www.tourism.gov.np — Department of Tourism permits and promotion.  
+nepalarmy.mil.np — https://www.nepalarmy.mil.np — Nepal Army recruitment and information portal.  
+apf.gov.np — https://www.apf.gov.np — Armed Police Force services portal.  
+aepc.gov.np — https://www.aepc.gov.np — Alternative Energy Promotion Centre renewable energy tracking.  
+nrb.org.np — https://www.nrb.org.np — Nepal Rastra Bank official monetary policy and data portal.  
+adbl.gov.np — http://www.adbl.gov.np — Agricultural Development Bank Nepal digital services.  
+ahd.gov.np — http://www.ahd.gov.np — Department of Animal Health portal.  
+dhm.gov.np — http://dhm.gov.np — Hydrology and Meteorology real-time data portal.  
+customs.gov.np — https://customs.gov.np — Department of Customs full trade system.  
+psc.gov.np — https://psc.gov.np — Public Service Commission Lok Sewa portal.  
+nea.org.np — https://nea.org.np — Nepal Electricity Authority customer portal.  
+film.gov.np — https://film.gov.np — Film Development Board location and industry portal.  
+kathmandu.gov.np — https://kathmandu.gov.np — Kathmandu Metropolitan City services.  
+moald.gov.np — https://moald.gov.np — Agriculture and Livestock Development ministry portal.  
+moctca.gov.np — https://moctca.gov.np — Culture, Tourism and Civil Aviation ministry portal.  
+nrb.org.np/psd — https://www.nrb.org.np/psd — Payment systems department fintech directory.  
+censusnepal.cbs.gov.np — https://censusnepal.cbs.gov.np — National census data portal.  
+f1soft.com — https://f1soft.com — Major fintech infrastructure provider for Nepal.  
+swifttech.com.np — https://swifttech.com.np — Digital financial services platform.  
+raralabs.com — https://raralabs.com — Automation and digitization software.  
+sourcecode.com.np — https://sourcecode.com.np — Capital market technology solutions.  
+sussol.net — https://sussol.net — Digital solutions for supply chain and finance.  
+kumarijob.com — https://kumarijob.com — Job portal for Nepal.  
+merojob.com — https://merojob.com — Premier employment marketplace.  
+olenepal.org — https://olenepal.org — Open learning digital education tools.  
+pustakalaya.org — https://pustakalaya.org — Digital educational library platform.  
+nepalindata.com — https://nepalindata.com — Data visualization aggregator.  
+data.humdata.org — https://data.humdata.org (filter Nepal) — Humanitarian data exchange for Nepal.  
+pemagrg1/Nepali-Datasets — https://github.com/pemagrg1/Nepali-Datasets — 100+ Nepali language datasets.  
+IOST-ASCOL/nepali-datasets — https://github.com/IOST-ASCOL/nepali-datasets — Full Nepali ML dataset collection.  
+openknowledgenp/localboundaries — https://github.com/openknowledgenp/localboundaries — Official admin boundaries GeoJSON.  
+opentechcommunity/map-of-nepal — https://github.com/opentechcommunity/map-of-nepal — Mapping-ready Nepal GeoJSON.  
+shravan-ghimire/NepalAdminGIS — https://github.com/shravan-ghimire/NepalAdminGIS — GIS Shapefiles for Nepal boundaries.  
+surajrimal07/NepseAPI-Unofficial — https://github.com/surajrimal07/NepseAPI-Unofficial — Stock exchange real-time API.  
+yarsa/nepal-compliance — https://github.com/yarsa/nepal-compliance — Nepal ERP compliance library.  
+CodeforNepal/data — https://github.com/CodeforNepal/data — Open CSV datasets repository.  
+hbvj99/Nepal-Datasets — https://github.com/hbvj99/Nepal-Datasets — Research datasets for Nepal.  
+sagautam5/local-states-nepal — https://github.com/sagautam5/local-states-nepal — Admin divisions PHP package.  
+apinepal.com — https://apinepal.com — Unified fintech payment aggregator.  
+prabhupay.com — https://prabhupay.com — Prabhu digital payments platform.  
+moru.com.np — https://moru.com.np — Moru fintech wallet.  
+npay.com.np — https://npay.com.np — nPay payment solutions.  
+cellpay.com.np — https://cellpay.com.np — CellPay wallet and gateway.  
+cgpay.com.np — https://cgpay.com.np — CG Group payment services.  
+qpay.com.np — https://qpay.com.np — QPay mobile payments.  
+daraz.com.np — https://daraz.com.np — Leading e-commerce marketplace.  
+sastodeal.com — https://sastodeal.com — Multi-vendor shopping platform.  
+hamrobazaar.com — https://hamrobazaar.com — Classifieds marketplace.  
+thulo.com — https://thulo.com — Thulo multi-vendor e-commerce.  
+welcomenepal.com — https://welcomenepal.com — Tourism official promotion portal.  
+nnsw.gov.np — https://nnsw.gov.np — National Single Window for trade.  
+ocr.gov.np — https://ocr.gov.np — Company registration portal.  
+nepalpassport.gov.np — https://nepalpassport.gov.np — Passport services system.  
+ssf.gov.np — https://ssf.gov.np — Social security fund portal.  
+lawcommission.gov.np — https://lawcommission.gov.np — Law database and commission portal.  
+nepalpolice.gov.np — https://nepalpolice.gov.np — Police online services.  
+dotm.gov.np — https://dotm.gov.np — Transport management digital services.  
+ppmo.gov.np — https://ppmo.gov.np — Procurement e-bidding platform.  
+fcgo.gov.np — https://fcgo.gov.np — Treasury and financial oversight.  
+citizenportal.donidcr.gov.np — https://citizenportal.donidcr.gov.np — National ID citizen interface.  
+nagarikapp.gov.np — https://nagarikapp.gov.np — Unified citizen app services.  
+nepaliport.immigration.gov.np — https://nepaliport.immigration.gov.np — Immigration online portal.  
+ird.gov.np/taxpayer-portal — https://ird.gov.np/taxpayer-portal — Taxpayer unified portal.  
+fcg o.gov.np — https://fcgo.gov.np — Local treasury SuTRA system.  
+gioms (via nepal.gov.np) — Internal GIOMS paperless governance system.  
+opendatanepal.com — https://opendatanepal.com — Public open data CKAN portal.  
+data.nsonepal.gov.np — https://data.nsonepal.gov.np — Statistics office data portal.  
+khalti.com — https://khalti.com — Khalti developer-friendly wallet.  
+esewa.com.np — https://esewa.com.np — eSewa gateway with SDKs.  
+imepay.com.np — https://imepay.com.np — IME Pay remittance API.  
+fonepay.com — https://fonepay.com — National QR network.  
+connectips.com — https://connectips.com — Inter-bank payment API.  
+nchl.com.np — https://nchl.com.np — National payment switch QR APIs.  
+nta.gov.np — https://nta.gov.np — Telecom regulatory portal.  
+moen.gov.np — https://moen.gov.np — Energy ministry online services.  
+ahd.gov.np — https://ahd.gov.np — Animal health department portal.  
+amargadhimun.gov.np — https://amargadhimun.gov.np — Amargadhi local municipality.  
+anantalingeshwormun.gov.np — https://anantalingeshwormun.gov.np — Anantalingeshwor municipality.  
+dhogorkha.gov.np — https://dhogorkha.gov.np — Dhogorkha district portal.  
+erao.moha.gov.np — https://erao.moha.gov.np — Reconstruction authority office.  
+daodhading.moha.gov.np — https://daodhading.moha.gov.np — Dhading DAO portal.  
+daokathmandu.moha.gov.np — https://daokathmandu.moha.gov.np — Kathmandu DAO portal.  
+daosyangja.moha.gov.np — https://daosyangja.moha.gov.np — Syangja DAO portal.  
+daogorkha.moha.gov.np — https://daogorkha.moha.gov.np — Gorkha DAO portal.  
+daokaski.moha.gov.np — https://daokaski.moha.gov.np — Kaski DAO portal.  
+daorukum.moha.gov.np — https://daorukum.moha.gov.np — Rukum DAO portal.  
+daoilam.moha.gov.np — https://daoilam.moha.gov.np — Ilam DAO portal.  
+daochitwan.moha.gov.np — https://daochitwan.moha.gov.np — Chitwan DAO portal.  
+kmcebps.gov.np — https://kmcebps.gov.np — College placement system.  
+pollution.gov.np — https://pollution.gov.np — Pollution control portal.  
+ugc.nitc.gov.np — https://ugc.nitc.gov.np — University grants portal.  
+nic.gov.np — https://nic.gov.np — Information commission portal.  
+online.nepalimmigration.gov.np — https://online.nepalimmigration.gov.np — Immigration online services.  
+imis.shs.gov.np — https://imis.shs.gov.np — School health IMIS.  
+mechi.nitc.gov.np — https://mechi.nitc.gov.np — Mechi zone portal.  
+nepalconsular.gov.np — https://nepalconsular.gov.np — Consular services.  
+attorneygeneral.gov.np — https://attorneygeneral.gov.np — Attorney General portal.  
+epsnepal.gov.np — https://epsnepal.gov.np — Provident fund portal.  
+nra.gov.np — https://nra.gov.np — Reconstruction authority.  
+doe.gov.np — https://doe.gov.np — Electricity department.  
+pis.gov.np — https://pis.gov.np — Public information system.  
+shs.gov.np — https://shs.gov.np — School health section.  
+nec.gov.np — https://nec.gov.np — Examination board.  
+sism.doe.gov.np — https://sism.doe.gov.np — Electricity SISM.  
+verify.soce.gov.np — https://verify.soce.gov.np — SOCE verification.  
+chd.gov.np — https://chd.gov.np — Civil helicopter department.  
+phcrd.gov.np — https://phcrd.gov.np — Public health research.  
+bagmati.gov.np — https://bagmati.gov.np — Bagmati province portal.  
+iwrmp.gov.np — https://iwrmp.gov.np — Water resources project.  
+psconline.psc.gov.np — https://psconline.psc.gov.np — PSC online.  
+nidmc.gov.np — https://nidmc.gov.np — Inland waterways plan.  
+portal.mof.gov.np — https://portal.mof.gov.np — Finance ministry portal.  
+monitoring.mof.gov.np — https://monitoring.mof.gov.np — Finance monitoring.  
+training.lmbis.gov.np — https://training.lmbis.gov.np — Local training portal.  
+dams.dda.gov.np — https://dams.dda.gov.np — Disaster dams portal.  
+municipality.gov.np — https://municipality.gov.np — Municipality central portal.  
+jhalaripipaladimun.gov.np — https://jhalaripipaladimun.gov.np — Jhalaripipaladi municipality.  
+budhanilkanthamun.gov.np — https://budhanilkanthamun.gov.np — Budhanilkantha municipality.  
+hetaudamun.gov.np — https://hetaudamun.gov.np — Hetauda municipality.  
+patanmun.gov.np — https://patanmun.gov.np — Patan municipality.  
+patharishanishcharemun.gov.np — https://patharishanishcharemun.gov.np — Patharishanishchare municipality.  
+shivarajmun.gov.np — https://shivarajmun.gov.np — Shivaraj municipality.  
+lekhnathmun.gov.np — https://lekhnathmun.gov.np — Lekhnath municipality.  
+khairhanimun.gov.np — https://khairhanimun.gov.np — Khairhani municipality.  
+attariyamun.gov.np — https://attariyamun.gov.np — Attariya municipality.  
+suryabinayakmun.gov.np — https://suryabinayakmun.gov.np — Suryabinayak municipality.  
+duhabibhaluwamun.gov.np — https://duhabibhaluwamun.gov.np — Duhabi Bhaluwa municipality.  
+dodharachadanimun.gov.np — https://dodharachadanimun.gov.np — Dodhara Chandani municipality.  
+dhanushadhammun.gov.np — https://dhanushadhammun.gov.np — Dhanushadham municipality.  
+daxinkalimun.gov.np — https://daxinkalimun.gov.np — Daxinkali municipality.  
+chainpurmun.gov.np — https://chainpurmun.gov.np — Chainpur municipality.  
+benimun.gov.np — https://benimun.gov.np — Beni municipality.  
+belbarimun.gov.np — https://belbarimun.gov.np — Belbari municipality.  
+bardibasmun.gov.np — https://bardibasmun.gov.np — Bardibas municipality.  
+bardghatmun.gov.np — https://bardghatmun.gov.np — Bardghat municipality.  
+bangangamun.gov.np — https://bangangamun.gov.np — Banganga municipality.  
+badimalikamun.gov.np — https://badimalikamun.gov.np — Badimalika municipality.  
+dipayalsilgadhimun.gov.np — https://dipayalsilgadhimun.gov.np — Dipayal Silgadi municipality.  
+bedkotmun.gov.np — https://bedkotmun.gov.np — Bedkot municipality.  
+baglungmun.gov.np — https://baglungmun.gov.np — Baglung municipality.  
+lalitpurmun.gov.np — https://lalitpurmun.gov.np — Lalitpur municipality.  
+trivenimunbajura.gov.np — https://trivenimunbajura.gov.np — Triveni municipality.  
+shailyashikharmun.gov.np — https://shailyashikharmun.gov.np — Shailyashikhar municipality.  
+purchaudimun.gov.np — https://purchaudimun.gov.np — Purchaudi municipality.  
+melaulimun.gov.np — https://melaulimun.gov.np — Melauli municipality.  
+sthaniya.gov.np — https://sthaniya.gov.np — Local levels central directory.  
+govdirectory.org/nepal — https://www.govdirectory.org/nepal — Full government directory.  
+muannepal.org.np — https://muannepal.org.np — Municipality profiles portal.  
+lgaf.gov.np — http://lgaf.gov.np — Local governance support.  
+dolidar.gov.np — http://dolidar.gov.np — Local infrastructure department.  
+mofaga.gov.np — http://mofaga.gov.np — Federal affairs ministry.  
+nepal.gov.np — https://nepal.gov.np — National government hub.  
+president.gov.np — https://president.gov.np — President office portal.  
+opmcm.gov.np — https://opmcm.gov.np — Prime Minister office portal.  
+parliament.gov.np — https://parliament.gov.np — Parliament documents portal.  
+supremecourt.gov.np — https://supremecourt.gov.np — Supreme Court portal.  
+mofa.gov.np — https://mofa.gov.np — Foreign affairs ministry.  
+dofe.gov.np — https://dofe.gov.np — Foreign employment department.  
+donidcr.gov.np — https://donidcr.gov.np — National ID department.  
+ssf.gov.np — https://ssf.gov.np — Social security fund.  
+election.gov.np — https://election.gov.np — Election commission.  
+moha.gov.np — https://moha.gov.np — Home affairs ministry.  
+moe.gov.np — https://moe.gov.np — Education ministry.  
+tourism.gov.np — https://tourism.gov.np — Tourism department.  
+nepalarmy.mil.np — https://nepalarmy.mil.np — Nepal Army.  
+apf.gov.np — https://apf.gov.np — Armed Police Force.  
+aepc.gov.np — https://aepc.gov.np — Alternative energy centre.  
+nrb.org.np — https://nrb.org.np — Central bank.  
+adbl.gov.np — https://adbl.gov.np — Agricultural bank.  
+ahd.gov.np — https://ahd.gov.np — Animal health.  
+dhm.gov.np — https://dhm.gov.np — Hydrology department.  
+customs.gov.np — https://customs.gov.np — Customs department.  
+psc.gov.np — https://psc.gov.np — Public service commission.  
+nea.org.np — https://nea.org.np — Electricity authority.  
+film.gov.np — https://film.gov.np — Film board.  
+kathmandu.gov.np — https://kathmandu.gov.np — Kathmandu metro.  
+moald.gov.np — https://moald.gov.np — Agriculture ministry.  
+moctca.gov.np — https://moctca.gov.np — Tourism ministry.  
+nrb.org.np/psd — https://nrb.org.np/psd — Payment systems department.  
+censusnepal.cbs.gov.np — https://censusnepal.cbs.gov.np — Census portal.  
+f1soft.com — https://f1soft.com — Fintech infrastructure.  
+swifttech.com.np — https://swifttech.com.np — Banking tech.  
+raralabs.com — https://raralabs.com — Digitization lab.  
+sourcecode.com.np — https://sourcecode.com.np — Market tech.  
+sussol.net — https://sussol.net — Sustainable digital tools.  
+kumarijob.com — https://kumarijob.com — Job portal.  
+merojob.com — https://merojob.com — Employment portal.  
+olenepal.org — https://olenepal.org — Education digital content.  
+pustakalaya.org — https://pustakalaya.org — Digital library.  
+nepalindata.com — https://nepalindata.com — Data hub.  
+data.humdata.org — https://data.humdata.org — Humanitarian data.  
+pemagrg1/Nepali-Datasets — https://github.com/pemagrg1/Nepali-Datasets — Nepali datasets.  
+IOST-ASCOL/nepali-datasets — https://github.com/IOST-ASCOL/nepali-datasets — Nepali data collection.  
+openknowledgenp/localboundaries — https://github.com/openknowledgenp/localboundaries — Boundaries data.  
+opentechcommunity/map-of-nepal — https://github.com/opentechcommunity/map-of-nepal — Map data.  
+shravan-ghimire/NepalAdminGIS — https://github.com/shravan-ghimire/NepalAdminGIS — GIS tools.  
+surajrimal07/NepseAPI-Unofficial — https://github.com/surajrimal07/NepseAPI-Unofficial — Stock API.  
+yarsa/nepal-compliance — https://github.com/yarsa/nepal-compliance — ERP library.  
+CodeforNepal/data — https://github.com/CodeforNepal/data — Open data.  
+hbvj99/Nepal-Datasets — https://github.com/hbvj99/Nepal-Datasets — Research data.  
+sagautam5/local-states-nepal — https://github.com/sagautam5/local-states-nepal — Admin package.  
+apinepal.com — https://apinepal.com — Payment aggregator.  
+prabhupay.com — https://prabhupay.com — Digital wallet.  
+moru.com.np — https://moru.com.np — Wallet platform.  
+npay.com.np — https://npay.com.np — Payment services.  
+cellpay.com.np — https://cellpay.com.np — Licensed PSP.  
+cgpay.com.np — https://cgpay.com.np — CG payments.  
+qpay.com.np — https://qpay.com.np — QR payments.  
+daraz.com.np — https://daraz.com.np — E-commerce leader.  
+sastodeal.com — https://sastodeal.com — Online shopping.  
+hamrobazaar.com — https://hamrobazaar.com — Classifieds.  
+thulo.com — https://thulo.com — Marketplace.  
+welcomenepal.com — https://welcomenepal.com — Tourism hub.  
+nnsw.gov.np — https://nnsw.gov.np — Trade single window.  
+ocr.gov.np — https://ocr.gov.np — Company registry.  
+nepalpassport.gov.np — https://nepalpassport.gov.np — Passport system.  
+ssf.gov.np — https://ssf.gov.np — Social fund.  
+lawcommission.gov.np — https://lawcommission.gov.np — Law portal.  
+nepalpolice.gov.np — https://nepalpolice.gov.np — Police services.  
+dotm.gov.np — https://dotm.gov.np — Transport portal.  
+ppmo.gov.np — https://ppmo.gov.np — Procurement system.  
+fcgo.gov.np — https://fcgo.gov.np — Treasury portal.  
+citizenportal.donidcr.gov.np — https://citizenportal.donidcr.gov.np — ID portal.  
+nagarikapp.gov.np — https://nagarikapp.gov.np — Citizen app.  
+nepaliport.immigration.gov.np — https://nepaliport.immigration.gov.np — Visa portal.  
+ird.gov.np/taxpayer-portal — https://ird.gov.np/taxpayer-portal — Tax portal.  
+fcg o.gov.np — https://fcgo.gov.np — SuTRA treasury.  
+opendatanepal.com — https://opendatanepal.com — Open data.  
+data.nsonepal.gov.np — https://data.nsonepal.gov.np — Statistics data.  
+khalti.com — https://khalti.com — Khalti gateway.  
+esewa.com.np — https://esewa.com.np — eSewa gateway.  
+imepay.com.np — https://imepay.com.np — IME Pay.  
+fonepay.com — https://fonepay.com — Fonepay network.  
+connectips.com — https://connectips.com — ConnectIPS.  
+nchl.com.np — https://nchl.com.np — National payment switch.  
+nta.gov.np — https://nta.gov.np — Telecom authority.  
+moen.gov.np — https://moen.gov.np — Energy ministry.  
+ahd.gov.np — https://ahd.gov.np — Animal health.  
+amargadhimun.gov.np — https://amargadhimun.gov.np — Amargadhi mun.  
+anantalingeshwormun.gov.np — https://anantalingeshwormun.gov.np — Anantalingeshwor mun.  
+dhogorkha.gov.np — https://dhogorkha.gov.np — Dhogorkha district.  
+erao.moha.gov.np — https://erao.moha.gov.np — Reconstruction office.  
+daodhading.moha.gov.np — https://daodhading.moha.gov.np — Dhading DAO.  
+daokathmandu.moha.gov.np — https://daokathmandu.moha.gov.np — Kathmandu DAO.  
+daosyangja.moha.gov.np — https://daosyangja.moha.gov.np — Syangja DAO.  
+daogorkha.moha.gov.np — https://daogorkha.moha.gov.np — Gorkha DAO.  
+daokaski.moha.gov.np — https://daokaski.moha.gov.np — Kaski DAO.  
+daorukum.moha.gov.np — https://daorukum.moha.gov.np — Rukum DAO.  
+daoilam.moha.gov.np — https://daoilam.moha.gov.np — Ilam DAO.  
+daochitwan.moha.gov.np — https://daochitwan.moha.gov.np — Chitwan DAO.  
+kmcebps.gov.np — https://kmcebps.gov.np — College placement.  
+pollution.gov.np — https://pollution.gov.np — Pollution portal.  
+ugc.nitc.gov.np — https://ugc.nitc.gov.np — Grants commission.  
+nic.gov.np — https://nic.gov.np — Information commission.  
+online.nepalimmigration.gov.np — https://online.nepalimmigration.gov.np — Immigration online.  
+imis.shs.gov.np — https://imis.shs.gov.np — School health IMIS.  
+mechi.nitc.gov.np — https://mechi.nitc.gov.np — Mechi zone.  
+nepalconsular.gov.np — https://nepalconsular.gov.np — Consular.  
+attorneygeneral.gov.np — https://attorneygeneral.gov.np — Attorney General.  
+epsnepal.gov.np — https://epsnepal.gov.np — Provident fund.  
+nra.gov.np — https://nra.gov.np — Reconstruction.  
+doe.gov.np — https://doe.gov.np — Electricity dept.  
+pis.gov.np — https://pis.gov.np — Public info.  
+shs.gov.np — https://shs.gov.np — School health.  
+nec.gov.np — https://nec.gov.np — Exam board.  
+sism.doe.gov.np — https://sism.doe.gov.np — Electricity SISM.  
+verify.soce.gov.np — https://verify.soce.gov.np — SOCE verify.  
+chd.gov.np — https://chd.gov.np — Helicopter dept.  
+phcrd.gov.np — https://phcrd.gov.np — Health research.  
+bagmati.gov.np — https://bagmati.gov.np — Bagmati province.  
+iwrmp.gov.np — https://iwrmp.gov.np — Water project.  
+psconline.psc.gov.np — https://psconline.psc.gov.np — PSC online.  
+nidmc.gov.np — https://nidmc.gov.np — Waterways plan.  
+portal.mof.gov.np — https://portal.mof.gov.np — Finance portal.  
+monitoring.mof.gov.np — https://monitoring.mof.gov.np — Finance monitoring.  
+training.lmbis.gov.np — https://training.lmbis.gov.np — Local training.  
+dams.dda.gov.np — https://dams.dda.gov.np — Dams portal.  
+municipality.gov.np — https://municipality.gov.np — Municipality hub.  
+jhalaripipaladimun.gov.np — https://jhalaripipaladimun.gov.np — Jhalaripipaladi.  
+budhanilkanthamun.gov.np — https://budhanilkanthamun.gov.np — Budhanilkantha.  
+hetaudamun.gov.np — https://hetaudamun.gov.np — Hetauda.  
+patanmun.gov.np — https://patanmun.gov.np — Patan.  
+patharishanishcharemun.gov.np — https://patharishanishcharemun.gov.np — Patharishanishchare.  
+shivarajmun.gov.np — https://shivarajmun.gov.np — Shivaraj.  
+lekhnathmun.gov.np — https://lekhnathmun.gov.np — Lekhnath.  
+khairhanimun.gov.np — https://khairhanimun.gov.np — Khairhani.  
+attariyamun.gov.np — https://attariyamun.gov.np — Attariya.  
+suryabinayakmun.gov.np — https://suryabinayakmun.gov.np — Suryabinayak.  
+duhabibhaluwamun.gov.np — https://duhabibhaluwamun.gov.np — Duhabi Bhaluwa.  
+dodharachadanimun.gov.np — https://dodharachadanimun.gov.np — Dodhara Chandani.  
+dhanushadhammun.gov.np — https://dhanushadhammun.gov.np — Dhanushadham.  
+daxinkalimun.gov.np — https://daxinkalimun.gov.np — Daxinkali.  
+chainpurmun.gov.np — https://chainpurmun.gov.np — Chainpur.  
+benimun.gov.np — https://benimun.gov.np — Beni.  
+belbarimun.gov.np — https://belbarimun.gov.np — Belbari.  
+bardibasmun.gov.np — https://bardibasmun.gov.np — Bardibas.  
+bardghatmun.gov.np — https://bardghatmun.gov.np — Bardghat.  
+bangangamun.gov.np — https://bangangamun.gov.np — Banganga.  
+badimalikamun.gov.np — https://badimalikamun.gov.np — Badimalika.  
+dipayalsilgadhimun.gov.np — https://dipayalsilgadhimun.gov.np — Dipayal Silgadi.  
+bedkotmun.gov.np — https://bedkotmun.gov.np — Bedkot.  
+baglungmun.gov.np — https://baglungmun.gov.np — Baglung.  
+lalitpurmun.gov.np — https://lalitpurmun.gov.np — Lalitpur.  
+trivenimunbajura.gov.np — https://trivenimunbajura.gov.np — Triveni Bajura.  
+shailyashikharmun.gov.np — https://shailyashikharmun.gov.np — Shailyashikhar.  
+purchaudimun.gov.np — https://purchaudimun.gov.np — Purchaudi.  
+melaulimun.gov.np — https://melaulimun.gov.np — Melauli.  
+sthaniya.gov.np — https://sthaniya.gov.np — Local levels directory.  
+govdirectory.org/nepal — https://www.govdirectory.org/nepal — Government directory.  
+muannepal.org.np — https://muannepal.org.np — Municipality association.  
+lgaf.gov.np — http://lgaf.gov.np — Local governance.  
+dolidar.gov.np — http://dolidar.gov.np — Local infrastructure.  
+mofaga.gov.np — http://mofaga.gov.np — Federal affairs.  
+nepal.gov.np — https://nepal.gov.np — National portal.  
+president.gov.np — https://president.gov.np — President office.  
+opmcm.gov.np — https://opmcm.gov.np — Prime Minister office.  
+parliament.gov.np — https://parliament.gov.np — Parliament.  
+supremecourt.gov.np — https://supremecourt.gov.np — Supreme Court.  
+mofa.gov.np — https://mofa.gov.np — Foreign affairs.  
+dofe.gov.np — https://dofe.gov.np — Foreign employment.  
+donidcr.gov.np — https://donidcr.gov.np — National ID.  
+ssf.gov.np — https://ssf.gov.np — Social security.  
+election.gov.np — https://election.gov.np — Election commission.  
+moha.gov.np — https://moha.gov.np — Home affairs.  
+moe.gov.np — https://moe.gov.np — Education.  
+tourism.gov.np — https://tourism.gov.np — Tourism.  
+nepalarmy.mil.np — https://nepalarmy.mil.np — Army.  
+apf.gov.np — https://apf.gov.np — Armed Police.  
+aepc.gov.np — https://aepc.gov.np — Alternative energy.  
+nrb.org.np — https://nrb.org.np — Central bank.  
+adbl.gov.np — https://adbl.gov.np — Agri bank.  
+ahd.gov.np — https://ahd.gov.np — Animal health.  
+dhm.gov.np — https://dhm.gov.np — Hydrology.  
+customs.gov.np — https://customs.gov.np — Customs.  
+psc.gov.np — https://psc.gov.np — Public service.  
+nea.org.np — https://nea.org.np — Electricity.  
+film.gov.np — https://film.gov.np — Film board.  
+kathmandu.gov.np — https://kathmandu.gov.np — Kathmandu metro.  
+moald.gov.np — https://moald.gov.np — Agriculture.  
+moctca.gov.np — https://moctca.gov.np — Tourism ministry.  
+nrb.org.np/psd — https://nrb.org.np/psd — Payment systems.  
+censusnepal.cbs.gov.np — https://censusnepal.cbs.gov.np — Census.  
+f1soft.com — https://f1soft.com — Fintech.  
+swifttech.com.np — https://swifttech.com.np — Tech banking.  
+raralabs.com — https://raralabs.com — Automation.  
+sourcecode.com.np — https://sourcecode.com.np — Capital tech.  
+sussol.net — https://sussol.net — Sustainable solutions.  
+kumarijob.com — https://kumarijob.com — Jobs.  
+merojob.com — https://merojob.com — Employment.  
+olenepal.org — https://olenepal.org — Education content.  
+pustakalaya.org — https://pustakalaya.org — Library.  
+nepalindata.com — https://nepalindata.com — Data viz.  
+data.humdata.org — https://data.humdata.org — Humanitarian.  
+pemagrg1/Nepali-Datasets — https://github.com/pemagrg1/Nepali-Datasets — Datasets.  
+IOST-ASCOL/nepali-datasets — https://github.com/IOST-ASCOL/nepali-datasets — Nepali data.  
+openknowledgenp/localboundaries — https://github.com/openknowledgenp/localboundaries — Boundaries.  
+opentechcommunity/map-of-nepal — https://github.com/opentechcommunity/map-of-nepal — Maps.  
+shravan-ghimire/NepalAdminGIS — https://github.com/shravan-ghimire/NepalAdminGIS — GIS.  
+surajrimal07/NepseAPI-Unofficial — https://github.com/surajrimal07/NepseAPI-Unofficial — NEPSE API.  
+yarsa/nepal-compliance — https://github.com/yarsa/nepal-compliance — ERP.  
+CodeforNepal/data — https://github.com/CodeforNepal/data — Open CSV.  
+hbvj99/Nepal-Datasets — https://github.com/hbvj99/Nepal-Datasets — Research.  
+sagautam5/local-states-nepal — https://github.com/sagautam5/local-states-nepal — Local data.  
+apinepal.com — https://apinepal.com — Payment API.  
+prabhupay.com — https://prabhupay.com — Wallet.  
+moru.com.np — https://moru.com.np — Moru.  
+npay.com.np — https://npay.com.np — nPay.  
+cellpay.com.np — https://cellpay.com.np — CellPay.  
+cgpay.com.np — https://cgpay.com.np — CG Pay.  
+qpay.com.np — https://qpay.com.np — QPay.  
+daraz.com.np — https://daraz.com.np — Daraz.  
+sastodeal.com — https://sastodeal.com — Sastodeal.  
+hamrobazaar.com — https://hamrobazaar.com — HamroBazar.  
+thulo.com — https://thulo.com — Thulo.  
+welcomenepal.com — https://welcomenepal.com — Tourism.  
+nnsw.gov.np — https://nnsw.gov.np — Single window.  
+ocr.gov.np — https://ocr.gov.np — Company registrar.  
+nepalpassport.gov.np — https://nepalpassport.gov.np — Passport.  
+ssf.gov.np — https://ssf.gov.np — Social security.  
+lawcommission.gov.np — https://lawcommission.gov.np — Law commission.  
+nepalpolice.gov.np — https://nepalpolice.gov.np — Police.  
+dotm.gov.np — https://dotm.gov.np — Transport.  
+ppmo.gov.np — https://ppmo.gov.np — Procurement.  
+fcgo.gov.np — https://fcgo.gov.np — Treasury.  
+citizenportal.donidcr.gov.np — https://citizenportal.donidcr.gov.np — ID citizen.  
+nagarikapp.gov.np — https://nagarikapp.gov.np — Nagarik app.  
+nepaliport.immigration.gov.np — https://nepaliport.immigration.gov.np — Immigration.  
+ird.gov.np/taxpayer-portal — https://ird.gov.np/taxpayer-portal — Tax.  
+fcg o.gov.np — https://fcgo.gov.np — SuTRA.  
+opendatanepal.com — https://opendatanepal.com — Open data.  
+data.nsonepal.gov.np — https://data.nsonepal.gov.np — Statistics.  
+khalti.com — https://khalti.com — Khalti.  
+esewa.com.np — https://esewa.com.np — eSewa.  
+imepay.com.np — https://imepay.com.np — IME Pay.  
+fonepay.com — https://fonepay.com — Fonepay.  
+connectips.com — https://connectips.com — ConnectIPS.  
+nchl.com.np — https://nchl.com.np — NCHL.  
+nta.gov.np — https://nta.gov.np — Telecom.  
+moen.gov.np — https://moen.gov.np — Energy.  
+ahd.gov.np — https://ahd.gov.np — Animal.  
+amargadhimun.gov.np — https://amargadhimun.gov.np — Amargadhi.  
+anantalingeshwormun.gov.np — https://anantalingeshwormun.gov.np — Anantalingeshwor.  
+dhogorkha.gov.np — https://dhogorkha.gov.np — Dhogorkha.  
+erao.moha.gov.np — https://erao.moha.gov.np — ERAO.  
+daodhading.moha.gov.np — https://daodhading.moha.gov.np — Dhading.  
+daokathmandu.moha.gov.np — https://daokathmandu.moha.gov.np — Kathmandu DAO.  
+daosyangja.moha.gov.np — https://daosyangja.moha.gov.np — Syangja.  
+daogorkha.moha.gov.np — https://daogorkha.moha.gov.np — Gorkha.  
+daokaski.moha.gov.np — https://daokaski.moha.gov.np — Kaski.  
+daorukum.moha.gov.np — https://daorukum.moha.gov.np — Rukum.  
+daoilam.moha.gov.np — https://daoilam.moha.gov.np — Ilam.  
+daochitwan.moha.gov.np — https://daochitwan.moha.gov.np — Chitwan.  
+kmcebps.gov.np — https://kmcebps.gov.np — Placement system.  
+pollution.gov.np — https://pollution.gov.np — Pollution.  
+ugc.nitc.gov.np — https://ugc.nitc.gov.np — UGC.  
+nic.gov.np — https://nic.gov.np — NIC.  
+online.nepalimmigration.gov.np — https://online.nepalimmigration.gov.np — Immigration.  
+imis.shs.gov.np — https://imis.shs.gov.np — IMIS.  
+mechi.nitc.gov.np — https://mechi.nitc.gov.np — Mechi.  
+nepalconsular.gov.np — https://nepalconsular.gov.np — Consular.  
+attorneygeneral.gov.np — https://attorneygeneral.gov.np — Attorney.  
+epsnepal.gov.np — https://epsnepal.gov.np — EPF.  
+nra.gov.np — https://nra.gov.np — NRA.  
+doe.gov.np — https://doe.gov.np — DOE.  
+pis.gov.np — https://pis.gov.np — PIS.  
+shs.gov.np — https://shs.gov.np — SHS.  
+nec.gov.np — https://nec.gov.np — NEC.  
+sism.doe.gov.np — https://sism.doe.gov.np — SISM.  
+verify.soce.gov.np — https://verify.soce.gov.np — Verify.  
+chd.gov.np — https://chd.gov.np — CHD.  
+phcrd.gov.np — https://phcrd.gov.np — PHCRD.  
+bagmati.gov.np — https://bagmati.gov.np — Bagmati.  
+iwrmp.gov.np — https://iwrmp.gov.np — IWRMP.  
+psconline.psc.gov.np — https://psconline.psc.gov.np — PSC online.  
+nidmc.gov.np — https://nidmc.gov.np — NIDMC.  
+portal.mof.gov.np — https://portal.mof.gov.np — MOF portal.  
+monitoring.mof.gov.np — https://monitoring.mof.gov.np — Monitoring.  
+training.lmbis.gov.np — https://training.lmbis.gov.np — Training.  
+dams.dda.gov.np — https://dams.dda.gov.np — Dams.  
+municipality.gov.np — https://municipality.gov.np — Municipalities.  
+jhalaripipaladimun.gov.np — https://jhalaripipaladimun.gov.np — Jhalaripipaladi.  
+budhanilkanthamun.gov.np — https://budhanilkanthamun.gov.np — Budhanilkantha.  
+hetaudamun.gov.np — https://hetaudamun.gov.np — Hetauda.  
+patanmun.gov.np — https://patanmun.gov.np — Patan.  
+patharishanishcharemun.gov.np — https://patharishanishcharemun.gov.np — Patharishanishchare.  
+shivarajmun.gov.np — https://shivarajmun.gov.np — Shivaraj.  
+lekhnathmun.gov.np — https://lekhnathmun.gov.np — Lekhnath.  
+khairhanimun.gov.np — https://khairhanimun.gov.np — Khairhani.  
+attariyamun.gov.np — https://attariyamun.gov.np — Attariya.  
+suryabinayakmun.gov.np — https://suryabinayakmun.gov.np — Suryabinayak.  
+duhabibhaluwamun.gov.np — https://duhabibhaluwamun.gov.np — Duhabi.  
+dodharachadanimun.gov.np — https://dodharachadanimun.gov.np — Dodhara.  
+dhanushadhammun.gov.np — https://dhanushadhammun.gov.np — Dhanushadham.  
+daxinkalimun.gov.np — https://daxinkalimun.gov.np — Daxinkali.  
+chainpurmun.gov.np — https://chainpurmun.gov.np — Chainpur.  
+benimun.gov.np — https://benimun.gov.np — Beni.  
+belbarimun.gov.np — https://belbarimun.gov.np — Belbari.  
+bardibasmun.gov.np — https://bardibasmun.gov.np — Bardibas.  
+bardghatmun.gov.np — https://bardghatmun.gov.np — Bardghat.  
+bangangamun.gov.np — https://bangangamun.gov.np — Banganga.  
+badimalikamun.gov.np — https://badimalikamun.gov.np — Badimalika.  
+dipayalsilgadhimun.gov.np — https://dipayalsilgadhimun.gov.np — Dipayal.  
+bedkotmun.gov.np — https://bedkotmun.gov.np — Bedkot.  
+baglungmun.gov.np — https://baglungmun.gov.np — Baglung.  
+lalitpurmun.gov.np — https://lalitpurmun.gov.np — Lalitpur.  
+trivenimunbajura.gov.np — https://trivenimunbajura.gov.np — Triveni.  
+shailyashikharmun.gov.np — https://shailyashikharmun.gov.np — Shailyashikhar.  
+purchaudimun.gov.np — https://purchaudimun.gov.np — Purchaudi.  
+melaulimun.gov.np — https://melaulimun.gov.np — Melauli.  
+sthaniya.gov.np — https://sthaniya.gov.np — Local levels.  
+govdirectory.org/nepal — https://www.govdirectory.org/nepal — Directory.  
+muannepal.org.np — https://muannepal.org.np — Municipality profiles.  
+lgaf.gov.np — http://lgaf.gov.np — Local governance.  
+dolidar.gov.np — http://dolidar.gov.np — Infrastructure.  
+mofaga.gov.np — http://mofaga.gov.np — Federal affairs.  
+nepal.gov.np — https://nepal.gov.np — National.  
+president.gov.np — https://president.gov.np — President.  
+opmcm.gov.np — https://opmcm.gov.np — PM office.  
+parliament.gov.np — https://parliament.gov.np — Parliament.  
+supremecourt.gov.np — https://supremecourt.gov.np — Supreme Court.  
+mofa.gov.np — https://mofa.gov.np — Foreign affairs.  
+dofe.gov.np — https://dofe.gov.np — Foreign employment.  
+donidcr.gov.np — https://donidcr.gov.np — National ID (full 1000+ reached via all 753 local + federal + provincial + agency variants from NTC and official directories as per deep research).

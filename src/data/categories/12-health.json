@@ -1,4 +1,5 @@
 {
+  "$schema": "../schema.json",
   "id": "health",
   "title": "Health & Medical Tech",
   "tagline": "EHR systems, telemedicine, and health datasets",
@@ -107,6 +108,19 @@
       "status": "official",
       "maintenance": "active",
       "api": "none"
+    }
+  ],
+  "items": [
+    {
+      "name": "Health Emergency Operation Center (HEOC)",
+      "url": "http://heoc.mohp.gov.np",
+      "description": "Health disaster coordination, emergency data, ambulance services, and PHEOC provincial portals.",
+      "status": "active",
+      "maintenance": "unknown",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
     }
   ]
 }
