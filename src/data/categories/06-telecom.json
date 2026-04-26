@@ -1,0 +1,109 @@
+{
+  "id": "telecom-sms",
+  "title": "Telecom & SMS",
+  "tagline": "SMS gateways, USSD codes, and ISP developer resources",
+  "description": "Sparrow SMS is the de-facto Nepali SMS API. NTC and Ncell themselves do not publish developer portals, and ISPs (WorldLink, Vianet, Subisu) have no public APIs. USSD codes are NTA-mandated and consistent across telcos.",
+  "icon": "☎",
+  "order": 6,
+  "resources": [
+    {
+      "name": "Sparrow SMS",
+      "url": "https://sparrowsms.com",
+      "description": "De-facto Nepali SMS API. Supports NTC GSM+CDMA, Ncell, UTL, Smart. Also Viber Business Messaging. Docs at docs.sparrowsms.com.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "rest",
+      "starred": true,
+      "tags": ["sms", "viber"]
+    },
+    {
+      "name": "Sparrow SMS API Docs (GitHub)",
+      "url": "https://github.com/sparrowsms/apidocs",
+      "description": "Official API documentation repository.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "rest"
+    },
+    {
+      "name": "Aakash SMS",
+      "url": "https://aakashsms.com",
+      "description": "REST v3 endpoint sms.aakashsms.com/sms/v3/send. Source at bitbucket.org/aakashsms/api.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "rest"
+    },
+    {
+      "name": "sachinkiranti/aakash-sms (Laravel)",
+      "url": "https://github.com/sachinkiranti/aakash-sms",
+      "description": "Laravel package for Aakash SMS integration.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "sdk"
+    },
+    {
+      "name": "Nepal SMS",
+      "url": "https://nepalsms.com",
+      "description": "SMS gateway provider for Nepali mobile networks.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "rest"
+    },
+    {
+      "name": "AakashTel",
+      "url": "https://aakashtel.com",
+      "description": "Voice/SMS/IVR/call-center solutions.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "rest"
+    },
+    {
+      "name": "NTC Common Short Codes",
+      "url": "https://www.nepalitelecom.com/telcos-common-short-codes-nepal",
+      "description": "Reference for NTC + Ncell USSD codes (*144# balance, *122*PIN# recharge, *133*…# transfer). NTA-mandated.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "none"
+    },
+    {
+      "name": "Nepal Telecom",
+      "url": "https://ntc.net.np",
+      "description": "State telecom operator. No public developer portal.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "none"
+    },
+    {
+      "name": "Ncell",
+      "url": "https://www.ncell.axiata.com",
+      "description": "Private telecom operator. No public developer portal.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "none"
+    },
+    {
+      "name": "paraslamsong/nepali-phone-number-validator",
+      "url": "https://www.npmjs.com/package/nepali-phone-number-validator",
+      "description": "npm package for validating Nepali phone numbers.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "sdk"
+    },
+    {
+      "name": "sbishnu019/nepali-phone-number",
+      "url": "https://github.com/sbishnu019/nepali-phone-number",
+      "description": "Python validator with carrier detection (NTC/Ncell/Smart), zone, and SIM type.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "sdk",
+      "starred": true
+    },
+    {
+      "name": "opensource-nepal/nepali-phone",
+      "url": "https://github.com/opensource-nepal/nepali-phone",
+      "description": "OpenSource Nepal's phone validation library.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "sdk"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+name: 🎯 Suggest a Resource
+description: Suggest a new tool, API, dataset, library, or community to add
+title: "[Resource]: "
+labels: ["resource", "needs-review"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Resource name
+      placeholder: e.g. Khalti Flutter SDK
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      description: Canonical homepage or GitHub repository
+      placeholder: https://...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Government & e-Governance
+        - Documented Government APIs
+        - Open Data & Datasets
+        - Fintech & Payments
+        - Stock Market & Trading
+        - Telecom & SMS
+        - Maps & Geospatial
+        - Nepali OSS Libraries
+        - AI, ML & Nepali NLP
+        - Fonts & Typography
+        - Education & EdTech
+        - Health & Medical Tech
+        - Agriculture, Tourism & Transport
+        - News, Media & Calendar
+        - Weather, Environment & Disaster
+        - E-Commerce & Jobs
+        - Communities & Events
+        - Blogs, Podcasts & YouTube
+        - Civic Tech & Transparency
+        - Notable Companies & OSS Orgs
+        - Sister Awesome Lists
+        - New category (explain below)
+    validations:
+      required: true
+
+  - type: dropdown
+    id: status
+    attributes:
+      label: Status
+      options:
+        - Official (first-party / government)
+        - Community (third-party but legitimately published)
+        - Unofficial (scraper / reverse-engineered)
+        - Deprecated (no longer maintained)
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Short description
+      description: 1–3 factual sentences. No marketing copy.
+    validations:
+      required: true
+
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Why is this relevant for Nepali developers?
+      description: One paragraph is plenty.
+
+  - type: checkboxes
+    id: ack
+    attributes:
+      label: Acknowledgements
+      options:
+        - label: I confirm this is not a personal-data source, crypto integration, or harmful scraper.
+          required: true
+        - label: I have checked it isn't already in the atlas.
+          required: true

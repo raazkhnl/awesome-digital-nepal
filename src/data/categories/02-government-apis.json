@@ -1,0 +1,78 @@
+{
+  "id": "government-apis",
+  "title": "Documented Government APIs",
+  "tagline": "The rare official Nepali government APIs with public documentation",
+  "description": "Truly open, documented public APIs from the Nepal government are extraordinarily rare. This category lists the ones that are real — NRB Forex, IRD CBMS, BIPAD, DHIS2 — plus a few near-public alternatives.",
+  "icon": "🔌",
+  "order": 2,
+  "resources": [
+    {
+      "name": "NRB Forex API",
+      "url": "https://www.nrb.org.np/api/forex/v1/",
+      "description": "Nepal Rastra Bank's daily exchange rates API. The most stable official Nepali government API. REST GET /rates with from/to/page/per_page. No authentication required. Documentation at nrb.org.np/api-docs-v1/.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "rest",
+      "starred": true,
+      "tags": ["forex", "banking", "no-auth"]
+    },
+    {
+      "name": "IRD CBMS / e-Billing API",
+      "url": "https://cbapi.ird.gov.np/api/bill",
+      "description": "Mandatory real-time e-invoice posting endpoint for VAT-registered businesses with turnover above NPR 25 crore. Tech doc at ird.gov.np/content/9052/cbmsapitechnicaldocumentfor/.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "rest",
+      "starred": true,
+      "tags": ["tax", "e-invoicing", "compliance"]
+    },
+    {
+      "name": "BIPAD Portal API",
+      "url": "https://bipadportal.gov.np/api",
+      "description": "National Disaster Information Management System by NDRRMA + Youth Innovation Lab. Django REST browsable API + GeoServer WMS/WFS/WMTS. The strongest official Nepali disaster data API.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "rest",
+      "starred": true,
+      "tags": ["disaster", "geo"]
+    },
+    {
+      "name": "DHIS2 Nepal HMIS",
+      "url": "https://hmis.gov.np",
+      "description": "National Health Management Information System, DHIS2 instance since 2016, 1,000+ facilities reporting. DHIS2 Web API documented at /api — rare Nepali government system with a documented public API (auth required).",
+      "status": "official",
+      "maintenance": "active",
+      "api": "rest",
+      "starred": true,
+      "tags": ["health", "auth-required"]
+    },
+    {
+      "name": "NSO CKAN Action API",
+      "url": "https://data.nsonepal.gov.np/api/3/action/",
+      "description": "National Statistics Office data portal — CKAN Action API. Census 2021, NLFS, GDP, National Accounts.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "rest",
+      "starred": true,
+      "tags": ["statistics", "ckan"]
+    },
+    {
+      "name": "Open Data Nepal API",
+      "url": "https://opendatanepal.com/api",
+      "description": "CKAN-based civic open-data portal — relaunched 2025 on CKAN 2.11.3 by Open Knowledge Nepal.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "rest",
+      "tags": ["open-data", "ckan"]
+    },
+    {
+      "name": "Government Enterprise Architecture (GEA 2.0)",
+      "url": "https://giwmscdnone.gov.np/media/app/public/1/posts/1678874926_66.pdf",
+      "description": "Architecture framework for the (still-aspirational) National e-Service Delivery Gateway. Reference document, not an API.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "none",
+      "note": "Policy doc — gateway not yet deployed."
+    }
+  ]
+}

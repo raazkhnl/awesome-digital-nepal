@@ -1,0 +1,143 @@
+{
+  "id": "companies",
+  "title": "Notable Companies & OSS Orgs",
+  "tagline": "Nepali tech companies with public open-source contributions",
+  "description": "Most Nepali tech companies are closed-source, but a few publish high-quality OSS: Khalti's payment SDKs, Leapfrog's libraries (nepali-date-picker), YoungInnovations' civic platforms, Yarsa's nepal-compliance ERPNext app, and Fusemachines' COVID work. Notably, F1Soft/eSewa has no prominent official GitHub org — a real ecosystem gap.",
+  "icon": "▣",
+  "order": 20,
+  "resources": [
+    {
+      "name": "tech-companies-in-nepal (mesaugat)",
+      "url": "https://github.com/mesaugat/tech-companies-in-nepal",
+      "description": "Definitive index of Nepali tech ecosystem — 400+ companies, 343 stars. Airtable-backed JSON API.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "sdk",
+      "starred": true
+    },
+    {
+      "name": "Leapfrog Technology",
+      "url": "https://github.com/leapfrogtechnology",
+      "description": "36 OSS repos. Flagship: nepali-date-picker (~92★). Also just-handlebars-helpers, coding-guidelines, async-store, sync-db.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "sdk",
+      "starred": true
+    },
+    {
+      "name": "Khalti GitHub",
+      "url": "https://github.com/khalti",
+      "description": "43 repos: full Web/Android/iOS/Flutter/React-Native/PHP/Ruby/Node SDK suite + WooCommerce/OpenCart/WHMCS plugins.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "sdk",
+      "starred": true
+    },
+    {
+      "name": "Yarsa Labs",
+      "url": "https://github.com/yarsa",
+      "description": "nepal-compliance (ERPNext-based, ~63★, MIT/GPL-3.0): IRD CBMS sync, NRB compliance, payroll per Labor Law 2074. Also Yarsa Games (Ludo King-style, 200M+ downloads).",
+      "status": "official",
+      "maintenance": "active",
+      "api": "sdk",
+      "starred": true
+    },
+    {
+      "name": "EKbana Solutions",
+      "url": "https://github.com/ekbanasolutions",
+      "description": "20 OSS repos — chatbot-ui, HorizonNet, Ekcdn, AudioAnalysis. Built Foodmandu.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "sdk"
+    },
+    {
+      "name": "CloudFactory",
+      "url": "https://github.com/cloudfactory",
+      "description": "OSS repos: hasty-python/go/cli, openapi-typescript-codegen, shikashi (Ruby sandbox), autoscaler.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "sdk"
+    },
+    {
+      "name": "Fusemachines GitHub",
+      "url": "https://github.com/Fusemachines",
+      "description": "open-source curated list, covid-nepal, covid-nepal-web, amazon-cognito-identity-dart.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "sdk"
+    },
+    {
+      "name": "Cotiviti Nepal",
+      "url": "https://www.cotiviti.com",
+      "description": "Major US healthcare-tech employer in Nepal.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "none"
+    },
+    {
+      "name": "Logpoint Nepal",
+      "url": "https://www.logpoint.com",
+      "description": "SIEM/cybersecurity company with major Nepal engineering office.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "none"
+    },
+    {
+      "name": "F1Soft",
+      "url": "https://www.f1soft.com",
+      "description": "Parent of eSewa, Foneloan, FonePay. Largest Nepali fintech group. ⚠️ No prominent official GitHub org found.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "none",
+      "note": "All eSewa SDKs are community-built — significant ecosystem gap."
+    },
+    {
+      "name": "Genese Solution",
+      "url": "https://www.genesesolution.com",
+      "description": "Cloud and software services company.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "none"
+    },
+    {
+      "name": "Janaki Tech",
+      "url": "https://janakitech.com",
+      "description": "Software services company.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "none"
+    },
+    {
+      "name": "Treeleaf Technologies",
+      "url": "https://www.treeleaf.ai",
+      "description": "AI-focused Nepali product company.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "none"
+    },
+    {
+      "name": "Paaila Technology",
+      "url": "https://www.paailatechnology.com",
+      "description": "Nepal's first robotics-AI startup. Built Pari humanoid robot.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "none"
+    },
+    {
+      "name": "Yatri Motorcycles",
+      "url": "https://www.yatrimotorcycles.com",
+      "description": "Nepali EV motorcycle company. P1 Gen 2 with CarPlay/Android Auto.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "none"
+    },
+    {
+      "name": "Insight Workshop",
+      "url": "https://insight.workshop.com.np",
+      "description": "Software product agency.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "none"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "news-media",
+  "title": "News, Media & Calendar",
+  "tagline": "News portals, RSS feeds, and Hamro Patro ecosystem",
+  "description": "Most major Nepali news outlets expose RSS feeds at /feed. Hamro Patro is the de-facto Nepali calendar (10M+ installs) but has no public API; community scrapers fill the gap. Nepali Wikipedia is the largest open Nepali corpus.",
+  "icon": "❀",
+  "order": 14,
+  "resources": [
+    {
+      "name": "Hamro Patro",
+      "url": "https://www.hamropatro.com",
+      "description": "10M+ installs. Nepali calendar, news, podcasts, radio. No public API but multiple community scrapers exist.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "none",
+      "starred": true
+    },
+    {
+      "name": "Hamro Patro Podcasts",
+      "url": "https://podcasts.hamropatro.com",
+      "description": "Largest Nepali-language podcast directory.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "none"
+    },
+    {
+      "name": "itsbohara/nepali-calendar-api",
+      "url": "https://github.com/itsbohara/nepali-calendar-api",
+      "description": "Hamro Patro calendar scraper.",
+      "status": "unofficial",
+      "maintenance": "stale",
+      "api": "scraper"
+    },
+    {
+      "name": "samundrak/hamro-patro-scrapper",
+      "url": "https://github.com/samundrak/hamro-patro-scrapper",
+      "description": "Hamro Patro scraper for events/calendar.",
+      "status": "unofficial",
+      "maintenance": "stale",
+      "api": "scraper"
+    },
+    {
+      "name": "OnlineKhabar",
+      "url": "https://www.onlinekhabar.com",
+      "description": "Major Nepali news portal. RSS at /feed.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "none"
+    },
+    {
+      "name": "Kantipur",
+      "url": "https://ekantipur.com",
+      "description": "Largest Nepali daily online edition. RSS at /feed.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "none"
+    },
+    {
+      "name": "The Kathmandu Post",
+      "url": "https://kathmandupost.com",
+      "description": "English-language Nepali daily. RSS at /feed.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "none"
+    },
+    {
+      "name": "Setopati",
+      "url": "https://www.setopati.com",
+      "description": "Major Nepali online news portal. RSS at /feed.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "none"
+    },
+    {
+      "name": "MyRepublica",
+      "url": "https://myrepublica.nagariknetwork.com",
+      "description": "English-language news under Nagarik Network.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "none"
+    },
+    {
+      "name": "BBC Nepali",
+      "url": "https://feeds.bbci.co.uk/nepali/rss.xml",
+      "description": "BBC Nepali Service RSS feed.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "rest"
+    },
+    {
+      "name": "Nepali Wikipedia",
+      "url": "https://ne.wikipedia.org",
+      "description": "Largest open Nepali corpus. Dumps at dumps.wikimedia.org/newiki.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "rest",
+      "starred": true
+    },
+    {
+      "name": "Sagyam/Nepali-News-Scraper",
+      "url": "https://github.com/Sagyam/Nepali-News-Scraper",
+      "description": "Scrapy spider for OnlineKhabar, Ratopati, Setopati, Gorkhapatra, eKantipur.",
+      "status": "unofficial",
+      "maintenance": "active",
+      "api": "scraper"
+    },
+    {
+      "name": "pemagrg1/Nepali-News-Scrapper",
+      "url": "https://github.com/pemagrg1/Nepali-News-Scrapper",
+      "description": "Multi-portal Nepali news scraper.",
+      "status": "unofficial",
+      "maintenance": "stale",
+      "api": "scraper"
+    }
+  ]
+}

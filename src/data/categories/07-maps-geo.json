@@ -1,0 +1,128 @@
+{
+  "id": "maps-geo",
+  "title": "Maps & Geospatial",
+  "tagline": "Nepal-specific maps, address APIs, and boundary datasets",
+  "description": "Two strong commercial Nepali map providers (Baato and Galli) offer Nepal-tuned geocoding and routing. The community has produced excellent open boundary GeoJSON — youngInnovations and mesaugat are the most-cited. Survey Department's National Geoportal hosts admin boundaries Levels 0–3 (Level 4 ward boundaries are restricted).",
+  "icon": "◉",
+  "order": 7,
+  "resources": [
+    {
+      "name": "Baato Maps",
+      "url": "https://baato.io",
+      "description": "Pay-as-you-go Nepali map API: Search, Reverse Geocoding, Routing, vector Tiles, Navigation, Place data, real-time tracking. By Kathmandu Living Labs Consult. 32+ repos at github.com/baato.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "rest",
+      "starred": true,
+      "tags": ["geocoding", "routing"]
+    },
+    {
+      "name": "Baato Docs",
+      "url": "https://docs.baato.io",
+      "description": "Baato API documentation.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "rest"
+    },
+    {
+      "name": "Galli Maps",
+      "url": "https://gallimaps.com",
+      "description": "Hyper-local Nepali maps with alley-level + house numbers (KMC, Kirtipur, Kageshwori expanding to Lalitpur), 360° street views, drone imagery. Endpoints: autocomplete, currentLocation, reverseGeocoding, routing.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "rest",
+      "starred": true,
+      "tags": ["hyperlocal", "street-view"]
+    },
+    {
+      "name": "Galli Maps Docs",
+      "url": "https://gallimaps.com/documentation/galli-apis-doc.html",
+      "description": "Galli Maps API documentation.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "rest"
+    },
+    {
+      "name": "Kathmandu Living Labs",
+      "url": "https://kathmandulivinglabs.org",
+      "description": "Civic-tech NGO behind Baato + OSM Nepal + 2015 QuakeMap. github.com/KathmanduLivingLabs.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "sdk"
+    },
+    {
+      "name": "OpenStreetMap Nepal",
+      "url": "https://wiki.openstreetmap.org/wiki/Nepal",
+      "description": "OSM Nepal community wiki and resources. Geofabrik download at download.geofabrik.de/asia/nepal.html.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "rest"
+    },
+    {
+      "name": "National Geoportal (Survey Dept.)",
+      "url": "https://nationalgeoportal.gov.np",
+      "description": "Survey Department NSDI. Admin boundaries Levels 0–3 free; Level 4 ward boundaries restricted.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "none"
+    },
+    {
+      "name": "mesaugat/geoJSON-Nepal",
+      "url": "https://github.com/mesaugat/geoJSON-Nepal",
+      "description": "Most-cited Nepal boundary GeoJSON dataset.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "none",
+      "starred": true
+    },
+    {
+      "name": "Acesmndr/nepal-geojson",
+      "url": "https://github.com/Acesmndr/nepal-geojson",
+      "description": "npm package with helper functions for Nepal GeoJSON.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "sdk"
+    },
+    {
+      "name": "younginnovations/nepal-locallevel-map",
+      "url": "https://github.com/younginnovations/nepal-locallevel-map",
+      "description": "High-resolution (44.7MB) and simplified (3.46MB) GeoJSON for all 753 local levels.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "none",
+      "starred": true
+    },
+    {
+      "name": "okfnepal/localboundaries",
+      "url": "https://github.com/openknowledgenp/localboundries",
+      "description": "TopoJSON + GeoJSON for 753 local levels plus parks/reserves.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "none"
+    },
+    {
+      "name": "bimalstha23/Nepal-Address-API",
+      "url": "https://github.com/bimalstha23/Nepal-Address-API",
+      "description": "REST API for provinces, districts, municipalities.",
+      "status": "community",
+      "maintenance": "stale",
+      "api": "rest"
+    },
+    {
+      "name": "sajan69/nepal-administrative-divisions",
+      "url": "https://github.com/sajan69/nepal-administrative-divisions",
+      "description": "Administrative-divisions dataset.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "none"
+    },
+    {
+      "name": "Survey Department",
+      "url": "https://dos.gov.np",
+      "description": "Cadastral records, NeLIS, MeroKitta.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "none"
+    }
+  ]
+}

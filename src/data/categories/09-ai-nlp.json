@@ -1,0 +1,224 @@
+{
+  "id": "ai-nlp",
+  "title": "AI, ML & Nepali NLP",
+  "tagline": "Language models, datasets, OCR, ASR, and translation for Nepali",
+  "description": "Nepali NLP has matured rapidly: NepBERTa, IRIIS Nepal's 27.5GB corpus, Whisper fine-tunes for ASR, and AI4Bharat IndicTrans2 / NLLB-200 for translation. Note: Helsinki-NLP/opus-mt-ne-en does not exist as a dedicated checkpoint — use NLLB or IndicTrans2 for production.",
+  "icon": "◐",
+  "order": 9,
+  "resources": [
+    {
+      "name": "NepBERTa",
+      "url": "https://huggingface.co/NepBERTa/NepBERTa",
+      "description": "RoBERTa pre-trained on ~0.8B Nepali words. Foundation for the Nep-gLUE benchmark. AACL-IJCNLP 2022.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "sdk",
+      "starred": true
+    },
+    {
+      "name": "Sakonii/distilbert-base-nepali",
+      "url": "https://huggingface.co/Sakonii/distilbert-base-nepali",
+      "description": "Apache-2.0. Trained on 13M sequences from OSCAR + CC-100 + Wikipedia.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "sdk"
+    },
+    {
+      "name": "Sakonii/deberta-base-nepali",
+      "url": "https://huggingface.co/Sakonii/deberta-base-nepali",
+      "description": "Best-performing monolingual masked LM in the Sakonii series.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "sdk"
+    },
+    {
+      "name": "IRIISNEPAL/Nepali-Text-Corpus",
+      "url": "https://huggingface.co/datasets/IRIISNEPAL/Nepali-Text-Corpus",
+      "description": "Current SOTA Nepali corpus — 27.5GB / 6.4M articles. arXiv 2411.15734.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "sdk",
+      "starred": true
+    },
+    {
+      "name": "IRIIS Nepali RoBERTa",
+      "url": "https://huggingface.co/IRIISNEPAL",
+      "description": "RoBERTa trained on the IRIIS 27.5GB corpus. SOTA on Nepali NLU benchmarks.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "sdk",
+      "starred": true
+    },
+    {
+      "name": "AI4Bharat IndicTrans2",
+      "url": "https://github.com/AI4Bharat/IndicTrans2",
+      "description": "MIT-licensed Indic translation suite. en-indic / indic-en, 1B + dist-200M. RoPE long-context updated Jan 2025. Best Indic-focused MT for Nepali.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "sdk",
+      "starred": true
+    },
+    {
+      "name": "NLLB-200",
+      "url": "https://huggingface.co/facebook/nllb-200-distilled-600M",
+      "description": "Meta NLLB-200. CC-BY-NC-4.0. Best open Nepali↔X translation across 200 languages.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "sdk",
+      "starred": true
+    },
+    {
+      "name": "ai4bharat/indic-bert",
+      "url": "https://huggingface.co/ai4bharat/indic-bert",
+      "description": "Multilingual ALBERT covering 12 Indic languages including Nepali.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "sdk"
+    },
+    {
+      "name": "google/muril-base-cased",
+      "url": "https://huggingface.co/google/muril-base-cased",
+      "description": "Multilingual representations for 17 Indian languages.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "sdk"
+    },
+    {
+      "name": "kiranpantha/whisper-large-v3-turbo-nepali",
+      "url": "https://huggingface.co/kiranpantha/whisper-large-v3-turbo-nepali",
+      "description": "Current SOTA Whisper fine-tune for Nepali ASR.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "sdk",
+      "starred": true
+    },
+    {
+      "name": "OpenSLR SLR54 (Nepali ASR)",
+      "url": "https://www.openslr.org/54/",
+      "description": "~157K Nepali utterances. CC-BY-SA-4.0. Standard ASR training corpus.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "none",
+      "starred": true
+    },
+    {
+      "name": "OpenSLR SLR43 (Nepali TTS)",
+      "url": "https://www.openslr.org/43/",
+      "description": "Nepali TTS data — 18 female speakers.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "none"
+    },
+    {
+      "name": "Mozilla Common Voice — Nepali",
+      "url": "https://commonvoice.mozilla.org/ne",
+      "description": "Crowd-sourced Nepali (ne-NP) voice dataset. CC0.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "none"
+    },
+    {
+      "name": "Indic-OCR Tessdata",
+      "url": "https://indic-ocr.github.io/tessdata/",
+      "description": "Improved Tesseract Devanagari/Nepali traineddata files.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "sdk",
+      "starred": true
+    },
+    {
+      "name": "DHCD — Devanagari Handwritten Character Dataset",
+      "url": "https://web.archive.org/web/2020/https://archive.ics.uci.edu/ml/datasets/Devanagari+Handwritten+Character+Dataset",
+      "description": "92K images / 46 classes. Standard Devanagari handwriting benchmark.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "none"
+    },
+    {
+      "name": "fastText cc.ne.300",
+      "url": "https://fasttext.cc/docs/en/crawl-vectors.html",
+      "description": "300-dim Nepali word embeddings from CommonCrawl + Wikipedia.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "none",
+      "starred": true
+    },
+    {
+      "name": "NPVec1",
+      "url": "https://github.com/nowalab/nepali-word-embeddings",
+      "description": "25 SOTA Nepali embeddings on 279M tokens. ACL 2021.",
+      "status": "community",
+      "maintenance": "stale",
+      "api": "none"
+    },
+    {
+      "name": "Nep-gLUE Benchmark",
+      "url": "https://nepberta.github.io",
+      "description": "4-task Nepali NLU benchmark.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "none",
+      "starred": true
+    },
+    {
+      "name": "EverestNER",
+      "url": "https://github.com/nowalab/everest-ner",
+      "description": "Nepali NER dataset — 24,587 entities. FLAIRS 2022.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "none"
+    },
+    {
+      "name": "sushil79g/Nepali_nlp",
+      "url": "https://github.com/sushil79g/Nepali_nlp",
+      "description": "Most complete Nepali NLP toolkit — tokenization, summarization, news extraction, more.",
+      "status": "community",
+      "maintenance": "stale",
+      "api": "sdk",
+      "starred": true
+    },
+    {
+      "name": "goru001/inltk",
+      "url": "https://github.com/goru001/inltk",
+      "description": "Indic NLP toolkit (MIT) — Nepali first-class.",
+      "status": "community",
+      "maintenance": "stale",
+      "api": "sdk"
+    },
+    {
+      "name": "Bhashini ULCA",
+      "url": "https://bhashini.gov.in/ulca",
+      "description": "Indian govt MeitY platform. Nepali ASR + NMT + TTS available.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "rest",
+      "starred": true,
+      "tags": ["india-govt"]
+    },
+    {
+      "name": "NAAMII",
+      "url": "https://naamii.org.np",
+      "description": "Nepal's flagship AI research institute. Runs ANAIS annual school since 2018 (6th edition 2025). github.com/naamiinepal.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "none",
+      "starred": true
+    },
+    {
+      "name": "Fusemachines AI Fellowship",
+      "url": "https://fusemachines.com",
+      "description": "NASDAQ:FUSE. AI Fellowship in Nepal since 2017 — 1,200+ fellows. Founder Dr. Sameer Maskey.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "none"
+    },
+    {
+      "name": "Curated NLP — ghimiresunil",
+      "url": "https://github.com/ghimiresunil/Curated-List-of-Nepali-NLP-Resources",
+      "description": "Long-running curated list of Nepali NLP resources.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "none"
+    }
+  ]
+}

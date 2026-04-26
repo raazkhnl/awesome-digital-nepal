@@ -1,0 +1,30 @@
+# Weekly link-health check on every URL referenced in the catalog.
+# Opens an issue if any links break.
+
+name: Link Check
+
+on:
+  schedule:
+    - cron: '0 6 * * 1'  # Mondays 06:00 UTC
+  workflow_dispatch:
+
+jobs:
+  link-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run lychee on JSON catalog
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --verbose --no-progress 'src/data/categories/**/*.json' 'README.md'
+          fail: false
+          output: ./lychee-report.md
+
+      - name: Open issue on broken links
+        if: always()
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: Weekly link-check report
+          content-filepath: ./lychee-report.md
+          labels: link-check, automated

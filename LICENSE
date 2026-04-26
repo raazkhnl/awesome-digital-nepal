@@ -1,0 +1,47 @@
+CC0 1.0 Universal — Public Domain Dedication
+==============================================
+
+The catalog content in this repository (the curated lists, descriptions,
+and metadata of resources under `src/data/categories/`) is released into
+the public domain.
+
+The person who associated a work with this deed has dedicated the work to
+the public domain by waiving all of his or her rights to the work
+worldwide under copyright law, including all related and neighboring
+rights, to the extent allowed by law.
+
+You can copy, modify, distribute and perform the work, even for
+commercial purposes, all without asking permission.
+
+For the full legal text, see:
+https://creativecommons.org/publicdomain/zero/1.0/legalcode
+
+For a human-readable summary, see:
+https://creativecommons.org/publicdomain/zero/1.0/
+
+────────────────────────────────────────────────────────────────────────
+
+NOTE ON DUAL LICENSING
+======================
+
+This repository contains TWO kinds of work, licensed differently:
+
+  1. The catalog content (data files, descriptions, prose in README and
+     other docs) — released under CC0 1.0 (this file).
+
+  2. The application source code (the React app under `src/`, build
+     configs, scripts, GitHub Actions workflows) — released under MIT
+     (see LICENSE-CODE).
+
+If you are unsure which license applies, default to the more permissive
+one for your use case. Contributions to either part are welcome.
+
+────────────────────────────────────────────────────────────────────────
+
+NO WARRANTY
+===========
+
+The catalog is provided "as is", without warranty of any kind. The
+maintainers are not liable for any damages arising from use of the
+information contained herein. Inclusion of a resource is not an
+endorsement; see DISCLAIMER.md.

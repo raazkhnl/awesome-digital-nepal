@@ -1,0 +1,176 @@
+{
+  "id": "government",
+  "title": "Government & e-Governance",
+  "tagline": "Citizen services, national ID, and government portals",
+  "description": "Official government digital services and e-governance portals. Most are form-based or require login; documented public APIs are rare. We list the canonical URLs plus a few well-known community scrapers where they responsibly fill a real gap.",
+  "icon": "⚖",
+  "order": 1,
+  "resources": [
+    {
+      "name": "Nagarik App",
+      "url": "https://nagarikapp.gov.np",
+      "description": "Government super-app for citizen services: NID, citizenship, license, passport status, PAN, traffic e-chalan, voter pre-registration. Built by NITC. ~1.5M+ users; 2022 World Summit Award winner.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "none",
+      "starred": true,
+      "tags": ["citizen-services", "super-app"]
+    },
+    {
+      "name": "Citizen Portal — DONIDCR",
+      "url": "https://citizenportal.donidcr.gov.np",
+      "description": "Department of National ID and Civil Registration. National ID smart card application and status — 17.2M+ enrolled by mid-2025. Backend by IDEMIA.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "none",
+      "tags": ["national-id", "citizenship"]
+    },
+    {
+      "name": "DONIDCR Official Site",
+      "url": "https://donidcr.gov.np",
+      "description": "Department of National ID and Civil Registration — main portal.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "none"
+    },
+    {
+      "name": "Department of Drug Administration (DAMS)",
+      "url": "https://dams.dda.gov.np/manLogin/publicInfo",
+      "description": "Authoritative drug registry public-info portal. Form-based search.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "form"
+    },
+    {
+      "name": "NEA Online Billing",
+      "url": "https://www.neabilling.com/viewonline/",
+      "description": "Nepal Electricity Authority online bill viewing/payment.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "none"
+    },
+    {
+      "name": "NEA Bill Checker (Community)",
+      "url": "https://github.com/Limbuthitoo/Nepal-Electricity-Bill-Calculator",
+      "description": "Open-source NEA bill calculator/checker by community contributor.",
+      "status": "community",
+      "maintenance": "stale",
+      "api": "sdk"
+    },
+    {
+      "name": "Inland Revenue Department",
+      "url": "https://ird.gov.np",
+      "description": "VAT, PAN, taxpayer registration. See also the dedicated IRD CBMS API in the Government APIs category.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "none"
+    },
+    {
+      "name": "IRD Taxpayer Portal",
+      "url": "https://taxpayerportal.ird.gov.np",
+      "description": "Self-service portal for VAT/PAN return filing, tax payments.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "form"
+    },
+    {
+      "name": "Department of Transport Management",
+      "url": "https://dotm.gov.np",
+      "description": "Driver license, vehicle registration, BlueBook services. Digital BlueBook integrated with Nagarik App (Bagmati province only as of 2025).",
+      "status": "official",
+      "maintenance": "active",
+      "api": "none"
+    },
+    {
+      "name": "DOTM Driver License Application",
+      "url": "https://applydlnew.dotm.gov.np",
+      "description": "Online driver license application portal.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "form"
+    },
+    {
+      "name": "Election Commission Nepal",
+      "url": "https://election.gov.np",
+      "description": "Election Commission — voter pre-registration, e-bulletins, results.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "none"
+    },
+    {
+      "name": "ECN Voter Data Scraper",
+      "url": "https://github.com/Upendra48/Nepal-Election-Commission-Voter-Data-Scraper",
+      "description": "Scrapes ECN PDFs for 7 provinces, 77 districts, 753 municipalities, 6,743 wards, 10,756 polling stations. Educational/research use only.",
+      "status": "unofficial",
+      "maintenance": "active",
+      "api": "scraper",
+      "note": "Respect ECN terms; don't scrape personal voter data."
+    },
+    {
+      "name": "Department of Passport — eMRTDS",
+      "url": "https://emrtds.nepalpassport.gov.np",
+      "description": "e-passport pre-enrollment portal. ~4.53M e-passports issued by April 2025.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "form"
+    },
+    {
+      "name": "Department of Foreign Employment — FEIMS",
+      "url": "https://dofe.gov.np",
+      "description": "Labor permit system; ~7.6M+ permits since 2008. ⚠️ The site dofenepal.com is NOT the official portal.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "none"
+    },
+    {
+      "name": "Office of Company Registrar — CAMIS",
+      "url": "https://camis.ocr.gov.np",
+      "description": "Company registration, annual filings, search.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "form"
+    },
+    {
+      "name": "OCR Open Government Data",
+      "url": "https://ocr.gov.np/index.php/en/data",
+      "description": "Bulk CSV/XML downloads of company registrations 2002–2072 BS. One of the more substantive open-data offerings from a Nepali ministry.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "none",
+      "starred": true,
+      "tags": ["open-data", "companies"]
+    },
+    {
+      "name": "Hello Sarkar",
+      "url": "https://hellosarkar.gov.np",
+      "description": "24/7 multi-channel grievance portal (call 1111). Operated by OPMCM.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "form"
+    },
+    {
+      "name": "Nepal National Portal",
+      "url": "https://nepal.gov.np",
+      "description": "Government services directory — entry point for ministries and departments.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "none"
+    },
+    {
+      "name": "NITC — National Information Technology Center",
+      "url": "https://nitc.gov.np",
+      "description": "Government data center; runs Nagarik App and the GIWMS CMS used by many .gov.np sites.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "none"
+    },
+    {
+      "name": "PSC — Loksewa Aayog",
+      "url": "https://psc.gov.np",
+      "description": "Public Service Commission — vacancy notices, exam schedules, results.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "none"
+    }
+  ]
+}

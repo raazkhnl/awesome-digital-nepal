@@ -1,0 +1,109 @@
+{
+  "id": "health",
+  "title": "Health & Medical Tech",
+  "tagline": "EHR systems, telemedicine, and health datasets",
+  "description": "DHIS2 powers Nepal's national HMIS — one of the few government systems with a documented API. Possible Health/Nyaya Health's Bahmni-based open EHR is the strongest open-source health-IT case study in Nepal. Telemedicine is led by Hamro Doctor and Cura Health.",
+  "icon": "✚",
+  "order": 12,
+  "resources": [
+    {
+      "name": "DHIS2 Nepal HMIS",
+      "url": "https://hmis.gov.np",
+      "description": "National Health Management Information System on DHIS2 since 2016. 1,000+ facilities reporting. DHIS2 Web API at /api.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "rest",
+      "starred": true
+    },
+    {
+      "name": "Possible Health / NepalEHR",
+      "url": "https://www.nyayahealthnepal.org",
+      "description": "Open-source EHR using Bahmni (OpenMRS+OpenELIS+OpenERP) + CommCare + DHIS2. First international Bahmni implementation (Bayalpata Hospital, 2015).",
+      "status": "community",
+      "maintenance": "active",
+      "api": "sdk",
+      "starred": true
+    },
+    {
+      "name": "Bahmni",
+      "url": "https://www.bahmni.org",
+      "description": "Open-source EHR + hospital system. Adopted by Nyaya Health Nepal.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "rest"
+    },
+    {
+      "name": "openIMIS Nepal",
+      "url": "https://openimis.org/nepal",
+      "description": "Open-source insurance management — claims and beneficiary management.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "rest"
+    },
+    {
+      "name": "Hamro Doctor",
+      "url": "https://hamrodoctor.com",
+      "description": "Pioneer telemedicine platform since 2016. 1,000+ NMC-verified doctors.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "none",
+      "starred": true
+    },
+    {
+      "name": "Cura Health",
+      "url": "https://curahealth.org",
+      "description": "Nepali telemedicine platform.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "none"
+    },
+    {
+      "name": "NepMeds",
+      "url": "https://nepmeds.com.np",
+      "description": "Online doctor consultation platform.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "none"
+    },
+    {
+      "name": "ePharmacy",
+      "url": "https://www.epharmacy.com.np",
+      "description": "Online pharmacy and medicine delivery.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "none"
+    },
+    {
+      "name": "DDA / DAMS Drug Registry",
+      "url": "https://dams.dda.gov.np/manLogin/publicInfo",
+      "description": "Department of Drug Administration's authoritative drug registry.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "form"
+    },
+    {
+      "name": "MoHP COVID Dashboard",
+      "url": "https://covid19.mohp.gov.np",
+      "description": "Ministry of Health and Population COVID-19 dashboard (now archived).",
+      "status": "official",
+      "maintenance": "archived",
+      "api": "none"
+    },
+    {
+      "name": "upretip/NMC",
+      "url": "https://github.com/upretip/NMC",
+      "description": "Python scraper of Nepal Medical Council registry to SQLite.",
+      "status": "unofficial",
+      "maintenance": "stale",
+      "api": "scraper"
+    },
+    {
+      "name": "Department of Health Services",
+      "url": "https://dohs.gov.np",
+      "description": "MoHP department coordinating public-health programs.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "none"
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "id": "education",
+  "title": "Education & EdTech",
+  "tagline": "Learning platforms, university portals, and exam resources",
+  "description": "Open educational resources from OLE Nepal, government e-learning (Sikai Chautari), and a thriving private EdTech sector (Kullabs, Saralnotes, mySecondTeacher, Mero School). University and exam portals are mostly form-based.",
+  "icon": "✎",
+  "order": 11,
+  "resources": [
+    {
+      "name": "OLE Nepal",
+      "url": "https://olenepal.org",
+      "description": "NGO since 2007 producing CC BY-NC-SA educational content. Builds E-Paath, E-Pustakalaya, Sanketik, OLEN i-OCR.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "none",
+      "starred": true
+    },
+    {
+      "name": "E-Paath",
+      "url": "https://epaath.olenepal.org",
+      "description": "500+ Grade 1–8 modules in Nepali, English, Chepang, and Nepali Sign Language.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "none",
+      "starred": true
+    },
+    {
+      "name": "E-Pustakalaya",
+      "url": "https://pustakalaya.org",
+      "description": "4,000+ titles. Deployable offline for schools without internet.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "none",
+      "starred": true
+    },
+    {
+      "name": "Sikai Chautari",
+      "url": "https://sikaichautari.gov.np",
+      "description": "Government e-learning platform launched 2020 by CEHRD.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "none"
+    },
+    {
+      "name": "Kullabs",
+      "url": "https://kullabs.com",
+      "description": "Long-running EdTech portal — notes, videos, MCQs across school grades.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "none"
+    },
+    {
+      "name": "Saralnotes",
+      "url": "https://saralnotes.com",
+      "description": "Notes and resources for Nepali curriculum (by Vine Software).",
+      "status": "community",
+      "maintenance": "active",
+      "api": "none"
+    },
+    {
+      "name": "mySecondTeacher",
+      "url": "https://mysecondteacher.com.np",
+      "description": "NEB-endorsed eBook + interactive video platform.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "none"
+    },
+    {
+      "name": "Mero School",
+      "url": "https://mero.school",
+      "description": "Live and recorded classes for Nepali students.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "none"
+    },
+    {
+      "name": "Fuse Classroom",
+      "url": "https://fuseclassroom.com",
+      "description": "Fusemachines AI-driven LMS used by universities.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "sdk"
+    },
+    {
+      "name": "Edusanjal",
+      "url": "https://edusanjal.com",
+      "description": "Education directory + courses since 2011.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "none"
+    },
+    {
+      "name": "TU — Tribhuvan University",
+      "url": "https://tu.edu.np",
+      "description": "Largest university in Nepal. Exam portal at tuexam.edu.np.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "none"
+    },
+    {
+      "name": "Kathmandu University",
+      "url": "https://ku.edu.np",
+      "description": "Private autonomous university.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "none"
+    },
+    {
+      "name": "IOE Pulchowk",
+      "url": "https://entrance.ioe.edu.np",
+      "description": "Institute of Engineering — entrance, exams, admissions.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "none"
+    },
+    {
+      "name": "NEB Result",
+      "url": "https://result.neb.gov.np",
+      "description": "National Examination Board class 11/12 results portal.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "form"
+    },
+    {
+      "name": "SEE Result",
+      "url": "https://see.gov.np",
+      "description": "Secondary Education Examination results portal.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "form"
+    },
+    {
+      "name": "Programiz",
+      "url": "https://www.programiz.com",
+      "description": "Founded 2011 in Kathmandu. Globally 15M+ pageviews/month for programming tutorials.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "none",
+      "starred": true,
+      "tags": ["nepal-founded", "global"]
+    }
+  ]
+}

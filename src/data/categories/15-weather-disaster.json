@@ -1,0 +1,125 @@
+{
+  "id": "weather-disaster",
+  "title": "Weather, Environment & Disaster",
+  "tagline": "Hydromet, air quality, seismic, and disaster portals",
+  "description": "DHM is authoritative but has no public REST API; AQICN and OpenAQ offer programmatic air-quality data. USGS FDSN is the de-facto API for Nepal earthquakes. BIPAD is the strongest official Nepali disaster API.",
+  "icon": "❄",
+  "order": 15,
+  "resources": [
+    {
+      "name": "Department of Hydrology and Meteorology (DHM)",
+      "url": "https://www.dhm.gov.np",
+      "description": "Authoritative Nepal weather/hydrology. No public REST API; data is paid + form-based. Toll-free 1155.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "none"
+    },
+    {
+      "name": "DHM Realtime Streamflow",
+      "url": "https://www.dhm.gov.np/hydrology/realtime-stream",
+      "description": "Live streamflow data viewer.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "none"
+    },
+    {
+      "name": "MFD — Mountain Forecast Division",
+      "url": "https://www.mfd.gov.np",
+      "description": "Mountain Forecast Division of DHM.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "none"
+    },
+    {
+      "name": "AQICN Nepal",
+      "url": "https://aqicn.org/network/np-deqam",
+      "description": "Free air-quality API for Nepal monitoring stations (token-based).",
+      "status": "community",
+      "maintenance": "active",
+      "api": "rest",
+      "starred": true
+    },
+    {
+      "name": "OpenAQ Nepal",
+      "url": "https://openaq.org",
+      "description": "Free open air-quality data covering Nepal stations.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "rest"
+    },
+    {
+      "name": "Pollution.gov.np",
+      "url": "https://pollution.gov.np",
+      "description": "Government Air Quality Monitoring System (AQMS).",
+      "status": "official",
+      "maintenance": "active",
+      "api": "none"
+    },
+    {
+      "name": "NEMRC / Seismonepal",
+      "url": "https://seismonepal.gov.np",
+      "description": "National Earthquake Monitoring and Research Center. Updated quake list.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "none"
+    },
+    {
+      "name": "USGS Earthquake Feed",
+      "url": "https://earthquake.usgs.gov/earthquakes/feed/",
+      "description": "FDSN feed — de-facto API for Nepal earthquakes (filter by region).",
+      "status": "official",
+      "maintenance": "active",
+      "api": "rest",
+      "starred": true
+    },
+    {
+      "name": "BIPAD Portal",
+      "url": "https://bipadportal.gov.np",
+      "description": "National Disaster Information Management System by NDRRMA + Youth Innovation Lab. Browsable Django REST API at /api.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "rest",
+      "starred": true
+    },
+    {
+      "name": "NDRRMA",
+      "url": "https://ndrrma.gov.np",
+      "description": "Nepal Disaster Risk Reduction and Management Authority.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "none"
+    },
+    {
+      "name": "ICIMOD HimalDoc",
+      "url": "https://lib.icimod.org",
+      "description": "ICIMOD library and documentation portal.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "rest"
+    },
+    {
+      "name": "2015 Nepal Earthquake Open Data Portal",
+      "url": "http://eq2015.npc.gov.np",
+      "description": "760k buildings, 3.6M residents — historic open dataset.",
+      "status": "official",
+      "maintenance": "archived",
+      "api": "none"
+    },
+    {
+      "name": "DrivenData — Richter's Predictor",
+      "url": "https://www.drivendata.org/competitions/57/nepal-earthquake/",
+      "description": "ML competition dataset on 2015 earthquake building damage.",
+      "status": "community",
+      "maintenance": "archived",
+      "api": "none"
+    },
+    {
+      "name": "QuakeMap.org",
+      "url": "https://quakemap.org",
+      "description": "Kathmandu Living Labs / Ushahidi 2015 quake response platform. Standby/historical.",
+      "status": "deprecated",
+      "maintenance": "archived",
+      "api": "none"
+    }
+  ]
+}

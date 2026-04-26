@@ -1,0 +1,101 @@
+{
+  "id": "fonts-typography",
+  "title": "Fonts & Typography",
+  "tagline": "Unicode Devanagari fonts and Preeti↔Unicode converters",
+  "description": "Use Unicode (U+0900–U+097F) Devanagari fonts for the modern web — searchable, copy-pasteable, and universally rendered. Legacy ASCII fonts (Preeti, Kantipur, PCS) re-map Latin slots to Devanagari shapes; converters are needed for any modern integration.",
+  "icon": "अ",
+  "order": 10,
+  "resources": [
+    {
+      "name": "Lohit Devanagari",
+      "url": "https://github.com/lohit-fonts/lohit-devanagari-fonts",
+      "description": "Red Hat / Fedora project. GPLv2. Reliable open Unicode Devanagari font.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "none",
+      "starred": true
+    },
+    {
+      "name": "Madan Puraskar Pustakalaya",
+      "url": "http://madanpuraskar.org",
+      "description": "Historical home of Nepali Unicode work. Maintains Kalimati, Aalekh, Madan, Sirjana, Sagarmatha fonts (GPL).",
+      "status": "community",
+      "maintenance": "stale",
+      "api": "none",
+      "starred": true
+    },
+    {
+      "name": "Google Fonts — Devanagari",
+      "url": "https://fonts.google.com/?subset=devanagari",
+      "description": "Mukta, Hind, Khand, Tiro Devanagari Hindi, Noto Sans/Serif Devanagari, Anek Devanagari, Halant, Tillana, Palanquin, Vesper Libre, Ek Mukta, Teko, Kalam.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "none",
+      "starred": true
+    },
+    {
+      "name": "Anjali Old Lipi",
+      "url": "https://fonts.adobe.com/fonts/anjali-old-lipi",
+      "description": "Classic Devanagari Unicode font available via Adobe Fonts.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "none"
+    },
+    {
+      "name": "MPP FontConverter",
+      "url": "https://www.madanpuraskar.org/np/index.php?option=com_content&view=article&id=84",
+      "description": "Java-based converter from MPP — Preeti and other ASCII Nepali fonts to Unicode.",
+      "status": "community",
+      "maintenance": "stale",
+      "api": "sdk"
+    },
+    {
+      "name": "Pramukh Font Converter",
+      "url": "https://www.pramukhfontconverter.com",
+      "description": "Web-based bidirectional Preeti↔Unicode converter.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "none"
+    },
+    {
+      "name": "globalpolicy/PreetiToUnicode",
+      "url": "https://github.com/globalpolicy/PreetiToUnicode",
+      "description": "Open-source Preeti-to-Unicode converter.",
+      "status": "community",
+      "maintenance": "stale",
+      "api": "sdk"
+    },
+    {
+      "name": "yarsa/unicode-preeti-converter",
+      "url": "https://github.com/yarsa/unicode-preeti-converter",
+      "description": "Yarsa Labs' Unicode↔Preeti converter.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "sdk"
+    },
+    {
+      "name": "kaupage/Saral2Unicode",
+      "url": "https://github.com/kaupage/Saral2Unicode",
+      "description": "Saral Nepali → Unicode converter.",
+      "status": "community",
+      "maintenance": "stale",
+      "api": "sdk"
+    },
+    {
+      "name": "mhnpd/nepali-font",
+      "url": "https://github.com/mhnpd/nepali-font",
+      "description": "Collection of 60+ legacy Nepali fonts (Ananda family, Kantipur, Preeti, etc.) for reference. Mostly ASCII.",
+      "status": "community",
+      "maintenance": "stale",
+      "api": "none"
+    },
+    {
+      "name": "CLDR ne_NP locale",
+      "url": "https://www.localeplanet.com/icu/ne-NP/",
+      "description": "ICU/CLDR locale data for Nepali (Nepal).",
+      "status": "official",
+      "maintenance": "active",
+      "api": "none"
+    }
+  ]
+}

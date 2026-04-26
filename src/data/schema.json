@@ -1,0 +1,110 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Awesome Digital Nepal — Category Schema",
+  "description": "Schema for a single category file in src/data/categories/. Each file represents one category and contains an array of resources.",
+  "type": "object",
+  "required": [
+    "id",
+    "title",
+    "description",
+    "resources"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$",
+      "description": "URL-safe slug used in routing, e.g. 'fintech-payments'."
+    },
+    "title": {
+      "type": "string",
+      "description": "Human-readable category name."
+    },
+    "tagline": {
+      "type": "string",
+      "description": "Short 1-line tagline shown on category cards."
+    },
+    "description": {
+      "type": "string",
+      "description": "Longer prose description shown at the top of the category page."
+    },
+    "icon": {
+      "type": "string",
+      "description": "Single emoji or short symbol used as a visual mark."
+    },
+    "order": {
+      "type": "integer",
+      "description": "Sort order in the navigation."
+    },
+    "resources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "url",
+          "description",
+          "status"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "description": {
+            "type": "string",
+            "description": "1–3 sentences. Be factual, no marketing copy."
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "official",
+              "community",
+              "unofficial",
+              "deprecated"
+            ],
+            "description": "official = first-party / government; community = third-party but legitimately published; unofficial = scraper/reverse-engineered; deprecated = no longer maintained."
+          },
+          "maintenance": {
+            "type": "string",
+            "enum": [
+              "active",
+              "stale",
+              "archived",
+              "unknown"
+            ],
+            "description": "active = recent commits/updates; stale = >1yr no activity; archived = explicitly archived."
+          },
+          "api": {
+            "type": "string",
+            "enum": [
+              "rest",
+              "graphql",
+              "sdk",
+              "scraper",
+              "webhook",
+              "form",
+              "none"
+            ]
+          },
+          "tags": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "starred": {
+            "type": "boolean",
+            "description": "Mark as essential / first-class citizen for this category."
+          },
+          "note": {
+            "type": "string",
+            "description": "Optional caveat (e.g., legal, deprecation, usage warning)."
+          }
+        }
+      }
+    }
+  }
+}

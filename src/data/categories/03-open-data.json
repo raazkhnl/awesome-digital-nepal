@@ -1,0 +1,125 @@
+{
+  "id": "open-data",
+  "title": "Open Data & Datasets",
+  "tagline": "Statistics, geospatial, humanitarian, and historical data",
+  "description": "National statistics, civic open data, humanitarian datasets, and geospatial layers covering Nepal. Many sources offer CKAN APIs, raw CSV/Shapefile downloads, or programmatic search.",
+  "icon": "▦",
+  "order": 3,
+  "resources": [
+    {
+      "name": "Open Data Nepal",
+      "url": "https://opendatanepal.com",
+      "description": "CKAN-based civic open-data portal run by Open Knowledge Nepal. Relaunched 2025 on CKAN 2.11.3 with refreshed UX.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "rest",
+      "starred": true
+    },
+    {
+      "name": "NSO Nepal Data Portal",
+      "url": "https://data.nsonepal.gov.np",
+      "description": "Official statistics — Census 2021, NLFS, National Accounts, GDP. Bilingual (en/np). CKAN API available.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "rest",
+      "starred": true
+    },
+    {
+      "name": "HumData Exchange — Nepal",
+      "url": "https://data.humdata.org/group/npl",
+      "description": "323+ humanitarian datasets from 62 orgs: COD-AB admin boundaries (Oct 2024), DHS, Meta High-Resolution Population Density, settlements, road network. CKAN API + HAPI.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "rest",
+      "starred": true
+    },
+    {
+      "name": "Census Nepal 2021",
+      "url": "https://censusnepal.cbs.gov.np/results",
+      "description": "Official 2021 census results portal.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "none"
+    },
+    {
+      "name": "Nepal in Data",
+      "url": "https://nepalindata.com",
+      "description": "Bikas Udhyami project. Data 1950–present across 13 themes; visualizations and downloads.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "none"
+    },
+    {
+      "name": "ICIMOD Regional Database",
+      "url": "https://rds.icimod.org",
+      "description": "Hindu Kush Himalaya data: glacier mass balance, biomass, geology, climate. GeoNetwork API.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "rest"
+    },
+    {
+      "name": "ICIMOD Mountain Geoportal",
+      "url": "http://geoportal.icimod.org",
+      "description": "Geospatial data viewer for the HKH region.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "none"
+    },
+    {
+      "name": "SERVIR-HKH",
+      "url": "https://servir.icimod.org",
+      "description": "NASA-USAID + ICIMOD remote-sensing platform for the HKH region.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "none"
+    },
+    {
+      "name": "DesInventar Nepal",
+      "url": "https://www.desinventar.net/DesInventar/profiletab.jsp?countrycode=npl",
+      "description": "Historical disaster inventory 1971–present.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "none"
+    },
+    {
+      "name": "World Bank Nepal",
+      "url": "https://data.worldbank.org/country/nepal",
+      "description": "World Development Indicators for Nepal — accessible via the World Bank Indicators API.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "rest"
+    },
+    {
+      "name": "Open Knowledge Nepal — GitHub",
+      "url": "https://github.com/openknowledgenp",
+      "description": "43 repos: ckanext-odn, publicbodies-data, Local Boundaries geodata, ODAP, Nepal Digital Safety Corpus.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "sdk"
+    },
+    {
+      "name": "Nepali Datasets — IOST/ASCOL",
+      "url": "https://github.com/IOST-ASCOL/nepali-datasets",
+      "description": "Curated index of Nepali datasets by IOST/ASCOL.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "none"
+    },
+    {
+      "name": "Nepali Datasets — pemagrg1",
+      "url": "https://github.com/pemagrg1/Nepali-Datasets",
+      "description": "Long-running curated list of Nepali NLP and general datasets.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "none"
+    },
+    {
+      "name": "ML Datasets — amitness",
+      "url": "https://github.com/amitness/ml-datasets",
+      "description": "Amit Chaudhary's curated index of Nepali machine learning datasets.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "none"
+    }
+  ]
+}

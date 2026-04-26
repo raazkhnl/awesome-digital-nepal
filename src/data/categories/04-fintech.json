@@ -1,0 +1,163 @@
+{
+  "id": "fintech-payments",
+  "title": "Fintech & Payments",
+  "tagline": "Payment gateways, wallets, banking, and fintech APIs",
+  "description": "Nepal's payment landscape — eSewa and Khalti dominate consumer wallets, while ConnectIPS/NCHL operate the rails. Khalti has the most polished cross-platform official SDK story; community SDKs fill gaps for the rest. Cryptocurrency is illegal in Nepal — no crypto integrations are listed.",
+  "icon": "₨",
+  "order": 4,
+  "resources": [
+    {
+      "name": "eSewa Developer Portal",
+      "url": "https://developer.esewa.com.np",
+      "description": "ePay v2 (web redirect, Android, iOS). UAT at uat.esewa.com.np with test merchant EPAYTEST. Nepal's largest digital wallet, 8M+ users.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "sdk",
+      "starred": true,
+      "tags": ["wallet", "sandbox"]
+    },
+    {
+      "name": "Khalti Developer Docs",
+      "url": "https://docs.khalti.com",
+      "description": "KPG2 single-integration aggregating wallet + eBanking + ConnectIPS + SCT/VISA. The most polished official multi-platform SDK story in Nepal.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "sdk",
+      "starred": true,
+      "tags": ["wallet", "aggregator"]
+    },
+    {
+      "name": "Khalti GitHub",
+      "url": "https://github.com/khalti",
+      "description": "43 repos: Web SDK, Android, iOS, Flutter, React Native checkout SDKs + WooCommerce/OpenCart/WHMCS plugins.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "sdk",
+      "starred": true
+    },
+    {
+      "name": "IME Pay Developer Portal",
+      "url": "https://developer.imepay.com.np",
+      "description": "Official IME Pay merchant SDK — Android (imepay/imepaySDK_android), iOS, Flutter (pub.dev/packages/imepay_merchant_sdk).",
+      "status": "official",
+      "maintenance": "active",
+      "api": "sdk"
+    },
+    {
+      "name": "ConnectIPS / NCHL",
+      "url": "https://www.connectips.com",
+      "description": "NRB-promoted real-time payments network. Operates NEPALPAY QR, NEPALPAY card scheme, RPS, RTGS. Docs at doc.connectips.com.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "sdk",
+      "starred": true
+    },
+    {
+      "name": "Fonepay",
+      "url": "https://fonepay.com",
+      "description": "Nepal's largest payment network — 1.3M+ stores, 60+ partners, 20M+ customers. No public dev portal; sandbox at dev-clientapi.fonepay.com. Java/Spring sample at fonepay/Fonepay-Spring-Boot-Integration-Sample.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "sdk"
+    },
+    {
+      "name": "fonepay_flutter (community)",
+      "url": "https://github.com/iamnabink/fonepay_flutter",
+      "description": "Community Flutter SDK for Fonepay integration.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "sdk"
+    },
+    {
+      "name": "@arbyte/fonepay (Node)",
+      "url": "https://www.npmjs.com/package/@arbyte/fonepay",
+      "description": "Community Node.js SDK for Fonepay integration.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "sdk"
+    },
+    {
+      "name": "SmartChoice Technology (SCT)",
+      "url": "https://sct.com.np",
+      "description": "First Nepali switching network (2001). SCT-Network ATM/POS; Smart QR with 160k+ merchants.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "none"
+    },
+    {
+      "name": "nPay (SCT)",
+      "url": "https://npay.com.np",
+      "description": "SCT's payment-gateway aggregator product.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "sdk"
+    },
+    {
+      "name": "voidarchive/nepal-payment-go",
+      "url": "https://github.com/voidarchive/nepal-payment-go",
+      "description": "Go SDK supporting eSewa, Khalti, ConnectIPS, and Fonepay in one package. MIT-licensed, January 2026 release.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "sdk",
+      "starred": true,
+      "tags": ["go", "multi-provider"]
+    },
+    {
+      "name": "manibibek/payment-gateways-in-nepal",
+      "url": "https://github.com/manibibek/payment-gateways-in-nepal",
+      "description": "Canonical reference repo for Nepali payment-gateway integrations.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "none",
+      "starred": true
+    },
+    {
+      "name": "remotemerge/esewa-php-sdk",
+      "url": "https://github.com/remotemerge/esewa-php-sdk",
+      "description": "Community PHP SDK for eSewa ePay v2.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "sdk"
+    },
+    {
+      "name": "xentixar/khalti-sdk",
+      "url": "https://github.com/xentixar/khalti-sdk",
+      "description": "Community Khalti SDK.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "sdk"
+    },
+    {
+      "name": "C-KYC (CDSC)",
+      "url": "https://ckyc.cdsc.com.np",
+      "description": "Capital-market centralized KYC operated by CDSC.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "form"
+    },
+    {
+      "name": "Office of Controller of Certification (OCC)",
+      "url": "https://occ.gov.np",
+      "description": "Nepal's Root Certifying Authority for digital signatures.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "none"
+    },
+    {
+      "name": "Radiant CA",
+      "url": "https://radiantca.com.np",
+      "description": "Licensed digital-signature certifying authority.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "none"
+    },
+    {
+      "name": "NRB NPS Master Reference Document 2025",
+      "url": "https://nrb.org.np",
+      "description": "Roadmap for the full National Payment Switch and open-banking direction (2025). See nrb.org.np/contents/uploads/2025/10/.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "none"
+    }
+  ]
+}
