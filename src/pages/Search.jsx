@@ -79,9 +79,9 @@ export default function Search() {
             borderRadius: '2px',
           }}
         >
-          <option value="all">All categories</option>
+          <option value="all" style={{ background: 'var(--bg)', color: 'var(--ink)' }}>All categories</option>
           {categories.map((c) => (
-            <option key={c.id} value={c.id}>
+            <option key={c.id} value={c.id} style={{ background: 'var(--bg)', color: 'var(--ink)' }}>
               {c.title}
             </option>
           ))}
