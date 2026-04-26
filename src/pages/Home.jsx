@@ -91,7 +91,7 @@ export default function Home() {
           {categories.map((cat, i) => (
             <div
               key={cat.id}
-              className="animate-fade-up opacity-0"
+              className="animate-fade-up opacity-0 flex h-full"
               style={{ animationDelay: `${Math.min(i * 40, 600)}ms` }}
             >
               <CategoryCard category={cat} />

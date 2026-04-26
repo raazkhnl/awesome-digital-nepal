@@ -13,7 +13,7 @@ export default function CategoryCard({ category }) {
   return (
     <Link
       to={`/category/${id}`}
-      className="group block p-6 transition-all duration-200 h-full relative overflow-hidden"
+      className="group flex flex-col p-6 transition-all duration-200 h-full w-full relative overflow-hidden"
       style={{
         background: 'var(--card)',
         border: '1px solid var(--rule)',
@@ -47,7 +47,7 @@ export default function CategoryCard({ category }) {
       )}
 
       <div
-        className="flex items-center justify-between font-mono text-[11px] uppercase tracking-widest pt-3"
+        className="flex items-center justify-between font-mono text-[11px] uppercase tracking-widest pt-3 mt-auto"
         style={{ borderTop: '1px solid var(--rule)', color: 'var(--ink-muted)' }}
       >
         <span>{resources.length} resources</span>

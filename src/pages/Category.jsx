@@ -144,7 +144,7 @@ export default function Category() {
         {filtered.map((r, i) => (
           <div
             key={r.url + r.name}
-            className="animate-fade-up opacity-0"
+            className="animate-fade-up opacity-0 flex h-full w-full"
             style={{ animationDelay: `${Math.min(i * 30, 400)}ms` }}
           >
             <ResourceCard resource={r} />
