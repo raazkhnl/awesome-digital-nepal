@@ -1,44 +1,11 @@
 {
   "id": "sister-lists",
-  "title": "Sister Awesome Lists",
-  "tagline": "Other curated lists covering the Nepali tech ecosystem",
+  "title": "Sister Lists",
+  "tagline": "Other curated Nepalese resources",
   "description": "We position this repo as the connective tissue between specialist lists. These sister projects often go deeper into specific verticals — please contribute there too rather than duplicating.",
-  "icon": "✧",
+  "icon": "▤",
   "order": 21,
   "resources": [
-    {
-      "name": "tech-companies-in-nepal",
-      "url": "https://github.com/mesaugat/tech-companies-in-nepal",
-      "description": "The gold standard — 400+ Nepali tech companies. 343★. Airtable-backed JSON API.",
-      "status": "community",
-      "maintenance": "active",
-      "api": "sdk",
-      "starred": true
-    },
-    {
-      "name": "developers-nepal/awesome-nepal",
-      "url": "https://github.com/developers-nepal/awesome-nepal",
-      "description": "OSS libraries by language. 48★. Stale since 2020–21.",
-      "status": "community",
-      "maintenance": "stale",
-      "api": "none"
-    },
-    {
-      "name": "sparshrestha/tech-in-nepal",
-      "url": "https://github.com/sparshrestha/tech-in-nepal",
-      "description": "Startups and people in the Nepali tech scene.",
-      "status": "community",
-      "maintenance": "active",
-      "api": "none"
-    },
-    {
-      "name": "neymarsabin/nepali-apps",
-      "url": "https://github.com/neymarsabin/nepali-apps",
-      "description": "List of end-user Nepali apps.",
-      "status": "community",
-      "maintenance": "active",
-      "api": "none"
-    },
     {
       "name": "amitness/ml-companies-in-nepal",
       "url": "https://github.com/amitness/ml-companies-in-nepal",
@@ -48,49 +15,9 @@
       "api": "none"
     },
     {
-      "name": "amitness/ml-datasets",
-      "url": "https://github.com/amitness/ml-datasets",
-      "description": "Nepali machine-learning datasets index.",
-      "status": "community",
-      "maintenance": "active",
-      "api": "none"
-    },
-    {
-      "name": "nikeshbalami/FOSS-COMMUNITIES-OF-NEPAL",
-      "url": "https://github.com/nikeshbalami/FOSS-COMMUNITIES-OF-NEPAL",
-      "description": "FOSS community list.",
-      "status": "community",
-      "maintenance": "stale",
-      "api": "none"
-    },
-    {
-      "name": "IOST-ASCOL/nepali-datasets",
-      "url": "https://github.com/IOST-ASCOL/nepali-datasets",
-      "description": "Active dataset index from IOST/ASCOL.",
-      "status": "community",
-      "maintenance": "active",
-      "api": "none"
-    },
-    {
-      "name": "pemagrg1/Nepali-Datasets",
-      "url": "https://github.com/pemagrg1/Nepali-Datasets",
-      "description": "Long-running Nepali datasets index.",
-      "status": "community",
-      "maintenance": "active",
-      "api": "none"
-    },
-    {
-      "name": "manibibek/payment-gateways-in-nepal",
-      "url": "https://github.com/manibibek/payment-gateways-in-nepal",
-      "description": "Nepali payment-gateway integration reference.",
-      "status": "community",
-      "maintenance": "active",
-      "api": "none"
-    },
-    {
-      "name": "ghimiresunil/Curated-List-of-Nepali-NLP-Resources",
-      "url": "https://github.com/ghimiresunil/Curated-List-of-Nepali-NLP-Resources",
-      "description": "Nepali NLP resources index.",
+      "name": "developers-nepal/awesome-nepal",
+      "url": "https://github.com/developers-nepal/awesome-nepal",
+      "description": "OSS libraries by language. 48★. Stale since 2020–21.",
       "status": "community",
       "maintenance": "active",
       "api": "none"
@@ -104,6 +31,30 @@
       "api": "none"
     },
     {
+      "name": "neymarsabin/nepali-apps",
+      "url": "https://github.com/neymarsabin/nepali-apps",
+      "description": "List of end-user Nepali apps.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "none"
+    },
+    {
+      "name": "nikeshbalami/FOSS-COMMUNITIES-OF-NEPAL",
+      "url": "https://github.com/nikeshbalami/FOSS-COMMUNITIES-OF-NEPAL",
+      "description": "FOSS community list.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "none"
+    },
+    {
+      "name": "sparshrestha/tech-in-nepal",
+      "url": "https://github.com/sparshrestha/tech-in-nepal",
+      "description": "Startups and people in the Nepali tech scene.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "none"
+    },
+    {
       "name": "Tech Communities Nepal",
       "url": "https://github.com/rabirajkhadka/tech-communities",
       "description": "A community-maintained list of active tech communities, IT clubs, and developer circles across Nepal.",
@@ -112,6 +63,39 @@
       "tags": [
         "lists",
         "directory"
+      ]
+    },
+    {
+      "name": "govdirectory.org/nepal",
+      "url": "https://www.govdirectory.org/nepal",
+      "description": "Crowdsourced directory of Nepal ministries, provinces, districts, and assemblies.",
+      "status": "unofficial",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "govnp.com",
+      "url": "https://www.govnp.com",
+      "description": "Centralized directory of all Nepal government websites.",
+      "status": "unofficial",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "knownepal.vercel.app/government",
+      "url": "https://knownepal.vercel.app/government",
+      "description": "https://knownepal.vercel.app/government - websites - Comprehensive aggregator of Nepal government websites.",
+      "status": "unofficial",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "digital-nepal"
       ]
     }
   ]

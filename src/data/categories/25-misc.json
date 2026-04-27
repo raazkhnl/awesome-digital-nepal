@@ -1,0 +1,10 @@
+{
+  "$schema": "../schema.json",
+  "id": "misc",
+  "title": "Nepal Ecosystem (Misc)",
+  "description": "Miscellaneous digital services, aggregators, and unassigned organizations supporting Digital Nepal.",
+  "resources": [],
+  "order": 25,
+  "icon": "≡",
+  "tagline": "Miscellaneous digital services"
+}

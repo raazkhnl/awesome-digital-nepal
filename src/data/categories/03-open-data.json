@@ -1,11 +1,21 @@
 {
   "id": "open-data",
-  "title": "Open Data & Datasets",
-  "tagline": "Statistics, geospatial, humanitarian, and historical data",
+  "title": "Open Data",
+  "tagline": "Datasets, census data, and humanitarian portals",
   "description": "National statistics, civic open data, humanitarian datasets, and geospatial layers covering Nepal. Many sources offer CKAN APIs, raw CSV/Shapefile downloads, or programmatic search.",
-  "icon": "▦",
+  "icon": "⊞",
   "order": 3,
   "resources": [
+    {
+      "name": "HumData Exchange — Nepal",
+      "url": "https://data.humdata.org/group/npl",
+      "description": "323+ humanitarian datasets from 62 orgs: COD-AB admin boundaries (Oct 2024), DHS, Meta High-Resolution Population Density, settlements, road network. CKAN API + HAPI.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "rest",
+      "starred": true,
+      "note": "[Automated] Link appears to be broken or unreachable."
+    },
     {
       "name": "Open Data Nepal",
       "url": "https://opendatanepal.com",
@@ -16,32 +26,24 @@
       "starred": true
     },
     {
-      "name": "NSO Nepal Data Portal",
-      "url": "https://data.nsonepal.gov.np",
-      "description": "Official statistics — Census 2021, NLFS, National Accounts, GDP. Bilingual (en/np). CKAN API available.",
-      "status": "official",
-      "maintenance": "active",
-      "api": "rest",
-      "starred": true
-    },
-    {
-      "name": "HumData Exchange — Nepal",
-      "url": "https://data.humdata.org/group/npl",
-      "description": "323+ humanitarian datasets from 62 orgs: COD-AB admin boundaries (Oct 2024), DHS, Meta High-Resolution Population Density, settlements, road network. CKAN API + HAPI.",
+      "name": "CodeforNepal/nepalmap_app",
+      "url": "https://github.com/CodeforNepal/nepalmap_app",
+      "description": "An application that maps census and other official data for Nepal to make data more easily accessible and understandable to the public. Want to help us? Check out the Wiki.",
       "status": "community",
-      "maintenance": "unknown",
-      "api": "rest",
-      "starred": true,
-      "note": "[Automated] Link appears to be broken or unreachable."
+      "maintenance": "active",
+      "tags": [
+        "civictech",
+        "codefornepal",
+        "nepal"
+      ]
     },
     {
-      "name": "Census Nepal 2021",
-      "url": "https://censusnepal.cbs.gov.np/results",
-      "description": "Official 2021 census results portal.",
-      "status": "official",
-      "maintenance": "unknown",
-      "api": "none",
-      "note": "[Automated] Link appears to be broken or unreachable."
+      "name": "ML Datasets — amitness",
+      "url": "https://github.com/amitness/ml-datasets",
+      "description": "Amit Chaudhary's curated index of Nepali machine learning datasets.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "none"
     },
     {
       "name": "Nepal in Data",
@@ -50,56 +52,6 @@
       "status": "community",
       "maintenance": "active",
       "api": "none"
-    },
-    {
-      "name": "ICIMOD Regional Database",
-      "url": "https://rds.icimod.org",
-      "description": "Hindu Kush Himalaya data: glacier mass balance, biomass, geology, climate. GeoNetwork API.",
-      "status": "official",
-      "maintenance": "active",
-      "api": "rest"
-    },
-    {
-      "name": "ICIMOD Mountain Geoportal",
-      "url": "http://geoportal.icimod.org",
-      "description": "Geospatial data viewer for the HKH region.",
-      "status": "official",
-      "maintenance": "unknown",
-      "api": "none",
-      "note": "[Automated] Link appears to be broken or unreachable."
-    },
-    {
-      "name": "SERVIR-HKH",
-      "url": "https://servir.icimod.org",
-      "description": "NASA-USAID + ICIMOD remote-sensing platform for the HKH region.",
-      "status": "official",
-      "maintenance": "unknown",
-      "api": "none",
-      "note": "[Automated] Link appears to be broken or unreachable."
-    },
-    {
-      "name": "DesInventar Nepal",
-      "url": "https://www.desinventar.net/DesInventar/profiletab.jsp?countrycode=npl",
-      "description": "Historical disaster inventory 1971–present.",
-      "status": "official",
-      "maintenance": "active",
-      "api": "none"
-    },
-    {
-      "name": "World Bank Nepal",
-      "url": "https://data.worldbank.org/country/nepal",
-      "description": "World Development Indicators for Nepal — accessible via the World Bank Indicators API.",
-      "status": "official",
-      "maintenance": "active",
-      "api": "rest"
-    },
-    {
-      "name": "Open Knowledge Nepal — GitHub",
-      "url": "https://github.com/openknowledgenp",
-      "description": "43 repos: ckanext-odn, publicbodies-data, Local Boundaries geodata, ODAP, Nepal Digital Safety Corpus.",
-      "status": "community",
-      "maintenance": "active",
-      "api": "sdk"
     },
     {
       "name": "Nepali Datasets — IOST/ASCOL",
@@ -118,12 +70,108 @@
       "api": "none"
     },
     {
-      "name": "ML Datasets — amitness",
-      "url": "https://github.com/amitness/ml-datasets",
-      "description": "Amit Chaudhary's curated index of Nepali machine learning datasets.",
+      "name": "Open Knowledge Nepal — GitHub",
+      "url": "https://github.com/openknowledgenp",
+      "description": "43 repos: ckanext-odn, publicbodies-data, Local Boundaries geodata, ODAP, Nepal Digital Safety Corpus.",
       "status": "community",
       "maintenance": "active",
+      "api": "sdk"
+    },
+    {
+      "name": "Prasanna1991/DHCD_Dataset",
+      "url": "https://github.com/Prasanna1991/DHCD_Dataset",
+      "description": "Dataset of Devnagari (Nepali) handwritten characters.",
+      "status": "community",
+      "maintenance": "active",
+      "tags": [
+        "dataset",
+        "deeplearning",
+        "dhcd"
+      ]
+    },
+    {
+      "name": "data.humdata.org (Nepal)",
+      "url": "https://data.humdata.org",
+      "description": "HDX humanitarian datasets portal for Nepal.",
+      "status": "unofficial",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "github.com/CodeforNepal/data",
+      "url": "https://github.com/CodeforNepal/data",
+      "description": "Curated open CSV datasets for Nepal research.",
+      "status": "unofficial",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "github.com/hbvj99/Nepal",
+      "url": "https://github.com/hbvj99/Nepal",
+      "description": "https://github.com/hbvj99/Nepal - Datasets - ML - focused research datasets on Nepal.",
+      "status": "unofficial",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "Census Nepal 2021",
+      "url": "https://censusnepal.nsonepal.gov.np/results",
+      "description": "Official 2021 census results portal.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "none",
+      "note": "[Automated] Link appears to be broken or unreachable."
+    },
+    {
+      "name": "DesInventar Nepal",
+      "url": "https://www.desinventar.net/DesInventar/profiletab.jsp?countrycode=npl",
+      "description": "Historical disaster inventory 1971–present.",
+      "status": "official",
+      "maintenance": "active",
       "api": "none"
+    },
+    {
+      "name": "ICIMOD Mountain Geoportal",
+      "url": "http://geoportal.icimod.org",
+      "description": "[WARNING: Link may be dead or geo-blocked] Geospatial data viewer for the HKH region.",
+      "status": "official",
+      "maintenance": "unknown",
+      "api": "none",
+      "note": "[Automated] Link appears to be broken or unreachable."
+    },
+    {
+      "name": "ICIMOD Regional Database",
+      "url": "https://rds.icimod.org",
+      "description": "Hindu Kush Himalaya data: glacier mass balance, biomass, geology, climate. GeoNetwork API.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "rest"
+    },
+    {
+      "name": "SERVIR-HKH",
+      "url": "https://servir.icimod.org",
+      "description": "[WARNING: Link may be dead or geo-blocked] NASA-USAID + ICIMOD remote-sensing platform for the HKH region.",
+      "status": "official",
+      "maintenance": "unknown",
+      "api": "none",
+      "note": "[Automated] Link appears to be broken or unreachable."
+    },
+    {
+      "name": "World Bank Nepal",
+      "url": "https://data.worldbank.org/country/nepal",
+      "description": "World Development Indicators for Nepal — accessible via the World Bank Indicators API.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "rest"
     }
   ]
 }

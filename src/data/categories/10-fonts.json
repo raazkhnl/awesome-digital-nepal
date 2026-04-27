@@ -1,9 +1,9 @@
 {
-  "id": "fonts-typography",
-  "title": "Fonts & Typography",
-  "tagline": "Unicode Devanagari fonts and Preeti↔Unicode converters",
+  "id": "fonts",
+  "title": "Fonts & Layouts",
+  "tagline": "Preeti, Unicode, and keyboard layouts",
   "description": "Use Unicode (U+0900–U+097F) Devanagari fonts for the modern web — searchable, copy-pasteable, and universally rendered. Legacy ASCII fonts (Preeti, Kantipur, PCS) re-map Latin slots to Devanagari shapes; converters are needed for any modern integration.",
-  "icon": "अ",
+  "icon": "🄰",
   "order": 10,
   "resources": [
     {
@@ -20,7 +20,7 @@
       "url": "http://madanpuraskar.org",
       "description": "Historical home of Nepali Unicode work. Maintains Kalimati, Aalekh, Madan, Sirjana, Sagarmatha fonts (GPL).",
       "status": "community",
-      "maintenance": "stale",
+      "maintenance": "active",
       "api": "none",
       "starred": true
     },
@@ -42,11 +42,35 @@
       "api": "none"
     },
     {
+      "name": "globalpolicy/PreetiToUnicode",
+      "url": "https://github.com/globalpolicy/PreetiToUnicode",
+      "description": "Open-source Preeti-to-Unicode converter.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "sdk"
+    },
+    {
+      "name": "kaupage/Saral2Unicode",
+      "url": "https://github.com/kaupage/Saral2Unicode",
+      "description": "Saral Nepali → Unicode converter.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "sdk"
+    },
+    {
+      "name": "mhnpd/nepali-font",
+      "url": "https://github.com/mhnpd/nepali-font",
+      "description": "Collection of 60+ legacy Nepali fonts (Ananda family, Kantipur, Preeti, etc.) for reference. Mostly ASCII.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "none"
+    },
+    {
       "name": "MPP FontConverter",
       "url": "https://www.madanpuraskar.org/np/index.php?option=com_content&view=article&id=84",
       "description": "Java-based converter from MPP — Preeti and other ASCII Nepali fonts to Unicode.",
       "status": "community",
-      "maintenance": "unknown",
+      "maintenance": "active",
       "api": "sdk",
       "note": "[Automated] Link appears to be broken or unreachable."
     },
@@ -59,36 +83,12 @@
       "api": "none"
     },
     {
-      "name": "globalpolicy/PreetiToUnicode",
-      "url": "https://github.com/globalpolicy/PreetiToUnicode",
-      "description": "Open-source Preeti-to-Unicode converter.",
-      "status": "community",
-      "maintenance": "stale",
-      "api": "sdk"
-    },
-    {
       "name": "yarsa/unicode-preeti-converter",
       "url": "https://github.com/yarsa/unicode-preeti-converter",
       "description": "Yarsa Labs' Unicode↔Preeti converter.",
       "status": "community",
       "maintenance": "active",
       "api": "sdk"
-    },
-    {
-      "name": "kaupage/Saral2Unicode",
-      "url": "https://github.com/kaupage/Saral2Unicode",
-      "description": "Saral Nepali → Unicode converter.",
-      "status": "community",
-      "maintenance": "stale",
-      "api": "sdk"
-    },
-    {
-      "name": "mhnpd/nepali-font",
-      "url": "https://github.com/mhnpd/nepali-font",
-      "description": "Collection of 60+ legacy Nepali fonts (Ananda family, Kantipur, Preeti, etc.) for reference. Mostly ASCII.",
-      "status": "community",
-      "maintenance": "stale",
-      "api": "none"
     },
     {
       "name": "CLDR ne_NP locale",

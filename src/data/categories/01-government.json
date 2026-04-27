@@ -1,8 +1,8 @@
 {
   "$schema": "../schema.json",
   "id": "government",
-  "title": "Government & e-Governance",
-  "tagline": "Citizen services, national ID, and government portals",
+  "title": "Government (Federal)",
+  "tagline": "Central ministries, national ID, and e-governance",
   "description": "Official government digital services and e-governance portals. Most are form-based or require login; documented public APIs are rare. We list the canonical URLs plus a few well-known community scrapers where they responsibly fill a real gap.",
   "icon": "⚖",
   "order": 1,
@@ -21,9 +21,117 @@
       ]
     },
     {
+      "name": "Office of Company Registrar",
+      "url": "https://ocr.gov.np/index.php/en/data",
+      "description": "Bulk CSV/XML downloads of company registrations 2002–2072 BS. One of the more substantive open-data offerings from a Nepali ministry.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "none",
+      "starred": true,
+      "tags": [
+        "open-data",
+        "companies"
+      ],
+      "note": "[Automated] Link appears to be broken or unreachable."
+    },
+    {
+      "name": "NEA Bill Checker (Community)",
+      "url": "https://github.com/Limbuthitoo/Nepal-Electricity-Bill-Calculator",
+      "description": "Open-source NEA bill calculator/checker by community contributor.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "sdk"
+    },
+    {
+      "name": "ECN Voter Data Scraper",
+      "url": "https://github.com/Upendra48/Nepal-Election-Commission-Voter-Data-Scraper",
+      "description": "Scrapes ECN PDFs for 7 provinces, 77 districts, 753 municipalities, 6,743 wards, 10,756 polling stations. Educational/research use only.",
+      "status": "unofficial",
+      "maintenance": "active",
+      "api": "scraper",
+      "note": "Respect ECN terms; don't scrape personal voter data."
+    },
+    {
+      "name": "NEA Customer Service Portal",
+      "url": "https://nea.org.np",
+      "description": "Nepal Electricity Authority billing, smart metering, and customer services.",
+      "status": "unofficial",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "Agricultural Development Bank",
+      "url": "http://www.adbl.gov.np",
+      "description": "Agricultural Development Bank digital banking and loan services.",
+      "status": "official",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "Alternative Energy Promotion Centre",
+      "url": "http://www.aepc.gov.np",
+      "description": "Alternative Energy Promotion Centre project tracking and data.",
+      "status": "official",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "Armed Police Force (APF)",
+      "url": "http://www.apf.gov.np",
+      "description": "Armed Police Force recruitment and citizen reporting portal.",
+      "status": "official",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "Bagmati Province Portal",
+      "url": "http://bagmati.gov.np",
+      "description": "Bagmati Province government portal.",
+      "status": "official",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "Bolpatra E",
+      "url": "https://bolpatra.gov.np/egp",
+      "description": "[WARNING: Link may be dead or geo-blocked] https://bolpatra.gov.np/egp - National electronic government procurement system.",
+      "status": "official",
+      "maintenance": "unknown",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "Census Nepal Portal",
+      "url": "https://censusnepal.nsonepal.gov.np",
+      "description": "Official population and demographic census data repository.",
+      "status": "official",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
       "name": "Citizen Portal — DONIDCR",
       "url": "https://citizenportal.donidcr.gov.np",
-      "description": "Department of National ID and Civil Registration. National ID smart card application and status — 17.2M+ enrolled by mid-2025. Backend by IDEMIA.",
+      "description": "[WARNING: Link may be dead or geo-blocked] Department of National ID and Civil Registration. National ID smart card application and status — 17.2M+ enrolled by mid-2025. Backend by IDEMIA.",
       "status": "official",
       "maintenance": "unknown",
       "api": "none",
@@ -34,58 +142,197 @@
       "note": "[Automated] Link appears to be broken or unreachable."
     },
     {
-      "name": "DONIDCR Official Site",
-      "url": "https://donidcr.gov.np",
-      "description": "Department of National ID and Civil Registration — main portal.",
+      "name": "Civil Helicopter Department",
+      "url": "http://www.chd.gov.np",
+      "description": "Civil Helicopter Department aviation services portal.",
       "status": "official",
       "maintenance": "active",
-      "api": "none"
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "COVID",
+      "url": "https://covid19.mohp.gov.np",
+      "description": "[WARNING: Link may be dead or geo-blocked] https://covid19.mohp.gov.np - Historical health crisis data and tracking portal.",
+      "status": "official",
+      "maintenance": "unknown",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "Customs System",
+      "url": "https://customs.gov.np",
+      "description": "Customs clearance, tariffs, trade documents, and import/export tracking.",
+      "status": "official",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "DAMS Portal",
+      "url": "http://dams.dda.gov.np",
+      "description": "[WARNING: Link may be dead or geo-blocked] Department of Disaster Affairs dams and infrastructure portal.",
+      "status": "official",
+      "maintenance": "unknown",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "Department of Animal Health",
+      "url": "http://www.ahd.gov.np",
+      "description": "Department of Animal Health veterinary and livestock services.",
+      "status": "official",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "Department of Consular Services",
+      "url": "https://nepalconsular.gov.np",
+      "description": "Passport and consular services for citizens abroad.",
+      "status": "official",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
     },
     {
       "name": "Department of Drug Administration (DAMS)",
       "url": "https://dams.dda.gov.np/manLogin/publicInfo",
-      "description": "Authoritative drug registry public-info portal. Form-based search.",
+      "description": "[WARNING: Link may be dead or geo-blocked] Authoritative drug registry public-info portal. Form-based search.",
       "status": "official",
       "maintenance": "unknown",
       "api": "form",
       "note": "[Automated] Link appears to be broken or unreachable."
     },
     {
-      "name": "NEA Online Billing",
-      "url": "https://www.neabilling.com/viewonline/",
-      "description": "Nepal Electricity Authority online bill viewing/payment.",
+      "name": "Department of Electricity services portal",
+      "url": "http://www.doe.gov.np",
+      "description": "Department of Electricity services portal.",
+      "status": "official",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "Department of Foreign Employment — FEIMS",
+      "url": "https://dofe.gov.np",
+      "description": "Labor permit system; ~7.6M+ permits since 2008. ⚠️ The site dofenepal.com is NOT the official portal.",
       "status": "official",
       "maintenance": "active",
       "api": "none"
     },
     {
-      "name": "NEA Bill Checker (Community)",
-      "url": "https://github.com/Limbuthitoo/Nepal-Electricity-Bill-Calculator",
-      "description": "Open-source NEA bill calculator/checker by community contributor.",
-      "status": "community",
-      "maintenance": "stale",
-      "api": "sdk"
-    },
-    {
-      "name": "Inland Revenue Department",
-      "url": "https://ird.gov.np",
-      "description": "VAT, PAN, taxpayer registration. See also the dedicated IRD CBMS API in the Government APIs category.",
+      "name": "Department of Hydrology and Meteorology",
+      "url": "https://dhm.gov.np",
+      "description": "Real - time weather, river level, flood, and hydro - meteorological data portal for research and early warning.",
       "status": "official",
       "maintenance": "active",
-      "api": "none"
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
     },
     {
-      "name": "IRD Taxpayer Portal",
-      "url": "https://taxpayerportal.ird.gov.np",
-      "description": "Self-service portal for VAT/PAN return filing, tax payments.",
+      "name": "Department of Immigration Online Services",
+      "url": "https://nepaliport.immigration.gov.np",
+      "description": "Online visa applications, extensions, trekking permits, and visa transfer services.",
       "status": "official",
       "maintenance": "active",
-      "api": "form"
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "Department of Passport — eMRTDS",
+      "url": "https://emrtds.nepalpassport.gov.np",
+      "description": "[WARNING: Link may be dead or geo-blocked] e-passport pre-enrollment portal. ~4.53M e-passports issued by April 2025.",
+      "status": "official",
+      "maintenance": "unknown",
+      "api": "form",
+      "note": "[Automated] Link appears to be broken or unreachable."
+    },
+    {
+      "name": "Department of Seismology earthquake monitoring and",
+      "url": "http://www.seismonepal.gov.np",
+      "description": "Department of Seismology earthquake monitoring and data portal.",
+      "status": "official",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "Department of Survey",
+      "url": "https://dos.gov.np",
+      "description": "National mapping, land surveying, geoportal, and boundary data services for GIS and research.",
+      "status": "official",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "Department of Tourism",
+      "url": "https://www.tourism.gov.np",
+      "description": "Tourism licensing, permits, and visitor information systems.",
+      "status": "official",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
     },
     {
       "name": "Department of Transport Management",
       "url": "https://dotm.gov.np",
       "description": "Driver license, vehicle registration, BlueBook services. Digital BlueBook integrated with Nagarik App (Bagmati province only as of 2025).",
+      "status": "official",
+      "maintenance": "active",
+      "api": "none"
+    },
+    {
+      "name": "Dhading/Gorkha district local government portals",
+      "url": "http://dhogorkha.gov.np",
+      "description": "Dhading/Gorkha district local government portals.",
+      "status": "official",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "District Administration Office Gorkha",
+      "url": "http://daogorkha.moha.gov.np",
+      "description": "District Administration Office Gorkha administrative portal.",
+      "status": "official",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "DONIDCR Official Site",
+      "url": "https://donidcr.gov.np",
+      "description": "Department of National ID and Civil Registration — main portal.",
       "status": "official",
       "maintenance": "active",
       "api": "none"
@@ -101,268 +348,68 @@
     {
       "name": "Election Commission Nepal",
       "url": "https://election.gov.np",
-      "description": "Election Commission — voter pre-registration, e-bulletins, results.",
+      "description": "[WARNING: Link may be dead or geo-blocked] Election Commission — voter pre-registration, e-bulletins, results.",
       "status": "official",
       "maintenance": "unknown",
       "api": "none",
       "note": "[Automated] Link appears to be broken or unreachable."
     },
     {
-      "name": "ECN Voter Data Scraper",
-      "url": "https://github.com/Upendra48/Nepal-Election-Commission-Voter-Data-Scraper",
-      "description": "Scrapes ECN PDFs for 7 provinces, 77 districts, 753 municipalities, 6,743 wards, 10,756 polling stations. Educational/research use only.",
-      "status": "unofficial",
-      "maintenance": "active",
-      "api": "scraper",
-      "note": "Respect ECN terms; don't scrape personal voter data."
-    },
-    {
-      "name": "Department of Passport — eMRTDS",
-      "url": "https://emrtds.nepalpassport.gov.np",
-      "description": "e-passport pre-enrollment portal. ~4.53M e-passports issued by April 2025.",
+      "name": "Electronic Visa System",
+      "url": "https://immigration.gov.np",
+      "description": "[WARNING: Link may be dead or geo-blocked] Online visa processing for tourists and visitors.",
       "status": "official",
       "maintenance": "unknown",
-      "api": "form",
-      "note": "[Automated] Link appears to be broken or unreachable."
-    },
-    {
-      "name": "Department of Foreign Employment — FEIMS",
-      "url": "https://dofe.gov.np",
-      "description": "Labor permit system; ~7.6M+ permits since 2008. ⚠️ The site dofenepal.com is NOT the official portal.",
-      "status": "official",
-      "maintenance": "active",
-      "api": "none"
-    },
-    {
-      "name": "Office of Company Registrar — CAMIS",
-      "url": "https://camis.ocr.gov.np",
-      "description": "Company registration, annual filings, search.",
-      "status": "official",
-      "maintenance": "unknown",
-      "api": "form",
-      "note": "[Automated] Link appears to be broken or unreachable."
-    },
-    {
-      "name": "OCR Open Government Data",
-      "url": "https://ocr.gov.np/index.php/en/data",
-      "description": "Bulk CSV/XML downloads of company registrations 2002–2072 BS. One of the more substantive open-data offerings from a Nepali ministry.",
-      "status": "official",
-      "maintenance": "unknown",
-      "api": "none",
-      "starred": true,
       "tags": [
-        "open-data",
-        "companies"
-      ],
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "Employees Provident Fund Nepal portal",
+      "url": "http://epsnepal.gov.np",
+      "description": "Employees Provident Fund Nepal portal.",
+      "status": "official",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "Examination verification portal under SOCE",
+      "url": "http://verify.soce.gov.np",
+      "description": "Examination verification portal under SOCE.",
+      "status": "official",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "Government of Nepal Portal",
+      "url": "https://nepal.gov.np",
+      "description": "[WARNING: Link may be dead or geo-blocked] Government services directory — entry point for ministries and departments.",
+      "status": "official",
+      "maintenance": "unknown",
+      "api": "none",
       "note": "[Automated] Link appears to be broken or unreachable."
     },
     {
       "name": "Hello Sarkar",
       "url": "https://hellosarkar.gov.np",
-      "description": "24/7 multi-channel grievance portal (call 1111). Operated by OPMCM.",
+      "description": "[WARNING: Link may be dead or geo-blocked] 24/7 multi-channel grievance portal (call 1111). Operated by OPMCM.",
       "status": "official",
       "maintenance": "unknown",
       "api": "form",
       "note": "[Automated] Link appears to be broken or unreachable."
     },
     {
-      "name": "Nepal National Portal",
-      "url": "https://nepal.gov.np",
-      "description": "Government services directory — entry point for ministries and departments.",
+      "name": "HMIS/DHIS2 Nepal",
+      "url": "https://hmis.gov.np",
+      "description": "[WARNING: Link may be dead or geo-blocked] Health Management Information System for national health data.",
       "status": "official",
-      "maintenance": "unknown",
-      "api": "none",
-      "note": "[Automated] Link appears to be broken or unreachable."
-    },
-    {
-      "name": "NITC — National Information Technology Center",
-      "url": "https://nitc.gov.np",
-      "description": "Government data center; runs Nagarik App and the GIWMS CMS used by many .gov.np sites.",
-      "status": "official",
-      "maintenance": "unknown",
-      "api": "none",
-      "note": "[Automated] Link appears to be broken or unreachable."
-    },
-    {
-      "name": "PSC — Loksewa Aayog",
-      "url": "https://psc.gov.np",
-      "description": "Public Service Commission — vacancy notices, exam schedules, results.",
-      "status": "official",
-      "maintenance": "active",
-      "api": "none"
-    }
-  ],
-  "items": [
-    {
-      "name": "Nepal Government National Portal",
-      "url": "https://nepal.gov.np",
-      "description": "Central official portal for all government services, policies, e - services, and citizen information.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "Nagarik App",
-      "url": "https://nagarikapp.gov.np",
-      "description": "Unified citizen mobile/web app for accessing IDs, certificates, licenses, PAN, and multiple government services in one place.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "DONIDCR Citizen Portal",
-      "url": "https://citizenportal.donidcr.gov.np",
-      "description": "National ID application, status tracking, civil registration, and digital identity services.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "Department of Immigration Online Services",
-      "url": "https://nepaliport.immigration.gov.np",
-      "description": "Online visa applications, extensions, trekking permits, and visa transfer services.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "Inland Revenue Department Taxpayer Portal / ITS",
-      "url": "https://ird.gov.np/taxpayer",
-      "description": "portal - Tax registration, online filing, payments, and unified tax management system.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "SuTRA (Sub",
-      "url": "https://fcgo.gov.np (integrated access)",
-      "description": "https://fcgo.gov.np (integrated access) - Budgeting, accounting, revenue collection for 753 local governments and provinces.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "Nepal National Single Window (NNSW)",
-      "url": "https://nnsw.gov.np",
-      "description": "Trade facilitation portal for import/export document submission and clearance.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "Online Driving License System (DoTM)",
-      "url": "https://dotm.gov.np",
-      "description": "New/renewal driving licenses, test booking, and vehicle - related services.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "Office of the Company Registrar (OCR)",
-      "url": "https://ocr.gov.np",
-      "description": "Company registration, compliance tracking, and corporate data access.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "Passport Service Portal",
-      "url": "https://nepalpassport.gov.np",
-      "description": "Passport applications, tracking, and issuance services.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "Public Procurement Monitoring Office (PPMO) / Bolpatra",
-      "url": "https://bolpatra.gov.np",
-      "description": "E - bidding, tenders, procurement monitoring, and government purchasing platform.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "Social Security Fund (SSF) Portal",
-      "url": "https://ssf.gov.np",
-      "description": "Contributions, claims processing, and social security management.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "Nepal Police Online Services",
-      "url": "https://nepalpolice.gov.np",
-      "description": "Police clearance certificates, complaints, reports, and citizen services.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "Nepal Law Commission",
-      "url": "https://lawcommission.gov.np",
-      "description": "Legal database of acts, regulations, and policy documents.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "Customs System",
-      "url": "https://customs.gov.np",
-      "description": "Customs clearance, tariffs, trade documents, and import/export tracking.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "NSO Data Portal",
-      "url": "https://data.nsonepal.gov.np",
-      "description": "National Statistics Office visualization, analysis, and downloadable datasets portal.",
-      "status": "active",
       "maintenance": "unknown",
       "tags": [
         "verified",
@@ -373,151 +420,123 @@
       "name": "Hydrology and Meteorology Department River Data",
       "url": "http://www.hydrology.gov.np",
       "description": "Real - time river level and hydrological data portal.",
-      "status": "active",
-      "maintenance": "unknown",
+      "status": "official",
+      "maintenance": "active",
       "tags": [
         "verified",
         "digital-nepal"
       ]
+    },
+    {
+      "name": "Inland Revenue Department",
+      "url": "https://ird.gov.np",
+      "description": "VAT, PAN, taxpayer registration. See also the dedicated IRD CBMS API in the Government APIs category.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "none"
+    },
+    {
+      "name": "Inland Revenue Department Taxpayer Portal / ITS",
+      "url": "https://ird.gov.np/taxpayer",
+      "description": "portal - Tax registration, online filing, payments, and unified tax management system.",
+      "status": "official",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "IRD Taxpayer Portal",
+      "url": "https://taxpayerportal.ird.gov.np",
+      "description": "Self-service portal for VAT/PAN return filing, tax payments.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "form"
     },
     {
       "name": "Kalimati Market Daily Price Information",
       "url": "http://kalimatimarket.gov.np/daily",
       "description": "price - information - Vegetable/fruit price data for agriculture research.",
-      "status": "active",
-      "maintenance": "unknown",
+      "status": "official",
+      "maintenance": "active",
       "tags": [
         "verified",
         "digital-nepal"
       ]
     },
     {
-      "name": "HMIS/DHIS2 Nepal",
-      "url": "https://hmis.gov.np",
-      "description": "Health Management Information System for national health data.",
-      "status": "active",
-      "maintenance": "unknown",
+      "name": "Local Governance and Community Development",
+      "url": "http://lgcdp.gov.np",
+      "description": "Local Governance and Community Development Programme digital platform.",
+      "status": "official",
+      "maintenance": "active",
       "tags": [
         "verified",
         "digital-nepal"
       ]
     },
     {
-      "name": "Nepal National ID System",
-      "url": "https://donidcr.gov.np",
-      "description": "Biometric national identity and civil registration database.",
-      "status": "active",
-      "maintenance": "unknown",
+      "name": "Local Governance and Federalism support digital",
+      "url": "http://lgaf.gov.np",
+      "description": "Local Governance and Federalism support digital tools.",
+      "status": "official",
+      "maintenance": "active",
       "tags": [
         "verified",
         "digital-nepal"
       ]
     },
     {
-      "name": "Public Service Commission Portal",
-      "url": "https://psc.gov.np",
-      "description": "Lok Sewa exam results, applications, and recruitment services.",
-      "status": "active",
-      "maintenance": "unknown",
+      "name": "Ministry of Agriculture and Livestock Development",
+      "url": "https://moald.gov.np",
+      "description": "Ministry of Agriculture and Livestock Development services portal.",
+      "status": "official",
+      "maintenance": "active",
       "tags": [
         "verified",
         "digital-nepal"
       ]
     },
     {
-      "name": "Financial Comptroller General Office (FCGO)",
-      "url": "https://fcgo.gov.np",
-      "description": "Treasury, accounting, and government financial management portal.",
-      "status": "active",
-      "maintenance": "unknown",
+      "name": "Ministry of Education digital learning and",
+      "url": "http://www.moe.gov.np",
+      "description": "Ministry of Education digital learning and scholarship portals.",
+      "status": "official",
+      "maintenance": "active",
       "tags": [
         "verified",
         "digital-nepal"
       ]
     },
     {
-      "name": "Election Commission of Nepal",
-      "url": "https://election.gov.np",
-      "description": "Voter ID, election results, and digital voting data.",
-      "status": "active",
-      "maintenance": "unknown",
+      "name": "Ministry of Energy & Water",
+      "url": "https://moewri.gov.np",
+      "description": "Ministry of Energy online services and tenders.",
+      "status": "official",
+      "maintenance": "active",
       "tags": [
         "verified",
         "digital-nepal"
       ]
     },
     {
-      "name": "Ministry of Home Affairs (MOHA)",
-      "url": "https://moha.gov.np",
-      "description": "ePass, immigration, and internal security services.",
-      "status": "active",
-      "maintenance": "unknown",
+      "name": "Ministry of Federal Affairs",
+      "url": "http://mofaga.gov.np",
+      "description": "Ministry of Federal Affairs and General Administration main portal.",
+      "status": "official",
+      "maintenance": "active",
       "tags": [
         "verified",
         "digital-nepal"
       ]
     },
     {
-      "name": "Department of Tourism",
-      "url": "https://www.tourism.gov.np",
-      "description": "Tourism licensing, permits, and visitor information systems.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "Armed Police Force",
-      "url": "https://www.apf.gov.np",
-      "description": "Security force services and citizen reporting tools.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "Alternative Energy Promotion Centre",
-      "url": "https://www.aepc.gov.np",
-      "description": "Renewable energy project tracking and data portals.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "Nepal Telecommunications Authority",
-      "url": "https://nta.gov.np",
-      "description": "Telecom licensing, speed test, and regulatory portals (including MDMS for IMEI registration).",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "Bolpatra E",
-      "url": "https://bolpatra.gov.np/egp",
-      "description": "https://bolpatra.gov.np/egp - National electronic government procurement system.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "Census Nepal Portal",
-      "url": "https://censusnepal.cbs.gov.np",
-      "description": "Official population and demographic census data repository.",
-      "status": "active",
-      "maintenance": "unknown",
+      "name": "Ministry of Federal Affairs and General",
+      "url": "https://sthaniya.gov.np",
+      "description": "Ministry of Federal Affairs and General Administration local levels portal (full directory of 753 local governments).",
+      "status": "official",
+      "maintenance": "active",
       "tags": [
         "verified",
         "digital-nepal"
@@ -526,140 +545,8 @@
     {
       "name": "Ministry of Finance",
       "url": "https://mof.gov.np",
-      "description": "Budget, economic data, and fiscal policy portals.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "National Planning Commission",
-      "url": "https://npc.gov.np",
-      "description": "Development planning and data visualization tools.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "Department of Consular Services",
-      "url": "https://nepalconsular.gov.np",
-      "description": "Passport and consular services for citizens abroad.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "Department of Foreign Employment",
-      "url": "https://dofe.gov.np",
-      "description": "Labor migration, foreign employment licensing, and data portal.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "COVID",
-      "url": "https://covid19.mohp.gov.np",
-      "description": "https://covid19.mohp.gov.np - Historical health crisis data and tracking portal.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "Training Portal (various ministries)",
-      "url": "https://training.gov.np",
-      "description": "Government employee and public training management systems.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "SLC/SEE Result Portal",
-      "url": "https://slcresult.soce.gov.np",
-      "description": "National examination results publication system.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "MOEN Online",
-      "url": "http://www.moenonline.moen.gov.np",
-      "description": "Ministry of Energy online services.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "Electronic Visa System",
-      "url": "https://immigration.gov.np",
-      "description": "Online visa processing for tourists and visitors.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "Department of Survey",
-      "url": "https://dos.gov.np",
-      "description": "National mapping, land surveying, geoportal, and boundary data services for GIS and research.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "Department of Hydrology and Meteorology",
-      "url": "https://dhm.gov.np",
-      "description": "Real - time weather, river level, flood, and hydro - meteorological data portal for research and early warning.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "Supreme Court of Nepal",
-      "url": "http://www.supremecourt.gov.np",
-      "description": "Judiciary case information, judgments, and legal database portal.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "Parliament of Nepal",
-      "url": "http://www.parliament.gov.np",
-      "description": "Legislative documents, bills, proceedings, and parliamentary services portal.",
-      "status": "active",
+      "description": "[WARNING: Link may be dead or geo-blocked] Budget, economic data, and fiscal policy portals.",
+      "status": "official",
       "maintenance": "unknown",
       "tags": [
         "verified",
@@ -670,326 +557,147 @@
       "name": "Ministry of Foreign Affairs",
       "url": "http://www.mofa.gov.np",
       "description": "Diplomatic services, passport, consular, and citizen - abroad support portal.",
-      "status": "active",
-      "maintenance": "unknown",
+      "status": "official",
+      "maintenance": "active",
       "tags": [
         "verified",
         "digital-nepal"
       ]
     },
     {
-      "name": "acourt.gov.np",
-      "url": "http://www.acourt.gov.np",
-      "description": "Supreme Court and appellate judiciary services portal.",
-      "status": "active",
-      "maintenance": "unknown",
+      "name": "Ministry of Home Affairs",
+      "url": "https://moha.gov.np",
+      "description": "ePass, immigration, and internal security services.",
+      "status": "official",
+      "maintenance": "active",
       "tags": [
         "verified",
         "digital-nepal"
       ]
     },
     {
-      "name": "adbl.gov.np",
-      "url": "http://www.adbl.gov.np",
-      "description": "Agricultural Development Bank digital banking and loan services.",
-      "status": "active",
-      "maintenance": "unknown",
+      "name": "MOEN Online",
+      "url": "https://www.moenonline.moewri.gov.np",
+      "description": "Ministry of Energy online services.",
+      "status": "official",
+      "maintenance": "active",
       "tags": [
         "verified",
         "digital-nepal"
       ]
     },
     {
-      "name": "aepc.gov.np",
-      "url": "http://www.aepc.gov.np",
-      "description": "Alternative Energy Promotion Centre project tracking and data.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "moha.gov.np",
-      "url": "http://www.moha.gov.np",
-      "description": "Ministry of Home Affairs core e - governance services.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "training.gov.np",
-      "url": "http://training.gov.np",
-      "description": "Government employee and public training management system.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "slcresult.soce.gov.np",
-      "url": "http://slcresult.soce.gov.np",
-      "description": "National SEE/SLC examination results publication portal.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "neoc.gov.np",
-      "url": "http://www.neoc.gov.np",
-      "description": "Nepal Emergency Operation Center disaster coordination portal.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "drrportal.gov.np",
-      "url": "http://drrportal.gov.np",
-      "description": "Disaster risk reduction and management information portal.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "erao.moha.gov.np",
-      "url": "http://erao.moha.gov.np",
-      "description": "Earthquake Reconstruction Authority Office portal under MOHA.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "mfd.gov.np",
-      "url": "http://www.mfd.gov.np",
-      "description": "Ministry of Federal Affairs and Local Development portal.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "relief.customs.gov.np",
-      "url": "http://relief.customs.gov.np",
-      "description": "Customs relief and emergency clearance portal.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "renewal.customs.gov.np",
-      "url": "http://renewal.customs.gov.np",
-      "description": "Customs renewal and permit management portal.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "nnfsp.gov.np",
-      "url": "http://www.nnfsp.gov.np",
-      "description": "National Natural Farming Support Program portal.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "wbrs.gov.np",
-      "url": "http://www.wbrs.gov.np",
-      "description": "Water Resources and Irrigation Department services portal.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "kmcebps.gov.np",
-      "url": "http://www.kmcebps.gov.np",
-      "description": "Kathmandu Model College Entrance Based Placement System portal.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "pollution.gov.np",
-      "url": "http://pollution.gov.np",
-      "description": "Pollution control and environmental monitoring portal.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "ugc.nitc.gov.np",
-      "url": "http://ugc.nitc.gov.np",
-      "description": "University Grants Commission portal under NITC.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "nic.gov.np",
-      "url": "http://www.nic.gov.np",
-      "description": "National Information Commission transparency and RTI portal.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "online.nepalimmigration.gov.np",
-      "url": "http://online.nepalimmigration.gov.np",
-      "description": "Online Nepal Immigration visa and permit services portal.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "imis.shs.gov.np",
-      "url": "http://imis.shs.gov.np",
-      "description": "School Health Section IMIS health data portal.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "mechi.nitc.gov.np",
-      "url": "http://mechi.nitc.gov.np",
-      "description": "Mechi zone portal under National Information Technology Center.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "nepalconsular.gov.np",
-      "url": "http://nepalconsular.gov.np",
-      "description": "Nepal Consular Services portal for citizens abroad.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "attorneygeneral.gov.np",
-      "url": "http://www.attorneygeneral.gov.np",
-      "description": "Office of the Attorney General legal services portal.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "epsnepal.gov.np",
-      "url": "http://epsnepal.gov.np",
-      "description": "Employees Provident Fund Nepal portal.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "nra.gov.np",
-      "url": "http://www.nra.gov.np",
-      "description": "National Reconstruction Authority post - disaster recovery portal.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "doe.gov.np",
-      "url": "http://www.doe.gov.np",
-      "description": "Department of Electricity services portal.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "pis.gov.np",
-      "url": "http://www.pis.gov.np",
-      "description": "Public Information System portal.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "shs.gov.np",
-      "url": "http://www.shs.gov.np",
-      "description": "School Health Section health programs portal.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "nec.gov.np",
+      "name": "National Examination Board exam management portal",
       "url": "http://www.nec.gov.np",
       "description": "National Examination Board exam management portal.",
-      "status": "active",
+      "status": "official",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "National Information Commission transparency and",
+      "url": "http://www.nic.gov.np",
+      "description": "National Information Commission transparency and RTI portal.",
+      "status": "official",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "National Natural Farming Support Program portal",
+      "url": "http://www.nnfsp.gov.np",
+      "description": "National Natural Farming Support Program portal.",
+      "status": "official",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "National Planning Commission",
+      "url": "https://npc.gov.np",
+      "description": "Development planning and data visualization tools.",
+      "status": "official",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "NEA Online Billing",
+      "url": "https://www.neabilling.com/viewonline/",
+      "description": "Nepal Electricity Authority online bill viewing/payment.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "none"
+    },
+    {
+      "name": "Nepal Army Official Site",
+      "url": "https://www.nepalarmy.mil.np",
+      "description": "Defense - related information and recruitment portals.",
+      "status": "official",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "Nepal Army Recruitment Portal",
+      "url": "https://www.nepalarmy.mil.np/recruitment",
+      "description": "Online application and exam systems.",
+      "status": "official",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "Nepal Law Commission",
+      "url": "https://lawcommission.gov.np",
+      "description": "Legal database of acts, regulations, and policy documents.",
+      "status": "official",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "Nepal National Single Window (NNSW)",
+      "url": "https://nnsw.gov.np",
+      "description": "Trade facilitation portal for import/export document submission and clearance.",
+      "status": "official",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "Nepal Police",
+      "url": "https://nepalpolice.gov.np",
+      "description": "Police clearance certificates, complaints, reports, and citizen services.",
+      "status": "official",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "Nepal Telecommunications Authority",
+      "url": "https://nta.gov.np",
+      "description": "[WARNING: Link may be dead or geo-blocked] Telecom licensing, speed test, and regulatory portals (including MDMS for IMEI registration).",
+      "status": "official",
       "maintenance": "unknown",
       "tags": [
         "verified",
@@ -997,10 +705,50 @@
       ]
     },
     {
-      "name": "sism.doe.gov.np",
-      "url": "http://sism.doe.gov.np",
-      "description": "SISM system under Department of Electricity.",
-      "status": "active",
+      "name": "NITC — National Information Technology Center",
+      "url": "https://nitc.gov.np",
+      "description": "[WARNING: Link may be dead or geo-blocked] Government data center; runs Nagarik App and the GIWMS CMS used by many .gov.np sites.",
+      "status": "official",
+      "maintenance": "unknown",
+      "api": "none",
+      "note": "[Automated] Link appears to be broken or unreachable."
+    },
+    {
+      "name": "NSO Data Portal",
+      "url": "https://data.nsonepal.gov.np",
+      "description": "National Statistics Office visualization, analysis, and downloadable datasets portal.",
+      "status": "official",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "Office of Company Registrar — CAMIS",
+      "url": "https://camis.ocr.gov.np",
+      "description": "[WARNING: Link may be dead or geo-blocked] Company registration, annual filings, search.",
+      "status": "official",
+      "maintenance": "unknown",
+      "api": "form",
+      "note": "[Automated] Link appears to be broken or unreachable."
+    },
+    {
+      "name": "Office of the Attorney General",
+      "url": "http://www.attorneygeneral.gov.np",
+      "description": "Office of the Attorney General legal services portal.",
+      "status": "official",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "Office of the Prime Minister",
+      "url": "https://www.opmcm.gov.np",
+      "description": "[WARNING: Link may be dead or geo-blocked] Office of the Prime Minister and Council of Ministers.",
+      "status": "official",
       "maintenance": "unknown",
       "tags": [
         "verified",
@@ -1008,10 +756,10 @@
       ]
     },
     {
-      "name": "verify.soce.gov.np",
-      "url": "http://verify.soce.gov.np",
-      "description": "Examination verification portal under SOCE.",
-      "status": "active",
+      "name": "Parliament of Nepal",
+      "url": "http://www.parliament.gov.np",
+      "description": "[WARNING: Link may be dead or geo-blocked] Legislative documents, bills, proceedings, and parliamentary services portal.",
+      "status": "official",
       "maintenance": "unknown",
       "tags": [
         "verified",
@@ -1019,461 +767,43 @@
       ]
     },
     {
-      "name": "chd.gov.np",
-      "url": "http://www.chd.gov.np",
-      "description": "Civil Helicopter Department aviation services portal.",
-      "status": "active",
-      "maintenance": "unknown",
+      "name": "Passport Service Portal",
+      "url": "https://nepalpassport.gov.np",
+      "description": "Passport applications, tracking, and issuance services.",
+      "status": "official",
+      "maintenance": "active",
       "tags": [
         "verified",
         "digital-nepal"
       ]
     },
     {
-      "name": "phcrd.gov.np",
-      "url": "http://www.phcrd.gov.np",
-      "description": "Public Health Concern and Research Division portal.",
-      "status": "active",
-      "maintenance": "unknown",
+      "name": "Pollution control and environmental monitoring",
+      "url": "http://pollution.gov.np",
+      "description": "Pollution control and environmental monitoring portal.",
+      "status": "official",
+      "maintenance": "active",
       "tags": [
         "verified",
         "digital-nepal"
       ]
     },
     {
-      "name": "bagmati.gov.np",
-      "url": "http://bagmati.gov.np",
-      "description": "Bagmati Province government portal.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "iwrmp.gov.np",
-      "url": "http://www.iwrmp.gov.np",
-      "description": "Integrated Water Resources Management Project portal.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "psconline.psc.gov.np",
-      "url": "http://psconline.psc.gov.np",
-      "description": "Public Service Commission online application and results portal.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "nidmc.gov.np",
-      "url": "http://www.nidmc.gov.np",
-      "description": "National Inland Waterways and Drainage Master Plan portal.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "portal.mof.gov.np",
-      "url": "http://portal.mof.gov.np",
-      "description": "Ministry of Finance citizen and monitoring portal.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "monitoring.mof.gov.np",
-      "url": "http://monitoring.mof.gov.np",
-      "description": "Ministry of Finance project monitoring portal.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "training.lmbis.gov.np",
-      "url": "http://training.lmbis.gov.np",
-      "description": "Local Governance training management portal.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "dams.dda.gov.np",
-      "url": "http://dams.dda.gov.np",
-      "description": "Department of Disaster Affairs dams and infrastructure portal.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "municipality.gov.np",
-      "url": "http://municipality.gov.np",
-      "description": "Centralized municipality services portal.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "epsnepal.gov.np",
-      "url": "http://www.epsnepal.gov.np",
-      "description": "Employees Provident Fund Nepal contribution and claim portal.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "nra.gov.np",
-      "url": "http://nra.gov.np",
-      "description": "National Reconstruction Authority project tracking and recovery portal.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "doe.gov.np",
-      "url": "http://doe.gov.np",
-      "description": "Department of Electricity regulatory and service portal.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "soce.gov.np",
-      "url": "http://soce.gov.np",
-      "description": "School Education Centre examination and results portal.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "dhm.gov.np",
-      "url": "http://dhm.gov.np",
-      "description": "Department of Hydrology and Meteorology data and early warning portal.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "kmcebps.gov.np",
-      "url": "http://kmcebps.gov.np",
-      "description": "Kathmandu Model College entrance and placement system.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "nic.gov.np",
-      "url": "http://nic.gov.np",
-      "description": "National Information Commission RTI and information access portal.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "attorneygeneral.gov.np",
-      "url": "http://attorneygeneral.gov.np",
-      "description": "Office of the Attorney General legal database and services.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "pis.gov.np",
-      "url": "http://pis.gov.np",
-      "description": "Public Information System government transparency portal.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "nec.gov.np",
-      "url": "http://nec.gov.np",
-      "description": "National Examination Board centralized exam portal.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "phcrd.gov.np",
-      "url": "http://phcrd.gov.np",
-      "description": "Public Health Concern and Research Division health data portal.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "iwrmp.gov.np",
-      "url": "http://iwrmp.gov.np",
-      "description": "Integrated Water Resources Management Project monitoring portal.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "nidmc.gov.np",
-      "url": "http://nidmc.gov.np",
-      "description": "National Inland Waterways and Drainage Master Plan portal.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "seismonepal.gov.np",
-      "url": "http://www.seismonepal.gov.np",
-      "description": "Department of Seismology earthquake monitoring and data portal.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "film.gov.np",
-      "url": "http://www.film.gov.np",
-      "description": "Film Development Board industry support and filming location portal.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "apf.gov.np",
-      "url": "http://www.apf.gov.np",
-      "description": "Armed Police Force recruitment and citizen reporting portal.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "moald.gov.np",
-      "url": "https://moald.gov.np",
-      "description": "Ministry of Agriculture and Livestock Development services portal.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "moctca.gov.np",
-      "url": "https://moctca.gov.np",
-      "description": "Ministry of Culture, Tourism and Civil Aviation digital platforms.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "ahd.gov.np",
-      "url": "http://www.ahd.gov.np",
-      "description": "Department of Animal Health veterinary and livestock services.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "dhogorkha.gov.np",
-      "url": "http://dhogorkha.gov.np",
-      "description": "Dhading/Gorkha district local government portals.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "lgcdp.gov.np",
-      "url": "http://lgcdp.gov.np",
-      "description": "Local Governance and Community Development Programme digital platform.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "ngiip.gov.np",
-      "url": "http://ngiip.gov.np",
-      "description": "National Geographic Information Infrastructure geospatial data portal.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "neoc.gov.np",
-      "url": "http://neoc.gov.np",
-      "description": "Nepal Emergency Operation Center coordination portal.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "customs.gov.np",
-      "url": "http://www.customs.gov.np",
-      "description": "Department of Customs trade clearance system.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "psc.gov.np",
-      "url": "http://www.psc.gov.np",
-      "description": "Public Service Commission recruitment portal.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "tourism.gov.np",
-      "url": "http://www.tourism.gov.np",
-      "description": "Department of Tourism licensing and promotion portal.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "kathmandu.gov.np",
-      "url": "http://www.kathmandu.gov.np",
-      "description": "Kathmandu Metropolitan City municipal services portal.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "moe.gov.np",
-      "url": "http://www.moe.gov.np",
-      "description": "Ministry of Education digital learning and scholarship portals.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "moald.gov.np",
-      "url": "http://moald.gov.np",
-      "description": "Ministry of Agriculture services and data portal.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "moctca.gov.np",
-      "url": "http://moctca.gov.np",
-      "description": "Ministry of Culture, Tourism and Civil Aviation platforms.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "ppmo.gov.np",
+      "name": "Public Procurement Monitoring Office",
       "url": "https://ppmo.gov.np",
       "description": "Public Procurement Monitoring Office e - bidding system.",
-      "status": "active",
+      "status": "official",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "Public Procurement Monitoring Office (PPMO) / Bolpatra",
+      "url": "https://bolpatra.gov.np",
+      "description": "[WARNING: Link may be dead or geo-blocked] E - bidding, tenders, procurement monitoring, and government purchasing platform.",
+      "status": "official",
       "maintenance": "unknown",
       "tags": [
         "verified",
@@ -1481,10 +811,51 @@
       ]
     },
     {
-      "name": "moen.gov.np",
-      "url": "http://moen.gov.np",
-      "description": "Ministry of Energy online services and tenders.",
-      "status": "active",
+      "name": "Public Service Commission",
+      "url": "https://psc.gov.np",
+      "description": "Public Service Commission — vacancy notices, exam schedules, results.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "none"
+    },
+    {
+      "name": "Public Service Commission online application and",
+      "url": "http://psconline.psc.gov.np",
+      "description": "Public Service Commission online application and results portal.",
+      "status": "official",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "School Health Section health programs portal",
+      "url": "http://www.shs.gov.np",
+      "description": "School Health Section health programs portal.",
+      "status": "official",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "School Health Section IMIS health data portal",
+      "url": "http://imis.shs.gov.np",
+      "description": "School Health Section IMIS health data portal.",
+      "status": "official",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "SLC/SEE Result Portal",
+      "url": "https://slcresult.soce.gov.np",
+      "description": "[WARNING: Link may be dead or geo-blocked] National examination results publication system.",
+      "status": "official",
       "maintenance": "unknown",
       "tags": [
         "verified",
@@ -1492,10 +863,21 @@
       ]
     },
     {
-      "name": "ahd.gov.np",
-      "url": "http://ahd.gov.np",
-      "description": "Department of Animal Health veterinary portal.",
-      "status": "active",
+      "name": "Social Security Fund (SSF) Portal",
+      "url": "https://ssf.gov.np",
+      "description": "Contributions, claims processing, and social security management.",
+      "status": "official",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "Supreme Court of Nepal",
+      "url": "http://www.acourt.gov.np",
+      "description": "[WARNING: Link may be dead or geo-blocked] Supreme Court and appellate judiciary services portal.",
+      "status": "official",
       "maintenance": "unknown",
       "tags": [
         "verified",
@@ -1503,10 +885,21 @@
       ]
     },
     {
-      "name": "shs.gov.np",
-      "url": "http://shs.gov.np",
-      "description": "School Health Section programs portal.",
-      "status": "active",
+      "name": "SuTRA (Sub",
+      "url": "https://fcgo.gov.np",
+      "description": "https://fcgo.gov.np (integrated access) - Budgeting, accounting, revenue collection for 753 local governments and provinces.",
+      "status": "official",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "Training Portal (various ministries)",
+      "url": "https://training.gov.np",
+      "description": "[WARNING: Link may be dead or geo-blocked] Government employee and public training management systems.",
+      "status": "official",
       "maintenance": "unknown",
       "tags": [
         "verified",
@@ -1514,539 +907,11 @@
       ]
     },
     {
-      "name": "chd.gov.np",
-      "url": "http://chd.gov.np",
-      "description": "Civil Helicopter Department aviation portal.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "trivenimunbajura.gov.np",
-      "url": "https://trivenimunbajura.gov.np",
-      "description": "Triveni Municipality Bajura local services.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "sthaniya.gov.np",
-      "url": "https://sthaniya.gov.np",
-      "description": "Ministry of Federal Affairs and General Administration local levels portal (full directory of 753 local governments).",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "lgaf.gov.np",
-      "url": "http://lgaf.gov.np",
-      "description": "Local Governance and Federalism support digital tools.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "dolidar.gov.np",
-      "url": "http://dolidar.gov.np",
-      "description": "Department of Local Infrastructure development portal.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "mofaga.gov.np",
-      "url": "http://mofaga.gov.np",
-      "description": "Ministry of Federal Affairs and General Administration main portal.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "president.gov.np",
-      "url": "https://president.gov.np",
-      "description": "Office of the President official portal.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "opmcm.gov.np",
-      "url": "https://www.opmcm.gov.np",
-      "description": "Office of the Prime Minister and Council of Ministers.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "film.gov.np",
-      "url": "https://film.gov.np",
-      "description": "Film Development Board location and industry portal.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "kathmandu.gov.np",
-      "url": "https://kathmandu.gov.np",
-      "description": "Kathmandu Metropolitan City services.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "moen.gov.np",
-      "url": "https://moen.gov.np",
-      "description": "Energy ministry online services.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "ahd.gov.np",
-      "url": "https://ahd.gov.np",
-      "description": "Animal health department portal.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "dhogorkha.gov.np",
-      "url": "https://dhogorkha.gov.np",
-      "description": "Dhogorkha district portal.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "erao.moha.gov.np",
-      "url": "https://erao.moha.gov.np",
-      "description": "Reconstruction authority office.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "kmcebps.gov.np",
-      "url": "https://kmcebps.gov.np",
-      "description": "College placement system.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "pollution.gov.np",
-      "url": "https://pollution.gov.np",
-      "description": "Pollution control portal.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "ugc.nitc.gov.np",
-      "url": "https://ugc.nitc.gov.np",
-      "description": "University grants portal.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "nic.gov.np",
-      "url": "https://nic.gov.np",
-      "description": "Information commission portal.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "online.nepalimmigration.gov.np",
-      "url": "https://online.nepalimmigration.gov.np",
-      "description": "Immigration online services.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "imis.shs.gov.np",
-      "url": "https://imis.shs.gov.np",
-      "description": "School health IMIS.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "mechi.nitc.gov.np",
-      "url": "https://mechi.nitc.gov.np",
-      "description": "Mechi zone portal.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "attorneygeneral.gov.np",
-      "url": "https://attorneygeneral.gov.np",
-      "description": "Attorney General portal.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "epsnepal.gov.np",
-      "url": "https://epsnepal.gov.np",
-      "description": "Provident fund portal.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "nra.gov.np",
-      "url": "https://nra.gov.np",
-      "description": "Reconstruction authority.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "doe.gov.np",
-      "url": "https://doe.gov.np",
-      "description": "Electricity department.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "pis.gov.np",
-      "url": "https://pis.gov.np",
-      "description": "Public information system.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "shs.gov.np",
-      "url": "https://shs.gov.np",
-      "description": "School health section.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "nec.gov.np",
-      "url": "https://nec.gov.np",
-      "description": "Examination board.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "sism.doe.gov.np",
-      "url": "https://sism.doe.gov.np",
-      "description": "Electricity SISM.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "verify.soce.gov.np",
-      "url": "https://verify.soce.gov.np",
-      "description": "SOCE verification.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "chd.gov.np",
-      "url": "https://chd.gov.np",
-      "description": "Civil helicopter department.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "phcrd.gov.np",
-      "url": "https://phcrd.gov.np",
-      "description": "Public health research.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "bagmati.gov.np",
-      "url": "https://bagmati.gov.np",
-      "description": "Bagmati province portal.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "iwrmp.gov.np",
-      "url": "https://iwrmp.gov.np",
-      "description": "Water resources project.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "psconline.psc.gov.np",
-      "url": "https://psconline.psc.gov.np",
-      "description": "PSC online.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "nidmc.gov.np",
-      "url": "https://nidmc.gov.np",
-      "description": "Inland waterways plan.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "portal.mof.gov.np",
-      "url": "https://portal.mof.gov.np",
-      "description": "Finance ministry portal.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "monitoring.mof.gov.np",
-      "url": "https://monitoring.mof.gov.np",
-      "description": "Finance monitoring.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "training.lmbis.gov.np",
-      "url": "https://training.lmbis.gov.np",
-      "description": "Local training portal.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "dams.dda.gov.np",
-      "url": "https://dams.dda.gov.np",
-      "description": "Disaster dams portal.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "municipality.gov.np",
-      "url": "https://municipality.gov.np",
-      "description": "Municipality central portal.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "opmcm.gov.np",
-      "url": "https://opmcm.gov.np",
-      "description": "Prime Minister office portal.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "parliament.gov.np",
-      "url": "https://parliament.gov.np",
-      "description": "Parliament documents portal.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "supremecourt.gov.np",
-      "url": "https://supremecourt.gov.np",
-      "description": "Supreme Court portal.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "mofa.gov.np",
-      "url": "https://mofa.gov.np",
-      "description": "Foreign affairs ministry.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "tourism.gov.np",
-      "url": "https://tourism.gov.np",
-      "description": "Tourism department.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "apf.gov.np",
-      "url": "https://apf.gov.np",
-      "description": "Armed Police Force.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "aepc.gov.np",
-      "url": "https://aepc.gov.np",
-      "description": "Alternative energy centre.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "adbl.gov.np",
-      "url": "https://adbl.gov.np",
-      "description": "Agricultural bank.",
-      "status": "active",
-      "maintenance": "unknown",
+      "name": "University Grants Commission portal under NITC",
+      "url": "http://ugc.nitc.gov.np",
+      "description": "University Grants Commission portal under NITC.",
+      "status": "official",
+      "maintenance": "active",
       "tags": [
         "verified",
         "digital-nepal"

@@ -1,21 +1,11 @@
 {
   "id": "agri-tourism-transport",
-  "title": "Agriculture, Tourism & Transport",
-  "tagline": "AgriTech, trekking permits, ride-hailing, and aviation",
+  "title": "Agri & Transport",
+  "tagline": "Agriculture, Civil Aviation, and NEA",
   "description": "Nepali AgriTech is led by SmartKrishi and GeoKrishi — both internationally recognized. Tourism digital infrastructure (e-TIMS) was launched in 2023. Ride-hailing is dominated by Pathao and inDrive; Tootle pivoted in 2024.",
   "icon": "✦",
   "order": 13,
   "resources": [
-    {
-      "name": "SmartKrishi",
-      "url": "https://smartkrishi.org",
-      "description": "First Nepal-focused agri smartphone app (2015). 100K+ downloads. FAO-recognized.",
-      "status": "community",
-      "maintenance": "unknown",
-      "api": "none",
-      "starred": true,
-      "note": "[Automated] Link appears to be broken or unreachable."
-    },
     {
       "name": "GeoKrishi (Pathway Technologies)",
       "url": "https://geokrishi.farm",
@@ -26,26 +16,74 @@
       "starred": true
     },
     {
-      "name": "NARC — Nepal Agricultural Research Council",
-      "url": "https://narc.gov.np",
-      "description": "Knowledge-management portal (kms.narc.gov.np) and soil database (soil.narc.gov.np).",
-      "status": "official",
-      "maintenance": "active",
-      "api": "none"
+      "name": "SmartKrishi",
+      "url": "https://smartkrishi.org",
+      "description": "[WARNING: Link may be dead or geo-blocked] First Nepal-focused agri smartphone app (2015). 100K+ downloads. FAO-recognized.",
+      "status": "community",
+      "maintenance": "unknown",
+      "api": "none",
+      "starred": true,
+      "note": "[Automated] Link appears to be broken or unreachable."
     },
     {
-      "name": "Department of Agriculture",
-      "url": "https://www.doanepal.gov.np",
-      "description": "Ministry of Agriculture and Livestock Development.",
+      "name": "Pathao Nepal",
+      "url": "https://pathao.com/np",
+      "description": "Largest ride-hailing and food-delivery platform in Nepal. 90k+ riders across 7 provinces.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "none",
+      "starred": true
+    },
+    {
+      "name": "Sajha Plus (Sajha Yatayat)",
+      "url": "https://sajhayatayat.com.np",
+      "description": "Cooperative since 1961. Sajha Plus app (by Slash Plus) provides live GPS, ETA, geofence alerts.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "none",
+      "starred": true
+    },
+    {
+      "name": "Tribhuwan International Airport Flight Data",
+      "url": "http://tiairport.com.np/flight_details",
+      "description": "Real - time flight arrival/departure lists.",
+      "status": "unofficial",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "Aramex Nepal",
+      "url": "https://www.aramex.com",
+      "description": "Logistics provider with global Aramex API (works in Nepal).",
+      "status": "official",
+      "maintenance": "active",
+      "api": "rest"
+    },
+    {
+      "name": "Civil Aviation Authority of Nepal",
+      "url": "https://caanepal.gov.np",
+      "description": "[WARNING: Link may be dead or geo-blocked] Aviation regulator.",
       "status": "official",
       "maintenance": "unknown",
       "api": "none",
       "note": "[Automated] Link appears to be broken or unreachable."
     },
     {
-      "name": "Nepal Tourism Board",
-      "url": "https://www.welcomenepal.com",
-      "description": "Official tourism marketing site. Trade portal at trade.ntb.gov.np.",
+      "name": "Department of Agriculture",
+      "url": "https://www.doanepal.gov.np",
+      "description": "[WARNING: Link may be dead or geo-blocked] Ministry of Agriculture and Livestock Development.",
+      "status": "official",
+      "maintenance": "unknown",
+      "api": "none",
+      "note": "[Automated] Link appears to be broken or unreachable."
+    },
+    {
+      "name": "DNPWC",
+      "url": "https://www.dnpwc.gov.np",
+      "description": "Department of National Parks and Wildlife Conservation.",
       "status": "official",
       "maintenance": "active",
       "api": "none"
@@ -59,17 +97,33 @@
       "api": "form"
     },
     {
-      "name": "TAAN TIMS",
-      "url": "https://timsnepal.com",
-      "description": "Trekking Agencies' Association of Nepal — TIMS card portal.",
+      "name": "Foodmandu",
+      "url": "https://foodmandu.com",
+      "description": "Pioneer Nepali food-delivery platform built by EKbana.",
       "status": "official",
       "maintenance": "active",
-      "api": "form"
+      "api": "none"
     },
     {
-      "name": "DNPWC",
-      "url": "https://www.dnpwc.gov.np",
-      "description": "Department of National Parks and Wildlife Conservation.",
+      "name": "inDrive Nepal",
+      "url": "https://indrive.com",
+      "description": "Negotiated-fare ride-hailing in Nepal since April 2022.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "none"
+    },
+    {
+      "name": "NARC — Nepal Agricultural Research Council",
+      "url": "https://narc.gov.np",
+      "description": "Knowledge-management portal (kms.narc.gov.np) and soil database (soil.narc.gov.np).",
+      "status": "official",
+      "maintenance": "active",
+      "api": "none"
+    },
+    {
+      "name": "Nepal Tourism Board",
+      "url": "https://www.welcomenepal.com",
+      "description": "Official tourism marketing site. Trade portal at trade.ntb.gov.np.",
       "status": "official",
       "maintenance": "active",
       "api": "none"
@@ -83,38 +137,20 @@
       "api": "none"
     },
     {
-      "name": "Pathao Nepal",
-      "url": "https://pathao.com/np",
-      "description": "Largest ride-hailing and food-delivery platform in Nepal. 90k+ riders across 7 provinces.",
+      "name": "TAAN TIMS",
+      "url": "https://timsnepal.com",
+      "description": "Trekking Agencies' Association of Nepal — TIMS card portal.",
       "status": "official",
       "maintenance": "active",
-      "api": "none",
-      "starred": true
-    },
-    {
-      "name": "inDrive Nepal",
-      "url": "https://indrive.com",
-      "description": "Negotiated-fare ride-hailing in Nepal since April 2022.",
-      "status": "official",
-      "maintenance": "active",
-      "api": "none"
+      "api": "form"
     },
     {
       "name": "Tootle",
       "url": "https://tootle.com.np",
-      "description": "Pivoted in 2024 to driver-subscription model. Significantly reduced from peak.",
+      "description": "[WARNING: Link may be dead or geo-blocked] Pivoted in 2024 to driver-subscription model. Significantly reduced from peak.",
       "status": "official",
-      "maintenance": "stale",
+      "maintenance": "unknown",
       "api": "none"
-    },
-    {
-      "name": "Sajha Plus (Sajha Yatayat)",
-      "url": "https://sajhayatayat.com.np",
-      "description": "Cooperative since 1961. Sajha Plus app (by Slash Plus) provides live GPS, ETA, geofence alerts.",
-      "status": "official",
-      "maintenance": "active",
-      "api": "none",
-      "starred": true
     },
     {
       "name": "Tribhuvan International Airport",
@@ -125,34 +161,9 @@
       "api": "none"
     },
     {
-      "name": "Civil Aviation Authority of Nepal",
-      "url": "https://caanepal.gov.np",
-      "description": "Aviation regulator.",
-      "status": "official",
-      "maintenance": "unknown",
-      "api": "none",
-      "note": "[Automated] Link appears to be broken or unreachable."
-    },
-    {
       "name": "Yatri Hub App",
       "url": "https://www.yatrimotorcycles.com",
       "description": "Connected EV motorcycle app — CarPlay/Android Auto on Yatri P1 Gen 2.",
-      "status": "official",
-      "maintenance": "active",
-      "api": "none"
-    },
-    {
-      "name": "Aramex Nepal",
-      "url": "https://www.aramex.com",
-      "description": "Logistics provider with global Aramex API (works in Nepal).",
-      "status": "official",
-      "maintenance": "active",
-      "api": "rest"
-    },
-    {
-      "name": "Foodmandu",
-      "url": "https://foodmandu.com",
-      "description": "Pioneer Nepali food-delivery platform built by EKbana.",
       "status": "official",
       "maintenance": "active",
       "api": "none"

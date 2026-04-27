@@ -1,0 +1,429 @@
+{
+  "$schema": "../schema.json",
+  "id": "provincial-bodies",
+  "title": "Provincial Bodies",
+  "description": "Portals for Provincial Ministries, OCMCMs, and departments across all 7 provinces.",
+  "resources": [
+    {
+      "name": "MOEAP Karnali Province",
+      "url": "http://moeap.karnali.gov.np",
+      "description": "Ministry office (MOEAP) for karnali province.",
+      "status": "official",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "government"
+      ]
+    },
+    {
+      "name": "MOEAP Koshi Province",
+      "url": "http://moeap.koshi.gov.np",
+      "description": "Ministry office (MOEAP) for koshi province.",
+      "status": "official",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "government"
+      ]
+    },
+    {
+      "name": "MOEAP Lumbini Province",
+      "url": "http://moeap.lumbini.gov.np",
+      "description": "Ministry office (MOEAP) for lumbini province.",
+      "status": "official",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "government"
+      ]
+    },
+    {
+      "name": "MOEAP P2 Province",
+      "url": "http://moeap.p2.gov.np",
+      "description": "Ministry office (MOEAP) for p2 province.",
+      "status": "official",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "government"
+      ]
+    },
+    {
+      "name": "MOH Gandaki Province",
+      "url": "http://moh.gandaki.gov.np",
+      "description": "Ministry office (MOH) for gandaki province.",
+      "status": "official",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "government"
+      ]
+    },
+    {
+      "name": "MOH Koshi Province",
+      "url": "http://moh.koshi.gov.np",
+      "description": "Ministry office (MOH) for koshi province.",
+      "status": "official",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "government"
+      ]
+    },
+    {
+      "name": "MOIAL Koshi Province",
+      "url": "http://moial.koshi.gov.np",
+      "description": "Ministry office (MOIAL) for koshi province.",
+      "status": "official",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "government"
+      ]
+    },
+    {
+      "name": "MOIAL Lumbini Province",
+      "url": "http://moial.lumbini.gov.np",
+      "description": "Ministry office (MOIAL) for lumbini province.",
+      "status": "official",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "government"
+      ]
+    },
+    {
+      "name": "MOIAL Sudurpashchim Province",
+      "url": "http://moial.sudurpashchim.gov.np",
+      "description": "Ministry office (MOIAL) for sudurpashchim province.",
+      "status": "official",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "government"
+      ]
+    },
+    {
+      "name": "MOITFE Gandaki Province",
+      "url": "http://moitfe.gandaki.gov.np",
+      "description": "Ministry office (MOITFE) for gandaki province.",
+      "status": "official",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "government"
+      ]
+    },
+    {
+      "name": "MOITFE Karnali Province",
+      "url": "http://moitfe.karnali.gov.np",
+      "description": "Ministry office (MOITFE) for karnali province.",
+      "status": "official",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "government"
+      ]
+    },
+    {
+      "name": "MOITFE Koshi Province",
+      "url": "http://moitfe.koshi.gov.np",
+      "description": "Ministry office (MOITFE) for koshi province.",
+      "status": "official",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "government"
+      ]
+    },
+    {
+      "name": "MOITFE Lumbini Province",
+      "url": "http://moitfe.lumbini.gov.np",
+      "description": "Ministry office (MOITFE) for lumbini province.",
+      "status": "official",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "government"
+      ]
+    },
+    {
+      "name": "MOITFE Madhesh Province",
+      "url": "http://moitfe.madhesh.gov.np",
+      "description": "Ministry office (MOITFE) for madhesh province.",
+      "status": "official",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "government"
+      ]
+    },
+    {
+      "name": "MOITFE Sudurpashchim Province",
+      "url": "http://moitfe.sudurpashchim.gov.np",
+      "description": "Ministry office (MOITFE) for sudurpashchim province.",
+      "status": "official",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "government"
+      ]
+    },
+    {
+      "name": "MOLMAC Gandaki Province",
+      "url": "http://molmac.gandaki.gov.np",
+      "description": "Ministry office (MOLMAC) for gandaki province.",
+      "status": "official",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "government"
+      ]
+    },
+    {
+      "name": "MOLMAC Karnali Province",
+      "url": "http://molmac.karnali.gov.np",
+      "description": "Ministry office (MOLMAC) for karnali province.",
+      "status": "official",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "government"
+      ]
+    },
+    {
+      "name": "MOLMAC Koshi Province",
+      "url": "http://molmac.koshi.gov.np",
+      "description": "Ministry office (MOLMAC) for koshi province.",
+      "status": "official",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "government"
+      ]
+    },
+    {
+      "name": "MOLMAC Lumbini Province",
+      "url": "http://molmac.lumbini.gov.np",
+      "description": "Ministry office (MOLMAC) for lumbini province.",
+      "status": "official",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "government"
+      ]
+    },
+    {
+      "name": "MOLMAC Madhesh Province",
+      "url": "http://molmac.madhesh.gov.np",
+      "description": "Ministry office (MOLMAC) for madhesh province.",
+      "status": "official",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "government"
+      ]
+    },
+    {
+      "name": "MOLMAC Sudurpashchim Province",
+      "url": "http://molmac.sudurpashchim.gov.np",
+      "description": "Ministry office (MOLMAC) for sudurpashchim province.",
+      "status": "official",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "government"
+      ]
+    },
+    {
+      "name": "MOPID Gandaki Province",
+      "url": "http://mopid.gandaki.gov.np",
+      "description": "Ministry office (MOPID) for gandaki province.",
+      "status": "official",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "government"
+      ]
+    },
+    {
+      "name": "MOPID Koshi Province",
+      "url": "http://mopid.koshi.gov.np",
+      "description": "Ministry office (MOPID) for koshi province.",
+      "status": "official",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "government"
+      ]
+    },
+    {
+      "name": "MOPID Lumbini Province",
+      "url": "http://mopid.lumbini.gov.np",
+      "description": "Ministry office (MOPID) for lumbini province.",
+      "status": "official",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "government"
+      ]
+    },
+    {
+      "name": "MOPID Madhesh Province",
+      "url": "http://mopid.madhesh.gov.np",
+      "description": "Ministry office (MOPID) for madhesh province.",
+      "status": "official",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "government"
+      ]
+    },
+    {
+      "name": "MOPID P2 Province",
+      "url": "http://mopid.p2.gov.np",
+      "description": "Ministry office (MOPID) for p2 province.",
+      "status": "official",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "government"
+      ]
+    },
+    {
+      "name": "MOPID Sudurpashchim Province",
+      "url": "http://mopid.sudurpashchim.gov.np",
+      "description": "Ministry office (MOPID) for sudurpashchim province.",
+      "status": "official",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "government"
+      ]
+    },
+    {
+      "name": "MOSD Karnali Province",
+      "url": "http://mosd.karnali.gov.np",
+      "description": "Ministry office (MOSD) for karnali province.",
+      "status": "official",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "government"
+      ]
+    },
+    {
+      "name": "MOSD Koshi Province",
+      "url": "http://mosd.koshi.gov.np",
+      "description": "Ministry office (MOSD) for koshi province.",
+      "status": "official",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "government"
+      ]
+    },
+    {
+      "name": "MOSD Lumbini Province",
+      "url": "http://mosd.lumbini.gov.np",
+      "description": "Ministry office (MOSD) for lumbini province.",
+      "status": "official",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "government"
+      ]
+    },
+    {
+      "name": "MOSD Sudurpashchim Province",
+      "url": "http://mosd.sudurpashchim.gov.np",
+      "description": "Ministry office (MOSD) for sudurpashchim province.",
+      "status": "official",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "government"
+      ]
+    },
+    {
+      "name": "OCMCM Gandaki Province",
+      "url": "http://ocmcm.gandaki.gov.np",
+      "description": "Ministry office (OCMCM) for gandaki province.",
+      "status": "official",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "government"
+      ]
+    },
+    {
+      "name": "OCMCM Karnali Province",
+      "url": "http://ocmcm.karnali.gov.np",
+      "description": "Ministry office (OCMCM) for karnali province.",
+      "status": "official",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "government"
+      ]
+    },
+    {
+      "name": "OCMCM Koshi Province",
+      "url": "http://ocmcm.koshi.gov.np",
+      "description": "Ministry office (OCMCM) for koshi province.",
+      "status": "official",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "government"
+      ]
+    },
+    {
+      "name": "OCMCM Lumbini Province",
+      "url": "http://ocmcm.lumbini.gov.np",
+      "description": "Ministry office (OCMCM) for lumbini province.",
+      "status": "official",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "government"
+      ]
+    },
+    {
+      "name": "OCMCM Madhesh Province",
+      "url": "http://ocmcm.madhesh.gov.np",
+      "description": "Ministry office (OCMCM) for madhesh province.",
+      "status": "official",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "government"
+      ]
+    },
+    {
+      "name": "OCMCM P2 Province",
+      "url": "http://ocmcm.p2.gov.np",
+      "description": "Ministry office (OCMCM) for p2 province.",
+      "status": "official",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "government"
+      ]
+    },
+    {
+      "name": "OCMCM Sudurpashchim Province",
+      "url": "http://ocmcm.sudurpashchim.gov.np",
+      "description": "Ministry office (OCMCM) for sudurpashchim province.",
+      "status": "official",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "government"
+      ]
+    }
+  ],
+  "order": 23,
+  "icon": "◬",
+  "tagline": "Ministries and secretariats of all 7 provinces"
+}

@@ -1,9 +1,9 @@
 {
   "id": "ecommerce-jobs",
-  "title": "E-Commerce & Jobs",
-  "tagline": "Online marketplaces, classifieds, and job boards",
+  "title": "Ecommerce & Jobs",
+  "tagline": "Marketplaces and employment portals",
   "description": "Daraz dominates Nepali e-commerce. HamroBazaar leads classifieds. merojob leads job boards. None publish public APIs; community scrapers exist for Daraz and Foodmandu.",
-  "icon": "◧",
+  "icon": "▣",
   "order": 16,
   "resources": [
     {
@@ -16,12 +16,56 @@
       "starred": true
     },
     {
+      "name": "merojob",
+      "url": "https://merojob.com",
+      "description": "#1 Nepali job board. ISO 9001:2015. 300M+ pageviews/yr, 600K+ seekers.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "none",
+      "starred": true
+    },
+    {
+      "name": "corrupted-brain/MeroJob-Webscraper",
+      "url": "https://github.com/corrupted-brain/MeroJob-Webscraper",
+      "description": "merojob scraper for analysis.",
+      "status": "unofficial",
+      "maintenance": "active",
+      "api": "scraper"
+    },
+    {
+      "name": "Sastodeal",
+      "url": "https://sastodeal.com",
+      "description": "[WARNING: Link may be dead or geo-blocked] Multi - vendor e - commerce and online shopping platform.",
+      "status": "unofficial",
+      "maintenance": "unknown",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
       "name": "sushil-rgb/Daraz-Global-WebScraper",
       "url": "https://github.com/sushil-rgb/Daraz-Global-WebScraper",
       "description": "Daraz product scraper.",
       "status": "unofficial",
       "maintenance": "active",
       "api": "scraper"
+    },
+    {
+      "name": "Froxjob",
+      "url": "https://www.froxjob.com",
+      "description": "Job board with focus on professional roles.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "none"
+    },
+    {
+      "name": "Gyapu",
+      "url": "https://gyapu.com",
+      "description": "[WARNING: Link may be dead or geo-blocked] Fast-growing post-COVID e-commerce platform.",
+      "status": "official",
+      "maintenance": "unknown",
+      "api": "none"
     },
     {
       "name": "HamroBazaar",
@@ -32,42 +76,9 @@
       "api": "none"
     },
     {
-      "name": "Muncha",
-      "url": "https://www.muncha.com",
-      "description": "Nepal's earliest e-commerce site (since 2000).",
-      "status": "official",
-      "maintenance": "active",
-      "api": "none"
-    },
-    {
-      "name": "Gyapu",
-      "url": "https://gyapu.com",
-      "description": "Fast-growing post-COVID e-commerce platform.",
-      "status": "official",
-      "maintenance": "active",
-      "api": "none"
-    },
-    {
-      "name": "Thulo.com",
-      "url": "https://thulo.com",
-      "description": "Online marketplace since 2005 (formerly NepBay).",
-      "status": "official",
-      "maintenance": "active",
-      "api": "none"
-    },
-    {
-      "name": "merojob",
-      "url": "https://merojob.com",
-      "description": "#1 Nepali job board. ISO 9001:2015. 300M+ pageviews/yr, 600K+ seekers.",
-      "status": "official",
-      "maintenance": "active",
-      "api": "none",
-      "starred": true
-    },
-    {
       "name": "JobAxle",
       "url": "https://jobaxle.com",
-      "description": "IT and engineering-focused job board.",
+      "description": "[WARNING: Link may be dead or geo-blocked] IT and engineering-focused job board.",
       "status": "official",
       "maintenance": "unknown",
       "api": "none",
@@ -82,9 +93,9 @@
       "api": "none"
     },
     {
-      "name": "Froxjob",
-      "url": "https://www.froxjob.com",
-      "description": "Job board with focus on professional roles.",
+      "name": "Muncha",
+      "url": "https://www.muncha.com",
+      "description": "Nepal's earliest e-commerce site (since 2000).",
       "status": "official",
       "maintenance": "active",
       "api": "none"
@@ -98,23 +109,12 @@
       "api": "none"
     },
     {
-      "name": "corrupted-brain/MeroJob-Webscraper",
-      "url": "https://github.com/corrupted-brain/MeroJob-Webscraper",
-      "description": "merojob scraper for analysis.",
-      "status": "unofficial",
-      "maintenance": "stale",
-      "api": "scraper"
-    },
-    {
-      "name": "Foodmandu",
-      "url": "https://foodmandu.com/",
-      "description": "The premier and earliest digital food delivery service in the Kathmandu valley.",
+      "name": "Thulo.com",
+      "url": "https://thulo.com",
+      "description": "Online marketplace since 2005 (formerly NepBay).",
       "status": "official",
       "maintenance": "active",
-      "tags": [
-        "food delivery",
-        "e-commerce"
-      ]
+      "api": "none"
     }
   ]
 }

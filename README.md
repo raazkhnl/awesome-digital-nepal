@@ -11,7 +11,7 @@
 
 A curated, community-maintained reference of every meaningful digital tool, API, SDK, dataset, library, and developer resource built **in**, **for**, or **commonly used in** Nepal — for development, research, and educational purposes.
 
-Currently catalogues **315 resources** across **21 categories**.
+Currently catalogues **1330 resources** across **25 categories**.
 
 ---
 
@@ -51,33 +51,38 @@ npm run preview    # serves the production build locally
 
 ## ✦ Categories
 
-| #   | Category                                                                                 | Tagline                                                            | Count |
-| --- | ---------------------------------------------------------------------------------------- | ------------------------------------------------------------------ | ----: |
-| 01  | [Government & e-Governance](./src/data/categories/01-government.json)                    | Citizen services, national ID, and government portals              |    20 |
-| 02  | [Documented Government APIs](./src/data/categories/02-government-apis.json)              | The rare official Nepali government APIs with public documentation |     7 |
-| 03  | [Open Data & Datasets](./src/data/categories/03-open-data.json)                          | Statistics, geospatial, humanitarian, and historical data          |    14 |
-| 04  | [Fintech & Payments](./src/data/categories/04-fintech.json)                              | Payment gateways, wallets, banking, and fintech APIs               |    18 |
-| 05  | [Stock Market & Trading](./src/data/categories/05-stock-market.json)                     | NEPSE data, IPO automation, and capital-market tools               |    17 |
-| 06  | [Telecom & SMS](./src/data/categories/06-telecom.json)                                   | SMS gateways, USSD codes, and ISP developer resources              |    12 |
-| 07  | [Maps & Geospatial](./src/data/categories/07-maps-geo.json)                              | Nepal-specific maps, address APIs, and boundary datasets           |    14 |
-| 08  | [Nepali OSS Libraries](./src/data/categories/08-oss-libraries.json)                      | Date converters, formatters, validators, and helpers               |    19 |
-| 09  | [AI, ML & Nepali NLP](./src/data/categories/09-ai-nlp.json)                              | Language models, datasets, OCR, ASR, and translation for Nepali    |    25 |
-| 10  | [Fonts & Typography](./src/data/categories/10-fonts.json)                                | Unicode Devanagari fonts and Preeti↔Unicode converters             |    11 |
-| 11  | [Education & EdTech](./src/data/categories/11-education.json)                            | Learning platforms, university portals, and exam resources         |    16 |
-| 12  | [Health & Medical Tech](./src/data/categories/12-health.json)                            | EHR systems, telemedicine, and health datasets                     |    12 |
-| 13  | [Agriculture, Tourism & Transport](./src/data/categories/13-agri-tourism-transport.json) | AgriTech, trekking permits, ride-hailing, and aviation             |    18 |
-| 14  | [News, Media & Calendar](./src/data/categories/14-news-media.json)                       | News portals, RSS feeds, and Hamro Patro ecosystem                 |    13 |
-| 15  | [Weather, Environment & Disaster](./src/data/categories/15-weather-disaster.json)        | Hydromet, air quality, seismic, and disaster portals               |    14 |
-| 16  | [E-Commerce & Jobs](./src/data/categories/16-ecommerce-jobs.json)                        | Online marketplaces, classifieds, and job boards                   |    12 |
-| 17  | [Communities & Events](./src/data/categories/17-communities.json)                        | Developer communities, FOSS groups, hackathons, and conferences    |    18 |
-| 18  | [Blogs, Podcasts & YouTube](./src/data/categories/18-blogs-podcasts.json)                | Tutorials, technical writing, and Nepali tech media                |    14 |
-| 19  | [Civic Tech & Transparency](./src/data/categories/19-civic-tech.json)                    | Open government, accountability, and data-for-good projects        |    13 |
-| 20  | [Notable Companies & OSS Orgs](./src/data/categories/20-companies.json)                  | Nepali tech companies with public open-source contributions        |    16 |
-| 21  | [Sister Awesome Lists](./src/data/categories/21-sister-lists.json)                       | Other curated lists covering the Nepali tech ecosystem             |    12 |
+| #   | Category | Tagline | Count |
+| --- | --- | --- | ---: |
+| 01  | [Government (Federal)](./src/data/categories/01-government.json) | Central ministries, national ID, and e-governance | 86 |
+| 02  | [Government APIs](./src/data/categories/02-government-apis.json) | Official and community APIs for gov data | 6 |
+| 03  | [Open Data](./src/data/categories/03-open-data.json) | Datasets, census data, and humanitarian portals | 18 |
+| 04  | [Fintech & Wallets](./src/data/categories/04-fintech.json) | E-wallets, payment gateways, and banking tools | 82 |
+| 05  | [Stock Market](./src/data/categories/05-stock-market.json) | NEPSE, MeroShare, and capital market tools | 38 |
+| 06  | [Telecom & SMS](./src/data/categories/06-telecom.json) | SMS gateways, USSD codes, and ISP developer resources | 12 |
+| 07  | [Maps & Geospatial](./src/data/categories/07-maps-geo.json) | Nepal-specific maps and address APIs | 13 |
+| 08  | [OSS Libraries](./src/data/categories/08-oss-libraries.json) | Community packages and development toolkits | 27 |
+| 09  | [AI & NLP](./src/data/categories/09-ai-nlp.json) | Large language models and speech tools for Nepali | 30 |
+| 10  | [Fonts & Layouts](./src/data/categories/10-fonts.json) | Preeti, Unicode, and keyboard layouts | 11 |
+| 11  | [Education](./src/data/categories/11-education.json) | Universities, results, and scholarship portals | 16 |
+| 12  | [Health](./src/data/categories/12-health.json) | Hospital portals and national health data | 10 |
+| 13  | [Agri & Transport](./src/data/categories/13-agri-tourism-transport.json) | Agriculture, Civil Aviation, and NEA | 19 |
+| 14  | [News & Media](./src/data/categories/14-news-media.json) | Authoritative news outlets and aggregators | 13 |
+| 15  | [Weather & Disaster](./src/data/categories/15-weather-disaster.json) | DRR, Hydrology, and real-time alerts | 10 |
+| 16  | [Ecommerce & Jobs](./src/data/categories/16-ecommerce-jobs.json) | Marketplaces and employment portals | 13 |
+| 17  | [Communities](./src/data/categories/17-communities.json) | Developer groups, FOSS, and tech forums | 18 |
+| 18  | [Blogs & Podcasts](./src/data/categories/18-blogs-podcasts.json) | High-quality Nepali tech content | 13 |
+| 19  | [Civic Tech](./src/data/categories/19-civic-tech.json) | Transparency trackers and election data | 14 |
+| 20  | [Tech Companies](./src/data/categories/20-companies.json) | Nepali companies with significant OSS footprints | 15 |
+| 21  | [Sister Lists](./src/data/categories/21-sister-lists.json) | Other curated Nepalese resources | 10 |
+| 22  | [District Admin (DAO)](./src/data/categories/22-dao.json) | Official District Administration Office portals | 76 |
+| 23  | [Provincial Bodies](./src/data/categories/23-provincial-bodies.json) | Ministries and secretariats of all 7 provinces | 38 |
+| 24  | [Local Governments](./src/data/categories/24-local-governments.json) | All 753 Municipalities & Rural Mun. | 742 |
+| 25  | [Nepal Ecosystem (Misc)](./src/data/categories/25-misc.json) | Miscellaneous digital services | 0 |
 
-**Stats:** 315 resources · 137 official · 161 community · 16 unofficial · 1 deprecated · **90 starred essentials**.
+**Stats:** 1,346 resources · 1,180+ official · 120 community · 40 unofficial · 6 deprecated.
 
 ---
+
 
 ## ✦ How entries are tagged
 

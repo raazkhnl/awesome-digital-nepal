@@ -1,89 +1,11 @@
 {
   "id": "oss-libraries",
-  "title": "Nepali OSS Libraries",
-  "tagline": "Date converters, formatters, validators, and helpers",
+  "title": "OSS Libraries",
+  "tagline": "Community packages and development toolkits",
   "description": "Open-source libraries for Bikram Sambat ↔ AD conversion, Nepali number formatting, phone validation, address utilities, and language helpers. The opensource-nepal organization maintains the flagship Python and JS packages; ecosystem extends across Java, Kotlin, Dart, PHP, .NET, Go, Rust, and C.",
   "icon": "{ }",
   "order": 8,
   "resources": [
-    {
-      "name": "opensource-nepal organization",
-      "url": "https://github.com/opensource-nepal",
-      "description": "Flagship Nepal-focused OSS org. Hosts py-nepali, node-nepali-datetime, go-nepali, nepali-phone, tax-calculator, fcitx5-lekhika, django-nepali, and more.",
-      "status": "community",
-      "maintenance": "active",
-      "api": "sdk",
-      "starred": true
-    },
-    {
-      "name": "py-nepali",
-      "url": "https://github.com/opensource-nepal/py-nepali",
-      "description": "Python: BS↔AD, nepalidatetime, nepalinumber, phone validator, provinces/districts/municipalities. PyPI: nepali.",
-      "status": "community",
-      "maintenance": "active",
-      "api": "sdk",
-      "starred": true
-    },
-    {
-      "name": "node-nepali-datetime",
-      "url": "https://github.com/opensource-nepal/node-nepali-datetime",
-      "description": "TypeScript Nepali datetime library. ~74 stars, 552 weekly downloads. v2.0.0.",
-      "status": "community",
-      "maintenance": "active",
-      "api": "sdk",
-      "starred": true
-    },
-    {
-      "name": "subeshb1/nepali-date-converter",
-      "url": "https://github.com/subeshb1/nepali-date-converter",
-      "description": "Popular npm package — 6.9k weekly downloads, ~65 stars.",
-      "status": "community",
-      "maintenance": "unknown",
-      "api": "sdk",
-      "starred": true,
-      "note": "[Automated] Link appears to be broken or unreachable."
-    },
-    {
-      "name": "medic/bikram-sambat",
-      "url": "https://github.com/medic/bikram-sambat",
-      "description": "Apache-2.0. Used by Medic Mobile health systems. JS + Java implementations.",
-      "status": "community",
-      "maintenance": "active",
-      "api": "sdk"
-    },
-    {
-      "name": "puncoz/bikram-sambat-js",
-      "url": "https://github.com/puncoz-official/bikram-sambat-js",
-      "description": "npm 1.4k weekly downloads. JS BS converter.",
-      "status": "community",
-      "maintenance": "active",
-      "api": "sdk"
-    },
-    {
-      "name": "leapfrogtechnology/nepali-date-picker",
-      "url": "https://github.com/leapfrogtechnology/nepali-date-picker",
-      "description": "Foundational jQuery Nepali date picker. ~92 stars.",
-      "status": "community",
-      "maintenance": "active",
-      "api": "sdk",
-      "starred": true
-    },
-    {
-      "name": "sbmdkl/nepali-datepicker-reactjs",
-      "url": "https://github.com/sbmdkl/nepali-datepicker-reactjs",
-      "description": "Themeable React Nepali date picker. npm 481 weekly.",
-      "status": "community",
-      "maintenance": "active",
-      "api": "sdk"
-    },
-    {
-      "name": "puncoz/nepali-datepicker-reactjs",
-      "url": "https://github.com/puncoz/nepali-datepicker-reactjs",
-      "description": "React Nepali date picker. npm 437 weekly.",
-      "status": "community",
-      "maintenance": "active",
-      "api": "sdk"
-    },
     {
       "name": "amitgaru2/nepali-datetime",
       "url": "https://github.com/amitgaru2/nepali-datetime",
@@ -103,22 +25,36 @@
       "starred": true
     },
     {
-      "name": "shivathapaa/Nepali-Date-Picker",
-      "url": "https://github.com/shivathapaa/Nepali-Date-Picker",
-      "description": "Kotlin Multiplatform (Android+iOS+JVM+JS+Wasm). Material3-aligned. Maven Central: io.github.shivathapaa:nepali-date-picker.",
+      "name": "leapfrogtechnology/nepali-date-picker",
+      "url": "https://github.com/leapfrogtechnology/nepali-date-picker",
+      "description": "Foundational jQuery Nepali date picker. ~92 stars.",
       "status": "community",
       "maintenance": "active",
       "api": "sdk",
-      "starred": true,
-      "tags": [
-        "kmp",
-        "kotlin"
-      ]
+      "starred": true
     },
     {
-      "name": "sarbagyastha/nepali_utils",
-      "url": "https://github.com/sarbagyastha/nepali_utils",
-      "description": "Dart/Flutter foundation: NepaliDateTime, DateConverter, NepaliDateFormat, NepaliNumberFormat, NepaliUnicode, NepaliMoment.",
+      "name": "node-nepali-datetime",
+      "url": "https://github.com/opensource-nepal/node-nepali-datetime",
+      "description": "TypeScript Nepali datetime library. ~74 stars, 552 weekly downloads. v2.0.0.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "sdk",
+      "starred": true
+    },
+    {
+      "name": "opensource-nepal organization",
+      "url": "https://github.com/opensource-nepal",
+      "description": "Flagship Nepal-focused OSS org. Hosts py-nepali, node-nepali-datetime, go-nepali, nepali-phone, tax-calculator, fcitx5-lekhika, django-nepali, and more.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "sdk",
+      "starred": true
+    },
+    {
+      "name": "py-nepali",
+      "url": "https://github.com/opensource-nepal/py-nepali",
+      "description": "Python: BS↔AD, nepalidatetime, nepalinumber, phone validator, provinces/districts/municipalities. PyPI: nepali.",
       "status": "community",
       "maintenance": "active",
       "api": "sdk",
@@ -134,13 +70,48 @@
       "starred": true
     },
     {
-      "name": "NepDate (.NET)",
-      "url": "https://github.com/VictorWesterlund/NepDate",
-      "description": "Modern struct-based .NET Nepali date library. ~25 stars.",
+      "name": "sarbagyastha/nepali_utils",
+      "url": "https://github.com/sarbagyastha/nepali_utils",
+      "description": "Dart/Flutter foundation: NepaliDateTime, DateConverter, NepaliDateFormat, NepaliNumberFormat, NepaliUnicode, NepaliMoment.",
       "status": "community",
-      "maintenance": "unknown",
+      "maintenance": "active",
       "api": "sdk",
+      "starred": true
+    },
+    {
+      "name": "shivathapaa/Nepali-Date-Picker",
+      "url": "https://github.com/shivathapaa/Nepali-Date-Picker",
+      "description": "Kotlin Multiplatform (Android+iOS+JVM+JS+Wasm). Material3-aligned. Maven Central: io.github.shivathapaa:nepali-date-picker.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "sdk",
+      "starred": true,
+      "tags": [
+        "kmp",
+        "kotlin"
+      ]
+    },
+    {
+      "name": "subeshb1/nepali-date-converter",
+      "url": "https://github.com/subeshb1/nepali-date-converter",
+      "description": "Popular npm package — 6.9k weekly downloads, ~65 stars.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "sdk",
+      "starred": true,
       "note": "[Automated] Link appears to be broken or unreachable."
+    },
+    {
+      "name": "bahadurbaniya/Date-Converter-Bikram-Sambat-to-English-Date",
+      "url": "https://github.com/bahadurbaniya/Date-Converter-Bikram-Sambat-to-English-Date",
+      "description": "Nepali Date converter - AD to Bikram Sambat, Bikram Sambat to AD, Nepali to English Date",
+      "status": "community",
+      "maintenance": "active",
+      "tags": [
+        "adtobs",
+        "bikram-sambat",
+        "bikram-sambat-converter"
+      ]
     },
     {
       "name": "casualsnek/npttf2utf",
@@ -151,41 +122,45 @@
       "api": "sdk"
     },
     {
-      "name": "preeti-unicode-converter (PyPI)",
-      "url": "https://pypi.org/project/preeti-unicode-converter/",
-      "description": "PDF/DOCX/HTML batch Preeti-to-Unicode conversion.",
+      "name": "keyrunHORNET/date_picker_converter",
+      "url": "https://github.com/keyrunHORNET/date_picker_converter",
+      "description": "Nepali Date Picker with Date conversion from BS to AD and vice-versa",
       "status": "community",
       "maintenance": "active",
-      "api": "sdk"
-    },
-    {
-      "name": "Pramukh IME",
-      "url": "https://www.pramukhime.com",
-      "description": "Cross-platform Indic input method — JS library and Android keyboard supporting 23 Indic languages including Nepali.",
-      "status": "community",
-      "maintenance": "active",
-      "api": "sdk"
-    },
-    {
-      "name": "suvash/nepalify",
-      "url": "https://github.com/suvash/nepalify",
-      "description": "Used on the Government of Nepal NID Pre-Enrollment portal.",
-      "status": "community",
-      "maintenance": "active",
-      "api": "sdk"
-    },
-    {
-      "name": "OpenSourceNepal / py-nepali",
-      "url": "https://github.com/OpenSourceNepal/py-nepali",
-      "description": "A python package to work with Nepali dates, datetime and more.",
-      "status": "community",
-      "maintenance": "active",
-      "api": "none",
       "tags": [
-        "python",
-        "datetime",
-        "nepali date"
+        "android-library",
+        "bikram-samwat-converter",
+        "conversion"
       ]
+    },
+    {
+      "name": "medic/bikram-sambat",
+      "url": "https://github.com/medic/bikram-sambat",
+      "description": "Apache-2.0. Used by Medic Mobile health systems. JS + Java implementations.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "sdk"
+    },
+    {
+      "name": "nepalibhasha/varnavinyas",
+      "url": "https://github.com/nepalibhasha/varnavinyas",
+      "description": "वर्णविन्यास — Open-source Nepali orthography toolkit based on Nepal Academy standards. Spell checking, sandhi analysis, punctuation diagnostics, and more.",
+      "status": "community",
+      "maintenance": "active",
+      "tags": [
+        "devanagari",
+        "nepali",
+        "nlp"
+      ]
+    },
+    {
+      "name": "NepDate (.NET)",
+      "url": "https://github.com/VictorWesterlund/NepDate",
+      "description": "Modern struct-based .NET Nepali date library. ~25 stars.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "sdk",
+      "note": "[Automated] Link appears to be broken or unreachable."
     },
     {
       "name": "OpenSourceNepal / go-nepali",
@@ -201,16 +176,49 @@
       ]
     },
     {
-      "name": "rk-editor-ui",
-      "url": "https://www.npmjs.com/package/@raazkhnl/rk-editor-ui",
-      "description": "A customizable, React-based rich text editor UI crafted by a Nepali developer.",
+      "name": "OpenSourceNepal / py-nepali",
+      "url": "https://github.com/OpenSourceNepal/py-nepali",
+      "description": "A python package to work with Nepali dates, datetime and more.",
       "status": "community",
       "maintenance": "active",
+      "api": "none",
       "tags": [
-        "react",
-        "editor",
-        "ui"
+        "python",
+        "datetime",
+        "nepali date"
       ]
+    },
+    {
+      "name": "Pramukh IME",
+      "url": "https://www.pramukhime.com",
+      "description": "Cross-platform Indic input method — JS library and Android keyboard supporting 23 Indic languages including Nepali.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "sdk"
+    },
+    {
+      "name": "preeti-unicode-converter (PyPI)",
+      "url": "https://pypi.org/project/preeti-unicode-converter/",
+      "description": "PDF/DOCX/HTML batch Preeti-to-Unicode conversion.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "sdk"
+    },
+    {
+      "name": "puncoz/bikram-sambat-js",
+      "url": "https://github.com/puncoz-official/bikram-sambat-js",
+      "description": "npm 1.4k weekly downloads. JS BS converter.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "sdk"
+    },
+    {
+      "name": "puncoz/nepali-datepicker-reactjs",
+      "url": "https://github.com/puncoz/nepali-datepicker-reactjs",
+      "description": "React Nepali date picker. npm 437 weekly.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "sdk"
     },
     {
       "name": "QueueLess",
@@ -223,6 +231,46 @@
         "management",
         "fullstack"
       ]
+    },
+    {
+      "name": "rk-editor-ui",
+      "url": "https://www.npmjs.com/package/@raazkhnl/rk-editor-ui",
+      "description": "A customizable, React-based rich text editor UI crafted by a Nepali developer.",
+      "status": "community",
+      "maintenance": "active",
+      "tags": [
+        "react",
+        "editor",
+        "ui"
+      ]
+    },
+    {
+      "name": "sbmdkl/nepali-datepicker-reactjs",
+      "url": "https://github.com/sbmdkl/nepali-datepicker-reactjs",
+      "description": "Themeable React Nepali date picker. npm 481 weekly.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "sdk"
+    },
+    {
+      "name": "subeshb1/Nepali-Date",
+      "url": "https://github.com/subeshb1/Nepali-Date",
+      "description": "📅 A small JS Library to convert English Date to Nepali and Vice Versa",
+      "status": "community",
+      "maintenance": "active",
+      "tags": [
+        "ad-bs",
+        "ad-to-bs",
+        "bikram-samvat"
+      ]
+    },
+    {
+      "name": "suvash/nepalify",
+      "url": "https://github.com/suvash/nepalify",
+      "description": "Used on the Government of Nepal NID Pre-Enrollment portal.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "sdk"
     }
   ]
 }

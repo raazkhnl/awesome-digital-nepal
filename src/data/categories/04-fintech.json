@@ -1,12 +1,34 @@
 {
   "$schema": "../schema.json",
-  "id": "fintech-payments",
-  "title": "Fintech & Payments",
-  "tagline": "Payment gateways, wallets, banking, and fintech APIs",
+  "id": "fintech",
+  "title": "Fintech & Wallets",
+  "tagline": "E-wallets, payment gateways, and banking tools",
   "description": "Nepal's payment landscape — eSewa and Khalti dominate consumer wallets, while ConnectIPS/NCHL operate the rails. Khalti has the most polished cross-platform official SDK story; community SDKs fill gaps for the rest. Cryptocurrency is illegal in Nepal — no crypto integrations are listed.",
-  "icon": "₨",
+  "icon": "⛃",
   "order": 4,
   "resources": [
+    {
+      "name": "manibibek/payment-gateways-in-nepal",
+      "url": "https://github.com/manibibek/payment-gateways-in-nepal",
+      "description": "Canonical reference repo for Nepali payment-gateway integrations.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "none",
+      "starred": true
+    },
+    {
+      "name": "voidarchive/nepal-payment-go",
+      "url": "https://github.com/voidarchive/nepal-payment-go",
+      "description": "Go SDK supporting eSewa, Khalti, ConnectIPS, and Fonepay in one package. MIT-licensed, January 2026 release.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "sdk",
+      "starred": true,
+      "tags": [
+        "go",
+        "multi-provider"
+      ]
+    },
     {
       "name": "eSewa Developer Portal",
       "url": "https://developer.esewa.com.np",
@@ -43,29 +65,149 @@
       "starred": true
     },
     {
-      "name": "IME Pay Developer Portal",
-      "url": "https://developer.imepay.com.np",
-      "description": "Official IME Pay merchant SDK — Android (imepay/imepaySDK_android), iOS, Flutter (pub.dev/packages/imepay_merchant_sdk).",
-      "status": "official",
+      "name": "@arbyte/fonepay (Node)",
+      "url": "https://www.npmjs.com/package/@arbyte/fonepay",
+      "description": "Community Node.js SDK for Fonepay integration.",
+      "status": "community",
       "maintenance": "active",
       "api": "sdk"
     },
     {
-      "name": "ConnectIPS / NCHL",
-      "url": "https://www.connectips.com",
-      "description": "NRB-promoted real-time payments network. Operates NEPALPAY QR, NEPALPAY card scheme, RPS, RTGS. Docs at doc.connectips.com.",
-      "status": "official",
+      "name": "AashishDhakal/django-khalti",
+      "url": "https://github.com/AashishDhakal/django-khalti",
+      "description": "No description provided.",
+      "status": "community",
       "maintenance": "active",
-      "api": "sdk",
-      "starred": true
+      "tags": [
+        "github"
+      ]
     },
     {
-      "name": "Fonepay",
-      "url": "https://fonepay.com",
-      "description": "Nepal's largest payment network — 1.3M+ stores, 60+ partners, 20M+ customers. No public dev portal; sandbox at dev-clientapi.fonepay.com. Java/Spring sample at fonepay/Fonepay-Spring-Boot-Integration-Sample.",
-      "status": "official",
+      "name": "act360/laravel-esewa",
+      "url": "https://github.com/act360/laravel-esewa",
+      "description": "No description provided.",
+      "status": "community",
       "maintenance": "active",
-      "api": "sdk"
+      "tags": [
+        "composer",
+        "esewa",
+        "esewa-gateway"
+      ]
+    },
+    {
+      "name": "AmanRai8/Esewa-integration",
+      "url": "https://github.com/AmanRai8/Esewa-integration",
+      "description": "A simple guide for esewa integration using React.",
+      "status": "community",
+      "maintenance": "active",
+      "tags": [
+        "esewa-gateway",
+        "open-api",
+        "react"
+      ]
+    },
+    {
+      "name": "andreshsingh/react-native-khalti-sdk",
+      "url": "https://github.com/andreshsingh/react-native-khalti-sdk",
+      "description": "No description provided.",
+      "status": "community",
+      "maintenance": "active",
+      "tags": [
+        "github"
+      ]
+    },
+    {
+      "name": "aryanmalla19/nepali-payment-gateway",
+      "url": "https://github.com/aryanmalla19/nepali-payment-gateway",
+      "description": "Nepali Payment Gateway integration in PHP language. It includes eSewa, Khalti, ConnectIps, etc.",
+      "status": "community",
+      "maintenance": "active",
+      "tags": [
+        "github"
+      ]
+    },
+    {
+      "name": "awazgyawali/flutter_khalti",
+      "url": "https://github.com/awazgyawali/flutter_khalti",
+      "description": "Khalti SDK for flutter apps. Khalti Merchant can use this library to integrate the payment system into their flutter app easily.",
+      "status": "community",
+      "maintenance": "active",
+      "tags": [
+        "github"
+      ]
+    },
+    {
+      "name": "babulalt/go-khalti",
+      "url": "https://github.com/babulalt/go-khalti",
+      "description": "khalti payment wallet sdk in golang",
+      "status": "community",
+      "maintenance": "active",
+      "tags": [
+        "github"
+      ]
+    },
+    {
+      "name": "bajratech/khalti-ruby",
+      "url": "https://github.com/bajratech/khalti-ruby",
+      "description": "Welcome to the khalti ruby gem. It is an API wrapper for Khalti payment gateway.",
+      "status": "community",
+      "maintenance": "active",
+      "tags": [
+        "khalti",
+        "ruby"
+      ]
+    },
+    {
+      "name": "bipin2014/esewa_khalti_react_node",
+      "url": "https://github.com/bipin2014/esewa_khalti_react_node",
+      "description": "No description provided.",
+      "status": "community",
+      "maintenance": "active",
+      "tags": [
+        "github"
+      ]
+    },
+    {
+      "name": "Bishal2231/Esewa-NPM",
+      "url": "https://github.com/Bishal2231/Esewa-NPM",
+      "description": "creating a NPM package which simplifies the Esewa integration in js",
+      "status": "community",
+      "maintenance": "active",
+      "tags": [
+        "github"
+      ]
+    },
+    {
+      "name": "bishaldahal/react-native-khalti-checkout",
+      "url": "https://github.com/bishaldahal/react-native-khalti-checkout",
+      "description": "React Native/Expo SDK for Khalti Payment Gateway. Accept payments from Khalti, eBanking, mobile banking, and cards in Nepal.",
+      "status": "community",
+      "maintenance": "active",
+      "tags": [
+        "android",
+        "ebanking",
+        "expo"
+      ]
+    },
+    {
+      "name": "bishworajpoudelofficial/EsewaWeb",
+      "url": "https://github.com/bishworajpoudelofficial/EsewaWeb",
+      "description": "Esewa Web Payment Integration",
+      "status": "community",
+      "maintenance": "active",
+      "tags": [
+        "github"
+      ]
+    },
+    {
+      "name": "CodedByManish/Hamrogharjagga",
+      "url": "https://github.com/CodedByManish/Hamrogharjagga",
+      "description": "Real estate platform for Nepal. Features include: user authentication (buyers/sellers), property listings, a buyer's dashboard with wishlist functionality, and eSewa payment integration for unlocking seller contact information.",
+      "status": "community",
+      "maintenance": "active",
+      "tags": [
+        "github"
+      ]
     },
     {
       "name": "fonepay_flutter (community)",
@@ -76,51 +218,294 @@
       "api": "sdk"
     },
     {
-      "name": "@arbyte/fonepay (Node)",
-      "url": "https://www.npmjs.com/package/@arbyte/fonepay",
-      "description": "Community Node.js SDK for Fonepay integration.",
+      "name": "GauravSah21/Agriproduct",
+      "url": "https://github.com/GauravSah21/Agriproduct",
+      "description": "Agricultural Product Website made for the college project \"BCA 4th semester\" Made with MERN stack and seamless Khalti payment option  ",
       "status": "community",
       "maintenance": "active",
-      "api": "sdk"
-    },
-    {
-      "name": "SmartChoice Technology (SCT)",
-      "url": "https://sct.com.np",
-      "description": "First Nepali switching network (2001). SCT-Network ATM/POS; Smart QR with 160k+ merchants.",
-      "status": "official",
-      "maintenance": "active",
-      "api": "none"
-    },
-    {
-      "name": "nPay (SCT)",
-      "url": "https://npay.com.np",
-      "description": "SCT's payment-gateway aggregator product.",
-      "status": "official",
-      "maintenance": "unknown",
-      "api": "sdk",
-      "note": "[Automated] Link appears to be broken or unreachable."
-    },
-    {
-      "name": "voidarchive/nepal-payment-go",
-      "url": "https://github.com/voidarchive/nepal-payment-go",
-      "description": "Go SDK supporting eSewa, Khalti, ConnectIPS, and Fonepay in one package. MIT-licensed, January 2026 release.",
-      "status": "community",
-      "maintenance": "active",
-      "api": "sdk",
-      "starred": true,
       "tags": [
-        "go",
-        "multi-provider"
+        "express",
+        "khalti",
+        "mongodb"
       ]
     },
     {
-      "name": "manibibek/payment-gateways-in-nepal",
-      "url": "https://github.com/manibibek/payment-gateways-in-nepal",
-      "description": "Canonical reference repo for Nepali payment-gateway integrations.",
+      "name": "hehenischal/django-esewa",
+      "url": "https://github.com/hehenischal/django-esewa",
+      "description": "package for easy Esewa Integration ",
       "status": "community",
       "maintenance": "active",
-      "api": "none",
-      "starred": true
+      "tags": [
+        "github"
+      ]
+    },
+    {
+      "name": "himmat12/esewa_epay_integration",
+      "url": "https://github.com/himmat12/esewa_epay_integration",
+      "description": "eSewa integration with ePay api & webview_flutter ",
+      "status": "community",
+      "maintenance": "active",
+      "tags": [
+        "esewa",
+        "esewa-epay",
+        "esewa-flutter"
+      ]
+    },
+    {
+      "name": "hlgkb/flutter_esewa_integration",
+      "url": "https://github.com/hlgkb/flutter_esewa_integration",
+      "description": "Stater project for eSewa SDK integration for Flutter. [Only Android]",
+      "status": "community",
+      "maintenance": "active",
+      "tags": [
+        "android",
+        "esewa-nepal",
+        "flutter"
+      ]
+    },
+    {
+      "name": "iamnabink/flutter_esewa",
+      "url": "https://github.com/iamnabink/flutter_esewa",
+      "description": "An un-official Flutter plugin for Nepal's No. 1 Wallet eSewa Payment Gateway, integrate with ease and without any hassle.",
+      "status": "community",
+      "maintenance": "active",
+      "tags": [
+        "android",
+        "dart",
+        "esewa"
+      ]
+    },
+    {
+      "name": "Jeshan1/esewaIntegratedApp",
+      "url": "https://github.com/Jeshan1/esewaIntegratedApp",
+      "description": "It is a eSewa Payment Gateway integrated PHP web app to show How esewa integrate with ecommerce web app.",
+      "status": "community",
+      "maintenance": "active",
+      "tags": [
+        "github"
+      ]
+    },
+    {
+      "name": "KashminShrestha/Event-and-Festival-Promotion",
+      "url": "https://github.com/KashminShrestha/Event-and-Festival-Promotion",
+      "description": "This Django-powered backend facilitates event and festival promotion, offering organizer/event management, ticketing, bookings, and media uploads. It integrates Khalti for payments and Firebase for real-time features and notifications. Key features include a secure approval workflow, audit logs, and multilingual support, ensuring a robust platform.",
+      "status": "community",
+      "maintenance": "active",
+      "tags": [
+        "github"
+      ]
+    },
+    {
+      "name": "khalti/docs.khalti.com",
+      "url": "https://github.com/khalti/docs.khalti.com",
+      "description": "Khalti Payment Gateway Documentation",
+      "status": "community",
+      "maintenance": "active",
+      "tags": [
+        "digital-wallet",
+        "documentation",
+        "epayment"
+      ]
+    },
+    {
+      "name": "khalti/khalti-prestashop",
+      "url": "https://github.com/khalti/khalti-prestashop",
+      "description": "No description provided.",
+      "status": "community",
+      "maintenance": "active",
+      "tags": [
+        "khalti",
+        "khalti-plugin",
+        "khalti-sdk"
+      ]
+    },
+    {
+      "name": "khalti/khalti-sdk-android",
+      "url": "https://github.com/khalti/khalti-sdk-android",
+      "description": "SDK for Khalti Android App",
+      "status": "community",
+      "maintenance": "active",
+      "tags": [
+        "android",
+        "khalti",
+        "khalti-sdk"
+      ]
+    },
+    {
+      "name": "khalti/khalti-sdk-ios",
+      "url": "https://github.com/khalti/khalti-sdk-ios",
+      "description": "Khalti SDK for iOS apps.  Khalti Merchant can use this library to integrate the payment system in their system.",
+      "status": "community",
+      "maintenance": "active",
+      "tags": [
+        "ios",
+        "khalti",
+        "khalti-sdk"
+      ]
+    },
+    {
+      "name": "khalti/khalti-sdk-objective-c-example",
+      "url": "https://github.com/khalti/khalti-sdk-objective-c-example",
+      "description": "No description provided.",
+      "status": "community",
+      "maintenance": "active",
+      "tags": [
+        "github"
+      ]
+    },
+    {
+      "name": "khalti/khalti-sdk-web",
+      "url": "https://github.com/khalti/khalti-sdk-web",
+      "description": "Khalti checkout SDK for browser.",
+      "status": "community",
+      "maintenance": "active",
+      "tags": [
+        "js",
+        "khalti",
+        "khalti-sdk"
+      ]
+    },
+    {
+      "name": "khalti/StateLayout",
+      "url": "https://github.com/khalti/StateLayout",
+      "description": "Show loading and error state",
+      "status": "community",
+      "maintenance": "active",
+      "tags": [
+        "khalti"
+      ]
+    },
+    {
+      "name": "khalti/whmcs-khaltigateway-plugin",
+      "url": "https://github.com/khalti/whmcs-khaltigateway-plugin",
+      "description": "Official Plugin for WHMCS",
+      "status": "community",
+      "maintenance": "active",
+      "tags": [
+        "khalti",
+        "khalti-plugin",
+        "payment-gateway-in-nepal"
+      ]
+    },
+    {
+      "name": "khalti/woocommerce-plugin-kpg-2",
+      "url": "https://github.com/khalti/woocommerce-plugin-kpg-2",
+      "description": "Woocommerce plugin for Khalti Payment Gateway Integration",
+      "status": "community",
+      "maintenance": "active",
+      "tags": [
+        "khalti",
+        "khalti-plugin",
+        "payment-gateway-in-nepal"
+      ]
+    },
+    {
+      "name": "lazyfox916/KhaltiPaymentIntegration-nodeJS",
+      "url": "https://github.com/lazyfox916/KhaltiPaymentIntegration-nodeJS",
+      "description": "No description provided.",
+      "status": "community",
+      "maintenance": "active",
+      "tags": [
+        "github"
+      ]
+    },
+    {
+      "name": "lohanidamodar/khalticlone",
+      "url": "https://github.com/lohanidamodar/khalticlone",
+      "description": "Khalti app clone in Flutter",
+      "status": "community",
+      "maintenance": "active",
+      "tags": [
+        "clone",
+        "flutter",
+        "flutter-apps"
+      ]
+    },
+    {
+      "name": "mahendra-dhakal/django-khalti",
+      "url": "https://github.com/mahendra-dhakal/django-khalti",
+      "description": "integrating khalti payment into django restframework",
+      "status": "community",
+      "maintenance": "active",
+      "tags": [
+        "github"
+      ]
+    },
+    {
+      "name": "Manish-Tamang/boquet-site",
+      "url": "https://github.com/Manish-Tamang/boquet-site",
+      "description": "A modern, responsive e-commerce website for a flower shop built with Next.js, featuring a beautiful UI, Sanity CMS integration, and eSewa payment gateway integration.",
+      "status": "community",
+      "maintenance": "active",
+      "tags": [
+        "cms",
+        "ecommerce-website",
+        "esewa-gateway"
+      ]
+    },
+    {
+      "name": "medium-posts-repos/eSewa-clone",
+      "url": "https://github.com/medium-posts-repos/eSewa-clone",
+      "description": "No description provided.",
+      "status": "community",
+      "maintenance": "active",
+      "tags": [
+        "github"
+      ]
+    },
+    {
+      "name": "neputertech/esewa",
+      "url": "https://github.com/neputertech/esewa",
+      "description": "Laravel package for esewa integration",
+      "status": "community",
+      "maintenance": "active",
+      "tags": [
+        "esewa",
+        "esewa-api",
+        "laravel"
+      ]
+    },
+    {
+      "name": "neputertech/khalti",
+      "url": "https://github.com/neputertech/khalti",
+      "description": "Laravel wrapper for khalti ePayment Gatway(new)",
+      "status": "community",
+      "maintenance": "active",
+      "tags": [
+        "khalti",
+        "khalti-sdk",
+        "laravel"
+      ]
+    },
+    {
+      "name": "prabin-katuwal/esewa",
+      "url": "https://github.com/prabin-katuwal/esewa",
+      "description": "No description provided.",
+      "status": "community",
+      "maintenance": "active",
+      "tags": [
+        "github"
+      ]
+    },
+    {
+      "name": "Pratik-Kattel/Khalti_payment_integration",
+      "url": "https://github.com/Pratik-Kattel/Khalti_payment_integration",
+      "description": "A simple Flutter project demonstrating Khalti Payment Gateway integration. This example shows how to initiate and confirm a payment using Khalti’s API, including mobile number, transaction PIN, and OTP verification.  It’s a beginner-friendly reference for anyone who wants to integrate digital payments in Nepal using Khalti within a Flutter app.",
+      "status": "community",
+      "maintenance": "active",
+      "tags": [
+        "github"
+      ]
+    },
+    {
+      "name": "rajeshtandukar/esewa",
+      "url": "https://github.com/rajeshtandukar/esewa",
+      "description": "esewa integration with PHP & MySQL",
+      "status": "community",
+      "maintenance": "active",
+      "tags": [
+        "github"
+      ]
     },
     {
       "name": "remotemerge/esewa-php-sdk",
@@ -131,6 +516,156 @@
       "api": "sdk"
     },
     {
+      "name": "rose-rawal/khalti-Integration-Component-Node",
+      "url": "https://github.com/rose-rawal/khalti-Integration-Component-Node",
+      "description": "Node configuration for khalti Integration",
+      "status": "community",
+      "maintenance": "active",
+      "tags": [
+        "github"
+      ]
+    },
+    {
+      "name": "sagarsishir51/Payment-Process-Handling-Sample-Project",
+      "url": "https://github.com/sagarsishir51/Payment-Process-Handling-Sample-Project",
+      "description": "This project demonstrates how to integrate online payments in a NestJS application using the Factory Pattern, structured within a robust Hexagonal Architecture.",
+      "status": "community",
+      "maintenance": "active",
+      "tags": [
+        "esewa",
+        "factory-pattern",
+        "hexagonal-architecture"
+      ]
+    },
+    {
+      "name": "sahilkhatiwada/np-payment-sdk",
+      "url": "https://github.com/sahilkhatiwada/np-payment-sdk",
+      "description": "A unified SDK to integrate major Nepali payment gateways like eSewa, Khalti, IME Pay, and ConnectIPS. Offers a standard API, easy config, callback/webhook support, and sandbox/production modes for seamless payment integration.",
+      "status": "community",
+      "maintenance": "active",
+      "tags": [
+        "github"
+      ]
+    },
+    {
+      "name": "sajitpanta03/esewa-laravel",
+      "url": "https://github.com/sajitpanta03/esewa-laravel",
+      "description": "No description provided.",
+      "status": "community",
+      "maintenance": "active",
+      "tags": [
+        "github"
+      ]
+    },
+    {
+      "name": "samrat415/khalti-laravel-package",
+      "url": "https://github.com/samrat415/khalti-laravel-package",
+      "description": "No description provided.",
+      "status": "community",
+      "maintenance": "active",
+      "tags": [
+        "github"
+      ]
+    },
+    {
+      "name": "sapkotamadhusudan/rn-esewa",
+      "url": "https://github.com/sapkotamadhusudan/rn-esewa",
+      "description": "A library provideing esewa payment integration to react native applications",
+      "status": "community",
+      "maintenance": "active",
+      "tags": [
+        "github"
+      ]
+    },
+    {
+      "name": "shivapoudel/woocommerce-esewa",
+      "url": "https://github.com/shivapoudel/woocommerce-esewa",
+      "description": "WooCommerce eSewa is a Nepali payment gateway for WooCommerce.",
+      "status": "community",
+      "maintenance": "active",
+      "tags": [
+        "esewa",
+        "payment-gateway",
+        "php"
+      ]
+    },
+    {
+      "name": "srksuman/Khalti-Payment-Gateway-Integration-With-Django",
+      "url": "https://github.com/srksuman/Khalti-Payment-Gateway-Integration-With-Django",
+      "description": "Khalti Payment Gateway Integration using Django",
+      "status": "community",
+      "maintenance": "active",
+      "tags": [
+        "github"
+      ]
+    },
+    {
+      "name": "sudiptpa/esewa-sdk-php",
+      "url": "https://github.com/sudiptpa/esewa-sdk-php",
+      "description": "Framework-agnostic PHP SDK for eSewa ePay v2 payments. Build secure checkout flows, verify callbacks with signature and anti-fraud checks, and query transaction status with typed responses. Works with plain PHP and Laravel (PHP 8.2–8.5).",
+      "status": "community",
+      "maintenance": "active",
+      "tags": [
+        "composer",
+        "esewa",
+        "esewa-api"
+      ]
+    },
+    {
+      "name": "sumanrajpathak/esewa_sdk",
+      "url": "https://github.com/sumanrajpathak/esewa_sdk",
+      "description": "Esewa Flutter SDK",
+      "status": "community",
+      "maintenance": "active",
+      "tags": [
+        "github"
+      ]
+    },
+    {
+      "name": "surajbhattrai/FreshFoods-Django-Esewa",
+      "url": "https://github.com/surajbhattrai/FreshFoods-Django-Esewa",
+      "description": "FreshFoods is a online food & grocery delivery service app built with Django with Esewa payment integration.",
+      "status": "community",
+      "maintenance": "active",
+      "tags": [
+        "django",
+        "django-ecommerce",
+        "ecommerce"
+      ]
+    },
+    {
+      "name": "surazdott/esewa-whmcs-module",
+      "url": "https://github.com/surazdott/esewa-whmcs-module",
+      "description": "eSewa Payment Gateway module for WHMCS.",
+      "status": "community",
+      "maintenance": "active",
+      "tags": [
+        "esewa",
+        "esewa-gateway",
+        "whmcs"
+      ]
+    },
+    {
+      "name": "TechCharlie0/esewa",
+      "url": "https://github.com/TechCharlie0/esewa",
+      "description": "No description provided.",
+      "status": "community",
+      "maintenance": "active",
+      "tags": [
+        "github"
+      ]
+    },
+    {
+      "name": "xentixar/esewa-sdk",
+      "url": "https://github.com/xentixar/esewa-sdk",
+      "description": "This PHP SDK provides a simple interface to integrate Esewa payment gateway functionality into your application. With this SDK, you can easily configure payment details, generate payment forms, decode responses, and validate transactions using Esewa's APIs.",
+      "status": "community",
+      "maintenance": "active",
+      "tags": [
+        "github"
+      ]
+    },
+    {
       "name": "xentixar/khalti-sdk",
       "url": "https://github.com/xentixar/khalti-sdk",
       "description": "Community Khalti SDK.",
@@ -139,12 +674,180 @@
       "api": "sdk"
     },
     {
+      "name": "ApiNepal Unified Payment Gateway",
+      "url": "https://apinepal.com",
+      "description": "Single REST API/JS SDK aggregating eSewa, Khalti, IME Pay, Fonepay, and others.",
+      "status": "unofficial",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "CellPay",
+      "url": "https://cellpay.com.np",
+      "description": "[WARNING: Link may be dead or geo-blocked] Licensed payment service provider with bank links and wallet.",
+      "status": "unofficial",
+      "maintenance": "unknown",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "CG Pay",
+      "url": "https://cgpay.com.np",
+      "description": "Digital payment services from CG Group.",
+      "status": "unofficial",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "eSewa Payment Gateway",
+      "url": "https://esewa.com.np",
+      "description": "Digital wallet and payment gateway with REST API, SDKs for bills, recharges, and merchant integrations.",
+      "status": "unofficial",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "IME Pay",
+      "url": "https://www.imepay.com.np",
+      "description": "[WARNING: Link may be dead or geo-blocked] Remittance - focused digital wallet with API integrations for payments and transfers.",
+      "status": "unofficial",
+      "maintenance": "unknown",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "Khalti Payment Gateway",
+      "url": "https://khalti.com",
+      "description": "Wallet platform with Web/Flutter/Android SDKs, merchant API for multi - source payments and refunds.",
+      "status": "unofficial",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "Moru Wallet",
+      "url": "https://moru.com.np",
+      "description": "Mobile wallet and fintech payment services.",
+      "status": "unofficial",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "NEPALPAY QR (NCHL)",
+      "url": "https://nchl.com.np",
+      "description": "National QR scheme with merchant acquiring, dynamic QR, billing, and POS APIs.",
+      "status": "unofficial",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "PrabhuPay",
+      "url": "https://prabhupay.com",
+      "description": "[WARNING: Link may be dead or geo-blocked] Digital wallet and payment gateway with merchant integrations.",
+      "status": "unofficial",
+      "maintenance": "unknown",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "QPay",
+      "url": "https://qpay.com.np",
+      "description": "[WARNING: Link may be dead or geo-blocked] QR - based and digital payment gateway.",
+      "status": "unofficial",
+      "maintenance": "unknown",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "sussol.net",
+      "url": "https://sussol.net",
+      "description": "Sustainable Solutions digital supply chain and finance tools.",
+      "status": "unofficial",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "swifttech.com.np",
+      "url": "https://www.swifttech.com.np",
+      "description": "[WARNING: Link may be dead or geo-blocked] Swift Technology digital banking and fintech platforms.",
+      "status": "unofficial",
+      "maintenance": "unknown",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
       "name": "C-KYC (CDSC)",
       "url": "https://ckyc.cdsc.com.np",
-      "description": "Capital-market centralized KYC operated by CDSC.",
+      "description": "[WARNING: Link may be dead or geo-blocked] Capital-market centralized KYC operated by CDSC.",
       "status": "official",
       "maintenance": "unknown",
       "api": "form",
+      "note": "[Automated] Link appears to be broken or unreachable."
+    },
+    {
+      "name": "ConnectIPS",
+      "url": "https://connectips.com/",
+      "description": "A prominent electronic payment system for fund transfers and bill payments operated by NCHL.",
+      "status": "official",
+      "maintenance": "active",
+      "tags": [
+        "banking",
+        "payment gateway"
+      ]
+    },
+    {
+      "name": "Fonepay",
+      "url": "https://fonepay.com",
+      "description": "Nepal's largest payment network — 1.3M+ stores, 60+ partners, 20M+ customers. No public dev portal; sandbox at dev-clientapi.fonepay.com. Java/Spring sample at fonepay/Fonepay-Spring-Boot-Integration-Sample.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "sdk"
+    },
+    {
+      "name": "IME Pay Developer Portal",
+      "url": "https://developer.imepay.com.np",
+      "description": "Official IME Pay merchant SDK — Android (imepay/imepaySDK_android), iOS, Flutter (pub.dev/packages/imepay_merchant_sdk).",
+      "status": "official",
+      "maintenance": "active",
+      "api": "sdk"
+    },
+    {
+      "name": "nPay (SCT)",
+      "url": "https://npay.com.np",
+      "description": "[WARNING: Link may be dead or geo-blocked] SCT's payment-gateway aggregator product.",
+      "status": "official",
+      "maintenance": "unknown",
+      "api": "sdk",
       "note": "[Automated] Link appears to be broken or unreachable."
     },
     {
@@ -164,201 +867,12 @@
       "api": "none"
     },
     {
-      "name": "NRB NPS Master Reference Document 2025",
-      "url": "https://nrb.org.np",
-      "description": "Roadmap for the full National Payment Switch and open-banking direction (2025). See nrb.org.np/contents/uploads/2025/10/.",
+      "name": "SmartChoice Technology (SCT)",
+      "url": "https://sct.com.np",
+      "description": "First Nepali switching network (2001). SCT-Network ATM/POS; Smart QR with 160k+ merchants.",
       "status": "official",
       "maintenance": "active",
       "api": "none"
-    },
-    {
-      "name": "ConnectIPS",
-      "url": "https://connectips.com/",
-      "description": "A prominent electronic payment system for fund transfers and bill payments operated by NCHL.",
-      "status": "official",
-      "maintenance": "active",
-      "tags": [
-        "banking",
-        "payment gateway"
-      ]
-    }
-  ],
-  "items": [
-    {
-      "name": "eSewa Payment Gateway",
-      "url": "https://esewa.com.np (developer: https://developer.esewa.com.np)",
-      "description": "Digital wallet and payment gateway with REST API, SDKs for bills, recharges, and merchant integrations.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "Khalti Payment Gateway",
-      "url": "https://khalti.com (docs: https://docs.khalti.com)",
-      "description": "Wallet platform with Web/Flutter/Android SDKs, merchant API for multi - source payments and refunds.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "IME Pay",
-      "url": "https://www.imepay.com.np",
-      "description": "Remittance - focused digital wallet with API integrations for payments and transfers.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "Fonepay QR Network",
-      "url": "https://fonepay.com (via NCHL)",
-      "description": "Interoperable QR payment and bank network with merchant APIs.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "ApiNepal Unified Payment Gateway",
-      "url": "https://apinepal.com",
-      "description": "Single REST API/JS SDK aggregating eSewa, Khalti, IME Pay, Fonepay, and others.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "NEPALPAY QR (NCHL)",
-      "url": "https://nchl.com.np",
-      "description": "National QR scheme with merchant acquiring, dynamic QR, billing, and POS APIs.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "Nepal Rastra Bank Forex API",
-      "url": "https://www.nrb.org.np/exportForexJSON.php",
-      "description": "Official foreign exchange rate JSON API.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "PrabhuPay",
-      "url": "https://prabhupay.com",
-      "description": "Digital wallet and payment gateway with merchant integrations.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "Moru Wallet",
-      "url": "https://moru.com.np",
-      "description": "Mobile wallet and fintech payment services.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "nPay",
-      "url": "https://npay.com.np",
-      "description": "Digital payment and wallet platform.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "CellPay",
-      "url": "https://cellpay.com.np",
-      "description": "Licensed payment service provider with bank links and wallet.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "CG Pay",
-      "url": "https://cgpay.com.np",
-      "description": "Digital payment services from CG Group.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "QPay",
-      "url": "https://qpay.com.np",
-      "description": "QR - based and digital payment gateway.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "Nepal Rastra Bank Payment Systems",
-      "url": "https://www.nrb.org.np/psd",
-      "description": "Licensed PSO/PSP list and regulatory portal for fintech.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "fonepay.com",
-      "url": "https://fonepay.com",
-      "description": "Fonepay interoperable QR payment network.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
-    },
-    {
-      "name": "imepay.com.np",
-      "url": "https://imepay.com.np",
-      "description": "IME Pay remittance API.",
-      "status": "active",
-      "maintenance": "unknown",
-      "tags": [
-        "verified",
-        "digital-nepal"
-      ]
     }
   ]
 }

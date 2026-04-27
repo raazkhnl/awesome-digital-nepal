@@ -1,9 +1,9 @@
 {
-  "id": "communities-events",
-  "title": "Communities & Events",
-  "tagline": "Developer communities, FOSS groups, hackathons, and conferences",
+  "id": "communities",
+  "title": "Communities",
+  "tagline": "Developer groups, FOSS, and tech forums",
   "description": "Nepal's developer community spans national FOSS groups (FOSS Nepal, Open Knowledge Nepal, opensource-nepal), university clubs (LOCUS, KUCC), GDG/Microsoft chapters, women-in-tech orgs (WLiT), and recurring hackathons (Yantra, NASA Space Apps Kathmandu).",
-  "icon": "◇",
+  "icon": "≡",
   "order": 17,
   "resources": [
     {
@@ -11,33 +11,15 @@
       "url": "https://fossnepal.org",
       "description": "National FOSS body. Hosts UbuCon Asia 2025 in Kathmandu. github.com/foss-np.",
       "status": "community",
-      "maintenance": "unknown",
+      "maintenance": "active",
       "api": "none",
       "starred": true,
       "note": "[Automated] Link appears to be broken or unreachable."
     },
     {
-      "name": "Open Knowledge Nepal",
-      "url": "https://oknp.org",
-      "description": "Civic open-data org. Maintains 43 GitHub repos.",
-      "status": "community",
-      "maintenance": "active",
-      "api": "none",
-      "starred": true
-    },
-    {
-      "name": "opensource-nepal",
-      "url": "https://github.com/opensource-nepal",
-      "description": "Flagship Nepal-focused OSS org. py-nepali, node-nepali-datetime, and 14+ Nepal libs.",
-      "status": "community",
-      "maintenance": "active",
-      "api": "none",
-      "starred": true
-    },
-    {
-      "name": "LOCUS — IOE Pulchowk",
-      "url": "https://locus.com.np",
-      "description": "IOE Pulchowk's annual fest since 2003. RoboWarz, Yomari Code Camp, Hack-a-Week.",
+      "name": "GDG Kathmandu",
+      "url": "https://gdg.community.dev/gdg-kathmandu/",
+      "description": "Google Developer Group — DevFest, IWD, Build with AI.",
       "status": "community",
       "maintenance": "active",
       "api": "none",
@@ -53,22 +35,31 @@
       "starred": true
     },
     {
-      "name": "GDG Kathmandu",
-      "url": "https://gdg.community.dev/gdg-kathmandu/",
-      "description": "Google Developer Group — DevFest, IWD, Build with AI.",
+      "name": "LOCUS — IOE Pulchowk",
+      "url": "https://locus.com.np",
+      "description": "IOE Pulchowk's annual fest since 2003. RoboWarz, Yomari Code Camp, Hack-a-Week.",
       "status": "community",
       "maintenance": "active",
       "api": "none",
       "starred": true
     },
     {
-      "name": "GDG Pokhara",
-      "url": "https://gdg.community.dev/gdg-pokhara/",
-      "description": "GDG chapter in Pokhara.",
+      "name": "NASA Space Apps Kathmandu",
+      "url": "https://www.spaceappschallenge.org/",
+      "description": "Annual NASA hackathon. Run by NASO across 7 provinces since 2019.",
       "status": "community",
-      "maintenance": "unknown",
+      "maintenance": "active",
       "api": "none",
-      "note": "[Automated] Link appears to be broken or unreachable."
+      "starred": true
+    },
+    {
+      "name": "Open Knowledge Nepal",
+      "url": "https://oknp.org",
+      "description": "Civic open-data org. Maintains 43 GitHub repos.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "none",
+      "starred": true
     },
     {
       "name": "Women Leaders in Technology",
@@ -89,13 +80,21 @@
       "starred": true
     },
     {
-      "name": "NASA Space Apps Kathmandu",
-      "url": "https://www.spaceappschallenge.org/",
-      "description": "Annual NASA hackathon. Run by NASO across 7 provinces since 2019.",
+      "name": "GDG Pokhara",
+      "url": "https://gdg.community.dev/gdg-pokhara/",
+      "description": "GDG chapter in Pokhara.",
       "status": "community",
       "maintenance": "active",
       "api": "none",
-      "starred": true
+      "note": "[Automated] Link appears to be broken or unreachable."
+    },
+    {
+      "name": "Hashnode Nepal",
+      "url": "https://hashnode.com/n/nepal",
+      "description": "Nepali developer blogging community on Hashnode.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "none"
     },
     {
       "name": "KUOSC",
@@ -106,15 +105,6 @@
       "api": "none"
     },
     {
-      "name": "Mozilla Nepal",
-      "url": "https://mozillanepal.org",
-      "description": "Local Mozilla community (largely inactive in 2024–25).",
-      "status": "community",
-      "maintenance": "unknown",
-      "api": "none",
-      "note": "[Automated] Link appears to be broken or unreachable."
-    },
-    {
       "name": "Microsoft Learn Student Ambassadors Nepal",
       "url": "https://studentambassadors.microsoft.com",
       "description": "MLSA chapters across Nepali universities.",
@@ -123,20 +113,33 @@
       "api": "none"
     },
     {
-      "name": "WordCamp Kathmandu",
-      "url": "https://kathmandu.wordcamp.org",
-      "description": "Annual WordPress conference since 2016.",
+      "name": "Mozilla Nepal",
+      "url": "https://mozillanepal.org",
+      "description": "[WARNING: Link may be dead or geo-blocked] Local Mozilla community (largely inactive in 2024–25).",
       "status": "community",
-      "maintenance": "active",
-      "api": "none"
+      "maintenance": "unknown",
+      "api": "none",
+      "note": "[Automated] Link appears to be broken or unreachable."
     },
     {
-      "name": "Hashnode Nepal",
-      "url": "https://hashnode.com/n/nepal",
-      "description": "Nepali developer blogging community on Hashnode.",
+      "name": "Nepvents",
+      "url": "https://nepvents.com",
+      "description": "Aggregator of Nepali tech events.",
       "status": "community",
       "maintenance": "active",
-      "api": "none"
+      "api": "none",
+      "note": "[Automated] Link appears to be broken or unreachable."
+    },
+    {
+      "name": "OpenSourceNepal",
+      "url": "https://github.com/OpenSourceNepal",
+      "description": "A community fostering open-source culture in Nepal, developing localized tools and libraries.",
+      "status": "community",
+      "maintenance": "active",
+      "tags": [
+        "open-source",
+        "community"
+      ]
     },
     {
       "name": "r/programmersNepal",
@@ -155,24 +158,12 @@
       "api": "none"
     },
     {
-      "name": "Nepvents",
-      "url": "https://nepvents.com",
-      "description": "Aggregator of Nepali tech events.",
-      "status": "community",
-      "maintenance": "unknown",
-      "api": "none",
-      "note": "[Automated] Link appears to be broken or unreachable."
-    },
-    {
-      "name": "OpenSourceNepal",
-      "url": "https://github.com/OpenSourceNepal",
-      "description": "A community fostering open-source culture in Nepal, developing localized tools and libraries.",
+      "name": "WordCamp Kathmandu",
+      "url": "https://kathmandu.wordcamp.org",
+      "description": "Annual WordPress conference since 2016.",
       "status": "community",
       "maintenance": "active",
-      "tags": [
-        "open-source",
-        "community"
-      ]
+      "api": "none"
     }
   ]
 }

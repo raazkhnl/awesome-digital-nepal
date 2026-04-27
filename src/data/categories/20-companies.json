@@ -1,9 +1,9 @@
 {
   "id": "companies",
-  "title": "Notable Companies & OSS Orgs",
-  "tagline": "Nepali tech companies with public open-source contributions",
+  "title": "Tech Companies",
+  "tagline": "Nepali companies with significant OSS footprints",
   "description": "Most Nepali tech companies are closed-source, but a few publish high-quality OSS: Khalti's payment SDKs, Leapfrog's libraries (nepali-date-picker), YoungInnovations' civic platforms, Yarsa's nepal-compliance ERPNext app, and Fusemachines' COVID work. Notably, F1Soft/eSewa has no prominent official GitHub org — a real ecosystem gap.",
-  "icon": "▣",
+  "icon": "⬡",
   "order": 20,
   "resources": [
     {
@@ -25,15 +25,6 @@
       "starred": true
     },
     {
-      "name": "Khalti GitHub",
-      "url": "https://github.com/khalti",
-      "description": "43 repos: full Web/Android/iOS/Flutter/React-Native/PHP/Ruby/Node SDK suite + WooCommerce/OpenCart/WHMCS plugins.",
-      "status": "official",
-      "maintenance": "active",
-      "api": "sdk",
-      "starred": true
-    },
-    {
       "name": "Yarsa Labs",
       "url": "https://github.com/yarsa",
       "description": "nepal-compliance (ERPNext-based, ~63★, MIT/GPL-3.0): IRD CBMS sync, NRB compliance, payroll per Labor Law 2074. Also Yarsa Games (Ludo King-style, 200M+ downloads).",
@@ -43,25 +34,20 @@
       "starred": true
     },
     {
-      "name": "EKbana Solutions",
-      "url": "https://github.com/ekbanasolutions",
-      "description": "20 OSS repos — chatbot-ui, HorizonNet, Ekcdn, AudioAnalysis. Built Foodmandu.",
-      "status": "official",
-      "maintenance": "active",
-      "api": "sdk"
+      "name": "raralabs.com",
+      "url": "https://www.raralabs.com",
+      "description": "[WARNING: Link may be dead or geo-blocked] Rara Labs digitization and data governance tools.",
+      "status": "unofficial",
+      "maintenance": "unknown",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
     },
     {
       "name": "CloudFactory",
       "url": "https://github.com/cloudfactory",
       "description": "OSS repos: hasty-python/go/cli, openapi-typescript-codegen, shikashi (Ruby sandbox), autoscaler.",
-      "status": "official",
-      "maintenance": "active",
-      "api": "sdk"
-    },
-    {
-      "name": "Fusemachines GitHub",
-      "url": "https://github.com/Fusemachines",
-      "description": "open-source curated list, covid-nepal, covid-nepal-web, amazon-cognito-identity-dart.",
       "status": "official",
       "maintenance": "active",
       "api": "sdk"
@@ -75,21 +61,29 @@
       "api": "none"
     },
     {
-      "name": "Logpoint Nepal",
-      "url": "https://www.logpoint.com",
-      "description": "SIEM/cybersecurity company with major Nepal engineering office.",
+      "name": "EKbana Solutions",
+      "url": "https://github.com/ekbanasolutions",
+      "description": "20 OSS repos — chatbot-ui, HorizonNet, Ekcdn, AudioAnalysis. Built Foodmandu.",
       "status": "official",
       "maintenance": "active",
-      "api": "none"
+      "api": "sdk"
     },
     {
       "name": "F1Soft",
       "url": "https://www.f1soft.com",
-      "description": "Parent of eSewa, Foneloan, FonePay. Largest Nepali fintech group. ⚠️ No prominent official GitHub org found.",
+      "description": "[WARNING: Link may be dead or geo-blocked] Parent of eSewa, Foneloan, FonePay. Largest Nepali fintech group. ⚠️ No prominent official GitHub org found.",
       "status": "official",
       "maintenance": "unknown",
       "api": "none",
       "note": "All eSewa SDKs are community-built — significant ecosystem gap. [Automated] Link appears to be broken or unreachable."
+    },
+    {
+      "name": "Fusemachines GitHub",
+      "url": "https://github.com/Fusemachines",
+      "description": "open-source curated list, covid-nepal, covid-nepal-web, amazon-cognito-identity-dart.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "sdk"
     },
     {
       "name": "Genese Solution",
@@ -100,6 +94,15 @@
       "api": "none"
     },
     {
+      "name": "Insight Workshop",
+      "url": "https://insight.workshop.com.np",
+      "description": "[WARNING: Link may be dead or geo-blocked] Software product agency.",
+      "status": "official",
+      "maintenance": "unknown",
+      "api": "none",
+      "note": "[Automated] Link appears to be broken or unreachable."
+    },
+    {
       "name": "Janaki Tech",
       "url": "https://janakitech.com",
       "description": "Software services company.",
@@ -108,51 +111,30 @@
       "api": "none"
     },
     {
-      "name": "Treeleaf Technologies",
-      "url": "https://www.treeleaf.ai",
-      "description": "AI-focused Nepali product company.",
-      "status": "official",
-      "maintenance": "unknown",
-      "api": "none",
-      "note": "[Automated] Link appears to be broken or unreachable."
-    },
-    {
-      "name": "Paaila Technology",
-      "url": "https://www.paailatechnology.com",
-      "description": "Nepal's first robotics-AI startup. Built Pari humanoid robot.",
-      "status": "official",
-      "maintenance": "unknown",
-      "api": "none",
-      "note": "[Automated] Link appears to be broken or unreachable."
-    },
-    {
-      "name": "Yatri Motorcycles",
-      "url": "https://www.yatrimotorcycles.com",
-      "description": "Nepali EV motorcycle company. P1 Gen 2 with CarPlay/Android Auto.",
+      "name": "Logpoint Nepal",
+      "url": "https://www.logpoint.com",
+      "description": "SIEM/cybersecurity company with major Nepal engineering office.",
       "status": "official",
       "maintenance": "active",
       "api": "none"
     },
     {
-      "name": "Insight Workshop",
-      "url": "https://insight.workshop.com.np",
-      "description": "Software product agency.",
+      "name": "Paaila Technology",
+      "url": "https://www.paailatechnology.com",
+      "description": "[WARNING: Link may be dead or geo-blocked] Nepal's first robotics-AI startup. Built Pari humanoid robot.",
       "status": "official",
       "maintenance": "unknown",
       "api": "none",
       "note": "[Automated] Link appears to be broken or unreachable."
     },
     {
-      "name": "Hamro Patro",
-      "url": "https://www.hamropatro.com/",
-      "description": "One of the most used apps in Nepal; Nepali calendar, news aggregator, and daily utility.",
+      "name": "Treeleaf Technologies",
+      "url": "https://www.treeleaf.ai",
+      "description": "[WARNING: Link may be dead or geo-blocked] AI-focused Nepali product company.",
       "status": "official",
-      "maintenance": "active",
-      "tags": [
-        "calendar",
-        "news",
-        "utility"
-      ]
+      "maintenance": "unknown",
+      "api": "none",
+      "note": "[Automated] Link appears to be broken or unreachable."
     }
   ]
 }

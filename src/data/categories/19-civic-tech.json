@@ -1,9 +1,9 @@
 {
   "id": "civic-tech",
-  "title": "Civic Tech & Transparency",
-  "tagline": "Open government, accountability, and data-for-good projects",
+  "title": "Civic Tech",
+  "tagline": "Transparency trackers and election data",
   "description": "Nepal has a small but high-quality civic-tech scene. YoungInnovations builds international transparency platforms (AidStream, ResourceContracts). Code for Nepal, Open Knowledge Nepal, Kathmandu Living Labs, and Accountability Lab Nepal lead the space.",
-  "icon": "✯",
+  "icon": "🏛",
   "order": 19,
   "resources": [
     {
@@ -18,7 +18,7 @@
     {
       "name": "NepalMap",
       "url": "https://nepalmap.org",
-      "description": "Civic-data dashboard by Code for Nepal.",
+      "description": "[WARNING: Link may be dead or geo-blocked] Civic-data dashboard by Code for Nepal.",
       "status": "community",
       "maintenance": "unknown",
       "api": "none",
@@ -35,55 +35,6 @@
       "starred": true
     },
     {
-      "name": "AidStream",
-      "url": "https://aidstream.org",
-      "description": "NGO IATI publishing platform — flagship YoungInnovations product.",
-      "status": "community",
-      "maintenance": "active",
-      "api": "rest"
-    },
-    {
-      "name": "ResourceContracts",
-      "url": "https://resourcecontracts.org",
-      "description": "Oil, gas, and mining contract transparency platform.",
-      "status": "community",
-      "maintenance": "active",
-      "api": "rest"
-    },
-    {
-      "name": "Kathmandu Living Labs",
-      "url": "https://kathmandulivinglabs.org",
-      "description": "Pioneer civic-tech NGO. OSM Nepal lead. Built QuakeMap and METEOR exposure surveys.",
-      "status": "community",
-      "maintenance": "active",
-      "api": "none",
-      "starred": true
-    },
-    {
-      "name": "AskNepal",
-      "url": "https://asknepal.info",
-      "description": "Right-to-Information (RTI) request platform by Open Knowledge Nepal.",
-      "status": "community",
-      "maintenance": "active",
-      "api": "none"
-    },
-    {
-      "name": "Local Boundaries",
-      "url": "https://localboundries.oknp.org",
-      "description": "Open Knowledge Nepal's local-boundary geodata.",
-      "status": "community",
-      "maintenance": "active",
-      "api": "none"
-    },
-    {
-      "name": "Election Nepal",
-      "url": "https://github.com/openknowledgenp/election-nepal",
-      "description": "Open Knowledge Nepal's elections data project.",
-      "status": "community",
-      "maintenance": "stale",
-      "api": "none"
-    },
-    {
       "name": "Accountability Lab Nepal",
       "url": "https://nepal.accountabilitylab.org",
       "description": "Integrity Icon, CivActs, SpeakUp Nepal, OpenGovHub Kathmandu.",
@@ -92,9 +43,17 @@
       "api": "none"
     },
     {
-      "name": "Freedom Forum Nepal",
-      "url": "https://freedomforum.org.np",
-      "description": "Open Budget Nepal coordinator. Latest Open Budget Index 2023: 50/100.",
+      "name": "AidStream",
+      "url": "https://aidstream.org",
+      "description": "NGO IATI publishing platform — flagship YoungInnovations product.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "rest"
+    },
+    {
+      "name": "AskNepal",
+      "url": "https://asknepal.info",
+      "description": "Right-to-Information (RTI) request platform by Open Knowledge Nepal.",
       "status": "community",
       "maintenance": "active",
       "api": "none"
@@ -108,10 +67,26 @@
       "api": "none"
     },
     {
-      "name": "NAXA",
-      "url": "https://naxa.com.np",
-      "description": "GIS consultancy doing civic-data work.",
-      "status": "official",
+      "name": "Election Nepal",
+      "url": "https://github.com/openknowledgenp/election-nepal",
+      "description": "Open Knowledge Nepal's elections data project.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "none"
+    },
+    {
+      "name": "Freedom Forum Nepal",
+      "url": "https://freedomforum.org.np",
+      "description": "Open Budget Nepal coordinator. Latest Open Budget Index 2023: 50/100.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "none"
+    },
+    {
+      "name": "Local Boundaries",
+      "url": "https://localboundries.oknp.org",
+      "description": "Open Knowledge Nepal's local-boundary geodata.",
+      "status": "community",
       "maintenance": "active",
       "api": "none"
     },
@@ -126,6 +101,33 @@
         "management",
         "HR"
       ]
+    },
+    {
+      "name": "ResourceContracts",
+      "url": "https://resourcecontracts.org",
+      "description": "Oil, gas, and mining contract transparency platform.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "rest"
+    },
+    {
+      "name": "Pratipakchya Government Work Tracker",
+      "url": "https://pratipakchya.com",
+      "description": "Official tracker for 100 - day government plans, project progress, budgets, and transparency monitoring.",
+      "status": "unofficial",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "NAXA",
+      "url": "https://naxa.com.np",
+      "description": "GIS consultancy doing civic-data work.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "none"
     }
   ]
 }

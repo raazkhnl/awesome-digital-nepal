@@ -1,19 +1,19 @@
 {
   "id": "stock-market",
-  "title": "Stock Market & Trading",
-  "tagline": "NEPSE data, IPO automation, and capital-market tools",
+  "title": "Stock Market",
+  "tagline": "NEPSE, MeroShare, and capital market tools",
   "description": "NEPSE itself does not publish a documented public API — paid feeds run NPR 10k–60k/month. The community has built a thriving ecosystem of unofficial wrappers, scrapers, and IPO bots. The basic-bgnr/NepseUnofficialApi library is foundational; surajrimal07's REST+WebSocket+MCP service is the most feature-rich.",
-  "icon": "📈",
+  "icon": "◬",
   "order": 5,
   "resources": [
     {
-      "name": "NEPSE Official",
-      "url": "https://www.nepalstock.com.np",
-      "description": "Official Nepal Stock Exchange site. JSON endpoints exist but are not documented as a public API; SSL chain incomplete (use verify_ssl=False if scraping).",
-      "status": "official",
-      "maintenance": "unknown",
+      "name": "Nepse Alpha",
+      "url": "https://nepsealpha.com",
+      "description": "Free TradingView-style charts and analytics for NEPSE.",
+      "status": "community",
+      "maintenance": "active",
       "api": "none",
-      "note": "No documented public API; paid feeds NPR 10k–60k/month. [Automated] Link appears to be broken or unreachable."
+      "starred": true
     },
     {
       "name": "basic-bgnr/NepseUnofficialApi",
@@ -38,52 +38,259 @@
       ]
     },
     {
-      "name": "polymorphisma/nepse_scraper",
-      "url": "https://github.com/polymorphisma/nepse_scraper",
-      "description": "Pip-installable nepse-scraper Python package.",
-      "status": "unofficial",
+      "name": "Aabishkar2/nepse-data",
+      "url": "https://github.com/Aabishkar2/nepse-data",
+      "description": "Historical and current datasets of Nepal Stock Market listed companies",
+      "status": "community",
       "maintenance": "active",
-      "api": "sdk"
+      "tags": [
+        "github"
+      ]
     },
     {
-      "name": "CaffeineDuck/nepse-api",
-      "url": "https://github.com/CaffeineDuck/nepse-api",
-      "description": "Async Python NEPSE wrapper.",
-      "status": "unofficial",
-      "maintenance": "stale",
-      "api": "sdk"
+      "name": "Aabishkar2/NepseAPI",
+      "url": "https://github.com/Aabishkar2/NepseAPI",
+      "description": "API for Nepal Stock Market that scraps NEPSE's website and gives data in JSON.",
+      "status": "community",
+      "maintenance": "active",
+      "tags": [
+        "github"
+      ]
     },
     {
-      "name": "sijanstu/NepseAPI",
-      "url": "https://github.com/sijanstu/NepseAPI",
-      "description": "Java NEPSE API wrapper.",
-      "status": "unofficial",
-      "maintenance": "stale",
-      "api": "sdk"
+      "name": "ankurgajurel/nepse-cli",
+      "url": "https://github.com/ankurgajurel/nepse-cli",
+      "description": "This is a CLI app for NEPSE data",
+      "status": "community",
+      "maintenance": "active",
+      "tags": [
+        "nepse",
+        "python",
+        "python3"
+      ]
+    },
+    {
+      "name": "arpandaze/nepseutils",
+      "url": "https://github.com/arpandaze/nepseutils",
+      "description": "CLI application to automatically apply IPOs in MeroShare",
+      "status": "community",
+      "maintenance": "active",
+      "tags": [
+        "meroshare",
+        "nepse",
+        "python"
+      ]
+    },
+    {
+      "name": "arpandaze/tms-captcha",
+      "url": "https://github.com/arpandaze/tms-captcha",
+      "description": "Browser Extension to locally solve captchas on NEPSE TMS using statistical approach.",
+      "status": "community",
+      "maintenance": "active",
+      "tags": [
+        "captcha-solver",
+        "nepse",
+        "tms"
+      ]
+    },
+    {
+      "name": "aryalsuman/Over-And-Undervalued-Stocks--NEPSE-",
+      "url": "https://github.com/aryalsuman/Over-And-Undervalued-Stocks--NEPSE-",
+      "description": "This program creates a formatted excel file which highlights the undervalued stock according to Graham's number.",
+      "status": "community",
+      "maintenance": "active",
+      "tags": [
+        "python",
+        "stock"
+      ]
+    },
+    {
+      "name": "ayerdines/meroshare-scripts",
+      "url": "https://github.com/ayerdines/meroshare-scripts",
+      "description": "Scripts to apply IPO and check IPO results for multiple meroshare accounts in bulk.",
+      "status": "community",
+      "maintenance": "active",
+      "tags": [
+        "nepalstock",
+        "nepse",
+        "nepse-api"
+      ]
+    },
+    {
+      "name": "bhuwanadhikari/easy-ipo-results",
+      "url": "https://github.com/bhuwanadhikari/easy-ipo-results",
+      "description": "Add the app to your home screen, and anytime you want to see the IPO results, tap that app-icon and boom, you get the result of your whole family and friends.",
+      "status": "community",
+      "maintenance": "active",
+      "tags": [
+        "flask",
+        "nepal",
+        "nepse"
+      ]
+    },
+    {
+      "name": "bibhuticoder/samaya",
+      "url": "https://github.com/bibhuticoder/samaya",
+      "description": "Samaya is a friendly personal dashboard on browser's new tab; featuring Nepali calendar, daily Nepali quotes, Nepse daily updates & Nepali wallpapers.",
+      "status": "community",
+      "maintenance": "active",
+      "tags": [
+        "chrome-extensions",
+        "nepal",
+        "open-source"
+      ]
+    },
+    {
+      "name": "BkrmDahal/nepse",
+      "url": "https://github.com/BkrmDahal/nepse",
+      "description": "Get data from Nepse, Nepal stock exchange.",
+      "status": "community",
+      "maintenance": "active",
+      "tags": [
+        "github"
+      ]
+    },
+    {
+      "name": "Chukul",
+      "url": "https://chukul.com",
+      "description": "Modern NEPSE analytics and tools.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "none"
+    },
+    {
+      "name": "dahsameer/nepse-api-helper",
+      "url": "https://github.com/dahsameer/nepse-api-helper",
+      "description": "a wrapper to use nepse api easily since they set up weird restrictions",
+      "status": "community",
+      "maintenance": "active",
+      "tags": [
+        "github"
+      ]
+    },
+    {
+      "name": "koju/nepse-data",
+      "url": "https://github.com/koju/nepse-data",
+      "description": "Nepal Stock Exchange Data",
+      "status": "community",
+      "maintenance": "active",
+      "tags": [
+        "kotlin",
+        "nepal",
+        "opendata"
+      ]
+    },
+    {
+      "name": "Merolagani",
+      "url": "https://merolagani.com",
+      "description": "NEPSE news, prices, broker information.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "none"
+    },
+    {
+      "name": "nlethetech/nepse-quant-terminal",
+      "url": "https://github.com/nlethetech/nepse-quant-terminal",
+      "description": "Terminal-based NEPSE quant trading dashboard with paper trading, backtesting, analytics, and AI agent support.",
+      "status": "community",
+      "maintenance": "active",
+      "tags": [
+        "github"
+      ]
+    },
+    {
+      "name": "PauloRadatz/NEPSEL_Python_OpenDSS",
+      "url": "https://github.com/PauloRadatz/NEPSEL_Python_OpenDSS",
+      "description": "No description provided.",
+      "status": "community",
+      "maintenance": "active",
+      "tags": [
+        "github"
+      ]
+    },
+    {
+      "name": "pyFrappe/nepse",
+      "url": "https://github.com/pyFrappe/nepse",
+      "description": "Python API to communicate with Nepse's Stats . Get Live Prices , Brokers and Create Chart and manymore.",
+      "status": "community",
+      "maintenance": "active",
+      "tags": [
+        "github"
+      ]
     },
     {
       "name": "q-viper/NEPSE-Data-Analysis",
       "url": "https://github.com/q-viper/NEPSE-Data-Analysis",
       "description": "Data analysis + LSTM forecasting on NEPSE 2000–2018 dataset.",
       "status": "community",
-      "maintenance": "stale",
-      "api": "none"
-    },
-    {
-      "name": "Mero Share (CDSC)",
-      "url": "https://meroshare.cdsc.com.np",
-      "description": "Official IPO/dividend platform run by CDS & Clearing. Mobile API CORS-restricted since ~2023.",
-      "status": "official",
       "maintenance": "active",
       "api": "none"
     },
     {
-      "name": "IPO Result Portal (CDSC)",
-      "url": "https://iporesult.cdsc.com.np",
-      "description": "Official IPO allotment results portal.",
-      "status": "official",
+      "name": "samir-dahal/TmsCaptchaSolver",
+      "url": "https://github.com/samir-dahal/TmsCaptchaSolver",
+      "description": "A chrome extension that solves TMS image based captchas in no time!",
+      "status": "community",
       "maintenance": "active",
-      "api": "form"
+      "tags": [
+        "captcha",
+        "captchasolver",
+        "nepse"
+      ]
+    },
+    {
+      "name": "ShareHub Nepal",
+      "url": "https://sharehubnepal.com",
+      "description": "Modern NEPSE charts, watchlists, portfolio tracking.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "none"
+    },
+    {
+      "name": "ShareSansar",
+      "url": "https://www.sharesansar.com",
+      "description": "Long-running NEPSE news + data portal.",
+      "status": "community",
+      "maintenance": "active",
+      "api": "none"
+    },
+    {
+      "name": "socrateai-official/nepse-open-data",
+      "url": "https://github.com/socrateai-official/nepse-open-data",
+      "description": "Open-source NEPSE stock market data including index, ohlcv, and floorsheet datasets.",
+      "status": "community",
+      "maintenance": "active",
+      "tags": [
+        "github"
+      ]
+    },
+    {
+      "name": "sudeep611/nepserate",
+      "url": "https://github.com/sudeep611/nepserate",
+      "description": "Python Module to get the NEPSE(Nepal Stock Exchange) price of the banks and organization of Nepal.",
+      "status": "community",
+      "maintenance": "active",
+      "tags": [
+        "github"
+      ]
+    },
+    {
+      "name": "tejshahi/StockPricePrediction-NEPSE-",
+      "url": "https://github.com/tejshahi/StockPricePrediction-NEPSE-",
+      "description": "LSTM based Stock Price and Trend Prediction (Dataset and Code)",
+      "status": "community",
+      "maintenance": "active",
+      "tags": [
+        "github"
+      ]
+    },
+    {
+      "name": "anishjoshi1999/meroshare-automation",
+      "url": "https://github.com/anishjoshi1999/meroshare-automation",
+      "description": "Playwright-based Mero Share IPO automation.",
+      "status": "unofficial",
+      "maintenance": "active",
+      "api": "sdk"
     },
     {
       "name": "bipin0x01/meroshare-bot",
@@ -95,61 +302,83 @@
       "note": "Use only with your own credentials; respect CDSC ToS."
     },
     {
-      "name": "anishjoshi1999/meroshare-automation",
-      "url": "https://github.com/anishjoshi1999/meroshare-automation",
-      "description": "Playwright-based Mero Share IPO automation.",
+      "name": "CaffeineDuck/nepse-api",
+      "url": "https://github.com/CaffeineDuck/nepse-api",
+      "description": "Async Python NEPSE wrapper.",
       "status": "unofficial",
       "maintenance": "active",
       "api": "sdk"
     },
     {
-      "name": "Nepse Alpha",
-      "url": "https://nepsealpha.com",
-      "description": "Free TradingView-style charts and analytics for NEPSE.",
-      "status": "community",
+      "name": "polymorphisma/nepse_scraper",
+      "url": "https://github.com/polymorphisma/nepse_scraper",
+      "description": "Pip-installable nepse-scraper Python package.",
+      "status": "unofficial",
       "maintenance": "active",
-      "api": "none",
-      "starred": true
-    },
-    {
-      "name": "ShareSansar",
-      "url": "https://www.sharesansar.com",
-      "description": "Long-running NEPSE news + data portal.",
-      "status": "community",
-      "maintenance": "active",
-      "api": "none"
-    },
-    {
-      "name": "Merolagani",
-      "url": "https://merolagani.com",
-      "description": "NEPSE news, prices, broker information.",
-      "status": "community",
-      "maintenance": "active",
-      "api": "none"
-    },
-    {
-      "name": "ShareHub Nepal",
-      "url": "https://sharehubnepal.com",
-      "description": "Modern NEPSE charts, watchlists, portfolio tracking.",
-      "status": "community",
-      "maintenance": "active",
-      "api": "none"
-    },
-    {
-      "name": "Chukul",
-      "url": "https://chukul.com",
-      "description": "Modern NEPSE analytics and tools.",
-      "status": "community",
-      "maintenance": "active",
-      "api": "none"
+      "api": "sdk"
     },
     {
       "name": "sbmagar13/sharesansar_datascrape",
       "url": "https://github.com/sbmagar13/sharesansar_datascrape",
       "description": "Sharesansar data scraper.",
       "status": "unofficial",
-      "maintenance": "stale",
+      "maintenance": "active",
       "api": "scraper"
+    },
+    {
+      "name": "sijanstu/NepseAPI",
+      "url": "https://github.com/sijanstu/NepseAPI",
+      "description": "Java NEPSE API wrapper.",
+      "status": "unofficial",
+      "maintenance": "active",
+      "api": "sdk"
+    },
+    {
+      "name": "sourcecode.com.np",
+      "url": "https://www.sourcecode.com.np",
+      "description": "[WARNING: Link may be dead or geo-blocked] Source Code capital market technology solutions.",
+      "status": "unofficial",
+      "maintenance": "unknown",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "Unofficial NEPSE API",
+      "url": "https://github.com/surajrimal07/NepseAPI",
+      "description": "Unofficial - Real - time Nepal Stock Exchange data via REST/WebSocket for fintech apps.",
+      "status": "unofficial",
+      "maintenance": "active",
+      "tags": [
+        "verified",
+        "digital-nepal"
+      ]
+    },
+    {
+      "name": "IPO Result Portal (CDSC)",
+      "url": "https://iporesult.cdsc.com.np",
+      "description": "Official IPO allotment results portal.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "form"
+    },
+    {
+      "name": "Mero Share (CDSC)",
+      "url": "https://meroshare.cdsc.com.np",
+      "description": "Official IPO/dividend platform run by CDS & Clearing. Mobile API CORS-restricted since ~2023.",
+      "status": "official",
+      "maintenance": "active",
+      "api": "none"
+    },
+    {
+      "name": "NEPSE Official",
+      "url": "https://www.nepalstock.com.np",
+      "description": "[WARNING: Link may be dead or geo-blocked] Official Nepal Stock Exchange site. JSON endpoints exist but are not documented as a public API; SSL chain incomplete (use verify_ssl=False if scraping).",
+      "status": "official",
+      "maintenance": "unknown",
+      "api": "none",
+      "note": "No documented public API; paid feeds NPR 10k–60k/month. [Automated] Link appears to be broken or unreachable."
     }
   ]
 }
